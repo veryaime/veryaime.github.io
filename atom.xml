@@ -6,7 +6,7 @@
   <link href="https://veryaime.github.io/atom.xml" rel="self"/>
   
   <link href="https://veryaime.github.io/"/>
-  <updated>2021-12-11T11:42:01.179Z</updated>
+  <updated>2021-12-11T09:45:55.344Z</updated>
   <id>https://veryaime.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试页面效果</title>
+    <link href="https://veryaime.github.io/object-object/text-exp/test/"/>
+    <id>https://veryaime.github.io/object-object/text-exp/test/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-11T09:45:55.344Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安全测试基本原理&quot;&gt;&lt;a href=&quot;#安全测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;安全测试基本原理&quot;&gt;&lt;/a&gt;安全测试基本原理&lt;/h2&gt;&lt;p&gt;安全性测试的定义,重点领域、示例等,…&lt;/p&gt;
+&lt;h3 id=&quot;定义&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Test_exp" scheme="https://veryaime.github.io/categories/Test-exp/"/>
+    
+    
+    <category term="测试经验" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>软件测试基础</title>
@@ -321,18 +347,18 @@
   </entry>
   
   <entry>
-    <title>灰盒测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/hui-he-ce-shi/</id>
+    <title>白盒测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:00:07.920Z</updated>
+    <updated>2021-12-11T10:12:53.445Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;灰盒测试基本原理&quot;&gt;&lt;a href=&quot;#灰盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;灰盒测试基本原理&quot;&gt;&lt;/a&gt;灰盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;白盒测试基本原理&quot;&gt;&lt;a href=&quot;#白盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;白盒测试基本原理&quot;&gt;&lt;/a&gt;白盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -346,18 +372,18 @@
   </entry>
   
   <entry>
-    <title>白盒测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</id>
+    <title>灰盒测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/hui-he-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:12:53.445Z</updated>
+    <updated>2021-12-11T11:00:07.920Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;白盒测试基本原理&quot;&gt;&lt;a href=&quot;#白盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;白盒测试基本原理&quot;&gt;&lt;/a&gt;白盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;灰盒测试基本原理&quot;&gt;&lt;a href=&quot;#灰盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;灰盒测试基本原理&quot;&gt;&lt;/a&gt;灰盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -484,31 +510,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>缺陷报告</title>
-    <link href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/"/>
-    <id>https://veryaime.github.io/object-object/stf/que-xian-bao-gao/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:49:17.158Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot;</summary>
         
       
     
