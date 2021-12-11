@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>测试页面效果</title>
+      <link href="/object-object/text-exp/test/"/>
+      <url>/object-object/text-exp/test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="index.md">首页</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">性能测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Test_exp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试经验 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件测试基础</title>
       <link href="/object-object/stf/index/"/>
       <url>/object-object/stf/index/</url>
@@ -29,11 +54,11 @@
     
     
     <entry>
-      <title>冒烟测试</title>
-      <link href="/object-object/stf/mou-yan-ce-shi/"/>
-      <url>/object-object/stf/mou-yan-ce-shi/</url>
+      <title>功能测试</title>
+      <link href="/object-object/stf/gong-neng-ce-shi/"/>
+      <url>/object-object/stf/gong-neng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="冒烟测试基本原理"><a href="#冒烟测试基本原理" class="headerlink" title="冒烟测试基本原理"></a>冒烟测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>冒烟测试，也被称为“构建验证测试”，是一种软件测试，它由一系列非详尽的测试组成，旨在确保最重要的功能发挥作用。这个测试的结果用来决定一个构建是否足够稳定以进行进一步的测试。</p><p>据说，“冒烟测试”一词来自类似于硬件测试的软件测试，在测试中，该设备在第一次开机时没有着火(或不冒烟)，通过了测试。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfXRPxj8P7efj6snB837fuoTb6f7cCSeMc1L60YowUyxmL4Bj5ibOjibjQ/0?wx_fmt=jpeg" alt="冒烟测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>冒烟测试覆盖了软件的大部分主要功能，但没有一个是深入的。这个测试的结果用来决定是否继续进行进一步的测试。如果冒烟测试通过，继续进行进一步的测试。如果失败，停止进一步的测试，并要求一个新的构建与所需的修复。如果应用程序被严重破坏，详细的测试可能是浪费时间和精力。</p><p>冒烟测试有助于在周期的早期暴露集成和重大问题。它可以在新创建的软件和增强的软件上进行。冒烟测试是人工或在自动化工具/脚本的帮助下进行的。如果经常准备构建，最好是将冒烟测试自动化。</p><p>当应用程序成熟时，随着功能的增加，冒烟测试也需要更加广泛。有时，在代码中只需要一个不正确的字符来呈现整个应用程序无用。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它揭露集成问题。</li><li>它可以早期发现问题。</li><li>它提供了一定程度的信心，对软件的改变没有对主要领域产生不利影响（当然，这些测试被冒烟测试所覆盖）</li></ul><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>烟雾测试通常用于<a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a>、<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>和<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>级别。</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>不要认为烟雾测试是功能/回归测试的替代品。</p><p><a href="index.md">首页</a>  |  <a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a>  |  <a href="%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95.md">功能测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>和<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="index.md">首页</a>  |  <a href="%E5%86%92%E7%83%9F%E6%B5%8B%E8%AF%95.md">冒烟测试</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a> </p>]]></content>
       
       
       <categories>
@@ -54,11 +79,11 @@
     
     
     <entry>
-      <title>功能测试</title>
-      <link href="/object-object/stf/gong-neng-ce-shi/"/>
-      <url>/object-object/stf/gong-neng-ce-shi/</url>
+      <title>冒烟测试</title>
+      <link href="/object-object/stf/mou-yan-ce-shi/"/>
+      <url>/object-object/stf/mou-yan-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>和<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="index.md">首页</a>  |  <a href="%E5%86%92%E7%83%9F%E6%B5%8B%E8%AF%95.md">冒烟测试</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="冒烟测试基本原理"><a href="#冒烟测试基本原理" class="headerlink" title="冒烟测试基本原理"></a>冒烟测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>冒烟测试，也被称为“构建验证测试”，是一种软件测试，它由一系列非详尽的测试组成，旨在确保最重要的功能发挥作用。这个测试的结果用来决定一个构建是否足够稳定以进行进一步的测试。</p><p>据说，“冒烟测试”一词来自类似于硬件测试的软件测试，在测试中，该设备在第一次开机时没有着火(或不冒烟)，通过了测试。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfXRPxj8P7efj6snB837fuoTb6f7cCSeMc1L60YowUyxmL4Bj5ibOjibjQ/0?wx_fmt=jpeg" alt="冒烟测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>冒烟测试覆盖了软件的大部分主要功能，但没有一个是深入的。这个测试的结果用来决定是否继续进行进一步的测试。如果冒烟测试通过，继续进行进一步的测试。如果失败，停止进一步的测试，并要求一个新的构建与所需的修复。如果应用程序被严重破坏，详细的测试可能是浪费时间和精力。</p><p>冒烟测试有助于在周期的早期暴露集成和重大问题。它可以在新创建的软件和增强的软件上进行。冒烟测试是人工或在自动化工具/脚本的帮助下进行的。如果经常准备构建，最好是将冒烟测试自动化。</p><p>当应用程序成熟时，随着功能的增加，冒烟测试也需要更加广泛。有时，在代码中只需要一个不正确的字符来呈现整个应用程序无用。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它揭露集成问题。</li><li>它可以早期发现问题。</li><li>它提供了一定程度的信心，对软件的改变没有对主要领域产生不利影响（当然，这些测试被冒烟测试所覆盖）</li></ul><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>烟雾测试通常用于<a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a>、<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>和<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>级别。</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>不要认为烟雾测试是功能/回归测试的替代品。</p><p><a href="index.md">首页</a>  |  <a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a>  |  <a href="%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95.md">功能测试</a> </p>]]></content>
       
       
       <categories>
@@ -133,7 +158,7 @@
       <link href="/object-object/stf/an-quan-ce-shi/"/>
       <url>/object-object/stf/an-quan-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="index.md">首页</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">性能测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
       
       
       <categories>
@@ -163,7 +188,7 @@
       
       <categories>
           
-          <category> 测试基础 </category>
+          <category> STF </category>
           
       </categories>
       
@@ -213,56 +238,6 @@
       
       <categories>
           
-          <category> 测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试用例</title>
-      <link href="/object-object/stf/ce-shi-yong-li/"/>
-      <url>/object-object/stf/ce-shi-yong-li/</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； </br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；</br>2.在数量字段中输入硬币数量；</br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；</br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;</br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。</br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>racher</td></tr><tr><td>创建日期</td><td>07/28/2017</td></tr><tr><td>执行者</td><td>racher</td></tr><tr><td>执行日期</td><td>08/08/2017</td></tr><tr><td>测试环境</td><td>1.OS：Windows 7 sp1 X64;</br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使您的测试用例“原子”。</p></li><li><p>确保所有的正面场景和负面场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/STF/index/">首页</a>  |  <a href="https://veryaime.github.io/STF/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/SFT/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> STF </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试计划</title>
-      <link href="/object-object/stf/ce-shi-ji-hua/"/>
-      <url>/object-object/stf/ce-shi-ji-hua/</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试计划基本原理"><a href="#测试计划基本原理" class="headerlink" title="测试计划基本原理"></a>测试计划基本原理</h2><h3 id="测试计划定义"><a href="#测试计划定义" class="headerlink" title="测试计划定义"></a>测试计划定义</h3><p>软件测试计划是描述测试范围和活动的文档。它是在一个项目中正式测试任何软件/产品的基础。</p><p><u>ISTQB 定义</u></p><ul><li><p><strong>测试计划：</strong> 一个描述预期测试活动的范围、方法、资源和时间表的文档。它确定了其他测试项目，测试的特性，测试任务，谁将完成每个任务，测试环境的独立性，测试环境，测试设计技术和进入和退出标准，以及他们选择的基本原理，以及任何需要应急计划的风险。它是测试规划过程的记录。</p></li><li><p><strong>主测试计划：</strong> 一个典型地处理多个测试级别的测试计划。</p></li><li><p><strong>阶段测试计划：</strong> 典型地解决一个测试阶段的测试计划。</p></li></ul><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7Vfhblny8cia8c8aHJQiauUxYx70iaPuQoRw8qQJ7fbWrAj87OYvrg68icswQ/0?wx_fmt=jpeg" alt="测试计划书"></p><h3 id="测试计划类型"><a href="#测试计划类型" class="headerlink" title="测试计划类型"></a>测试计划类型</h3><p>你可以有以下几种测试计划:</p><ul><li><p><strong>主测试计划：</strong> 统一所有其他测试计划的项目/产品的单个高级测试计划。</p></li><li><p><strong>测试级别的测试计划:</strong> 每个测试级别的计划。</p><ul><li>单元测试计划书</li><li>系统集成测试计划书</li><li>系统测试计划书</li><li>验收测试计划书</li></ul></li><li><p><strong>测试类型特定的测试计划：</strong> 计划主要类型的测试，如性能测试计划和安全测试计划。</p></li></ul><h3 id="测试计划样板"><a href="#测试计划样板" class="headerlink" title="测试计划样板"></a>测试计划样板</h3><p>软件测试计划的格式和内容取决于正在执行的过程、标准和测试管理工具。不过，下面的格式是基于IEEE软件测试文档的标准，它提供了一个测试计划应该包含什么内容的摘要。</p><h3 id="测试计划标识符："><a href="#测试计划标识符：" class="headerlink" title="测试计划标识符："></a>测试计划标识符：</h3><ul><li>为文档提供唯一标识符。(如果你有配置管理系统的话，请遵守。)</li></ul><h3 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h3><ul><li>提供测试计划的概述。</li><li>指定目标/宗旨。</li><li>指定任何约束。</li></ul><h3 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h3><p>列出相关的文件，如果有链接的话，包括以下内容:</p><ul><li>项目规划</li><li>配置管理规划</li></ul><h3 id="测试项目："><a href="#测试项目：" class="headerlink" title="测试项目："></a>测试项目：</h3><ul><li>列出测试项目(软件/产品)及其版本。</li></ul><h3 id="功能测试："><a href="#功能测试：" class="headerlink" title="功能测试："></a>功能测试：</h3><ul><li>列出要测试的软件/产品的特性。</li><li>提供对需要测试的特性的要求和/或设计规范的引用</li></ul><h3 id="特性不被测试："><a href="#特性不被测试：" class="headerlink" title="特性不被测试："></a>特性不被测试：</h3><ul><li>列出不需要测试的软件/产品的特性。</li><li>指定这些特性不需要测试的原因。</li></ul><h3 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h3><ul><li>提到测试的总体方法。</li><li>指定测试级别[如果是主测试计划]，测试类型和测试方法[手动/自动化; 白盒/黑盒/灰盒]</li></ul><h3 id="项目通过-失败标准"><a href="#项目通过-失败标准" class="headerlink" title="项目通过/失败标准:"></a>项目通过/失败标准:</h3><ul><li>指定用于确定每个测试项目(软件/产品)已通过或失败测试的标准。</li></ul><h3 id="暂停标准和恢复要求："><a href="#暂停标准和恢复要求：" class="headerlink" title="暂停标准和恢复要求："></a>暂停标准和恢复要求：</h3><ul><li>指定用于挂起测试活动的标准。</li><li>指定测试活动，在恢复测试时必须重新执行。</li></ul><h3 id="测试可交付成果"><a href="#测试可交付成果" class="headerlink" title="测试可交付成果:"></a>测试可交付成果:</h3><ul><li>列出测试可交付成果，并与他们联系，包括以下内容:<ul><li>测试计划书（本文的本身）</li><li>测试用例</li><li>测试脚本</li><li>缺陷/处理日志</li><li>测试报告</li></ul></li></ul><h3 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h3><ul><li>指定测试环境的属性:硬件、软件、网络等。</li><li>列出任何测试或相关工具。</li></ul><h3 id="评估："><a href="#评估：" class="headerlink" title="评估："></a>评估：</h3><p>提供一个测试评估的摘要(成本或努力)和/或提供一个链接到详细的评估。</p><h3 id="时间表："><a href="#时间表：" class="headerlink" title="时间表："></a>时间表：</h3><p>提供时间表的摘要，指定关键的测试里程碑，并/或提供一个链接到详细的时间表。</p><h3 id="人员配备和培训需求"><a href="#人员配备和培训需求" class="headerlink" title="人员配备和培训需求:"></a>人员配备和培训需求:</h3><ul><li>根据角色和所需技能指定人员需求。</li><li>提供相应的技术培训。</li></ul><h3 id="职责："><a href="#职责：" class="headerlink" title="职责："></a>职责：</h3><ul><li>列出每个团队/角色/个人的职责。</li></ul><h3 id="风险："><a href="#风险：" class="headerlink" title="风险："></a>风险：</h3><ul><li>列出已确定的风险。</li><li>为每个风险指定缓解计划和应急计划。</li></ul><h3 id="假设和依赖关系"><a href="#假设和依赖关系" class="headerlink" title="假设和依赖关系:"></a>假设和依赖关系:</h3><ul><li>列出在准备这个计划时所做的假设。</li><li>依赖项列表。</li></ul><h3 id="审批："><a href="#审批：" class="headerlink" title="审批："></a>审批：</h3><ul><li>确认所有必须批准该计划的人的姓名和角色。</li><li>为签名和日期提供空间。(如果要打印文件的话。)</li></ul><h3 id="测试计划指南："><a href="#测试计划指南：" class="headerlink" title="测试计划指南："></a>测试计划指南：</h3><ul><li><p>使计划简洁。 避免冗余和多余。 如果您认为您不需要上述模板中提到的部分，请继续删除测试计划中的该部分。</p></li><li><p>请明确点。 例如，当您将操作系统指定为测试环境的属性时，请提及操作系统版本/版本，而不仅仅是操作系统名称。</p></li><li><p>尽可能使用列表和表。 避免冗长的段落。</p></li><li><p>在基础测试之前先进行测试计划的审查，或者将其发送给审批人员。 您的测试计划的质量会说明您或您的团队将要执行的测试质量。</p></li><li><p>必要时更新计划。 一个过时的和未使用的发臭文件，比没有文件的首先更糟糕。</p></li></ul><p><a href="index.md">首页</a>  |  <a href="%E7%AC%A6%E5%90%88%E6%80%A7%E6%B5%8B%E8%AF%95.md">符合性测试</a>  |  <a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a></p>]]></content>
-      
-      
-      <categories>
-          
           <category> STF </category>
           
       </categories>
@@ -304,6 +279,31 @@
     
     
     <entry>
+      <title>测试用例</title>
+      <link href="/object-object/stf/ce-shi-yong-li/"/>
+      <url>/object-object/stf/ce-shi-yong-li/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； </br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；</br>2.在数量字段中输入硬币数量；</br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；</br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;</br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。</br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>racher</td></tr><tr><td>创建日期</td><td>07/28/2017</td></tr><tr><td>执行者</td><td>racher</td></tr><tr><td>执行日期</td><td>08/08/2017</td></tr><tr><td>测试环境</td><td>1.OS：Windows 7 sp1 X64;</br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使您的测试用例“原子”。</p></li><li><p>确保所有的正面场景和负面场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/STF/index/">首页</a>  |  <a href="https://veryaime.github.io/STF/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/SFT/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> STF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>灰盒测试</title>
       <link href="/object-object/stf/hui-he-ce-shi/"/>
       <url>/object-object/stf/hui-he-ce-shi/</url>
@@ -314,6 +314,31 @@
       <categories>
           
           <category> 测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试计划</title>
+      <link href="/object-object/stf/ce-shi-ji-hua/"/>
+      <url>/object-object/stf/ce-shi-ji-hua/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试计划基本原理"><a href="#测试计划基本原理" class="headerlink" title="测试计划基本原理"></a>测试计划基本原理</h2><h3 id="测试计划定义"><a href="#测试计划定义" class="headerlink" title="测试计划定义"></a>测试计划定义</h3><p>软件测试计划是描述测试范围和活动的文档。它是在一个项目中正式测试任何软件/产品的基础。</p><p><u>ISTQB 定义</u></p><ul><li><p><strong>测试计划：</strong> 一个描述预期测试活动的范围、方法、资源和时间表的文档。它确定了其他测试项目，测试的特性，测试任务，谁将完成每个任务，测试环境的独立性，测试环境，测试设计技术和进入和退出标准，以及他们选择的基本原理，以及任何需要应急计划的风险。它是测试规划过程的记录。</p></li><li><p><strong>主测试计划：</strong> 一个典型地处理多个测试级别的测试计划。</p></li><li><p><strong>阶段测试计划：</strong> 典型地解决一个测试阶段的测试计划。</p></li></ul><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7Vfhblny8cia8c8aHJQiauUxYx70iaPuQoRw8qQJ7fbWrAj87OYvrg68icswQ/0?wx_fmt=jpeg" alt="测试计划书"></p><h3 id="测试计划类型"><a href="#测试计划类型" class="headerlink" title="测试计划类型"></a>测试计划类型</h3><p>你可以有以下几种测试计划:</p><ul><li><p><strong>主测试计划：</strong> 统一所有其他测试计划的项目/产品的单个高级测试计划。</p></li><li><p><strong>测试级别的测试计划:</strong> 每个测试级别的计划。</p><ul><li>单元测试计划书</li><li>系统集成测试计划书</li><li>系统测试计划书</li><li>验收测试计划书</li></ul></li><li><p><strong>测试类型特定的测试计划：</strong> 计划主要类型的测试，如性能测试计划和安全测试计划。</p></li></ul><h3 id="测试计划样板"><a href="#测试计划样板" class="headerlink" title="测试计划样板"></a>测试计划样板</h3><p>软件测试计划的格式和内容取决于正在执行的过程、标准和测试管理工具。不过，下面的格式是基于IEEE软件测试文档的标准，它提供了一个测试计划应该包含什么内容的摘要。</p><h3 id="测试计划标识符："><a href="#测试计划标识符：" class="headerlink" title="测试计划标识符："></a>测试计划标识符：</h3><ul><li>为文档提供唯一标识符。(如果你有配置管理系统的话，请遵守。)</li></ul><h3 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h3><ul><li>提供测试计划的概述。</li><li>指定目标/宗旨。</li><li>指定任何约束。</li></ul><h3 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h3><p>列出相关的文件，如果有链接的话，包括以下内容:</p><ul><li>项目规划</li><li>配置管理规划</li></ul><h3 id="测试项目："><a href="#测试项目：" class="headerlink" title="测试项目："></a>测试项目：</h3><ul><li>列出测试项目(软件/产品)及其版本。</li></ul><h3 id="功能测试："><a href="#功能测试：" class="headerlink" title="功能测试："></a>功能测试：</h3><ul><li>列出要测试的软件/产品的特性。</li><li>提供对需要测试的特性的要求和/或设计规范的引用</li></ul><h3 id="特性不被测试："><a href="#特性不被测试：" class="headerlink" title="特性不被测试："></a>特性不被测试：</h3><ul><li>列出不需要测试的软件/产品的特性。</li><li>指定这些特性不需要测试的原因。</li></ul><h3 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h3><ul><li>提到测试的总体方法。</li><li>指定测试级别[如果是主测试计划]，测试类型和测试方法[手动/自动化; 白盒/黑盒/灰盒]</li></ul><h3 id="项目通过-失败标准"><a href="#项目通过-失败标准" class="headerlink" title="项目通过/失败标准:"></a>项目通过/失败标准:</h3><ul><li>指定用于确定每个测试项目(软件/产品)已通过或失败测试的标准。</li></ul><h3 id="暂停标准和恢复要求："><a href="#暂停标准和恢复要求：" class="headerlink" title="暂停标准和恢复要求："></a>暂停标准和恢复要求：</h3><ul><li>指定用于挂起测试活动的标准。</li><li>指定测试活动，在恢复测试时必须重新执行。</li></ul><h3 id="测试可交付成果"><a href="#测试可交付成果" class="headerlink" title="测试可交付成果:"></a>测试可交付成果:</h3><ul><li>列出测试可交付成果，并与他们联系，包括以下内容:<ul><li>测试计划书（本文的本身）</li><li>测试用例</li><li>测试脚本</li><li>缺陷/处理日志</li><li>测试报告</li></ul></li></ul><h3 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h3><ul><li>指定测试环境的属性:硬件、软件、网络等。</li><li>列出任何测试或相关工具。</li></ul><h3 id="评估："><a href="#评估：" class="headerlink" title="评估："></a>评估：</h3><p>提供一个测试评估的摘要(成本或努力)和/或提供一个链接到详细的评估。</p><h3 id="时间表："><a href="#时间表：" class="headerlink" title="时间表："></a>时间表：</h3><p>提供时间表的摘要，指定关键的测试里程碑，并/或提供一个链接到详细的时间表。</p><h3 id="人员配备和培训需求"><a href="#人员配备和培训需求" class="headerlink" title="人员配备和培训需求:"></a>人员配备和培训需求:</h3><ul><li>根据角色和所需技能指定人员需求。</li><li>提供相应的技术培训。</li></ul><h3 id="职责："><a href="#职责：" class="headerlink" title="职责："></a>职责：</h3><ul><li>列出每个团队/角色/个人的职责。</li></ul><h3 id="风险："><a href="#风险：" class="headerlink" title="风险："></a>风险：</h3><ul><li>列出已确定的风险。</li><li>为每个风险指定缓解计划和应急计划。</li></ul><h3 id="假设和依赖关系"><a href="#假设和依赖关系" class="headerlink" title="假设和依赖关系:"></a>假设和依赖关系:</h3><ul><li>列出在准备这个计划时所做的假设。</li><li>依赖项列表。</li></ul><h3 id="审批："><a href="#审批：" class="headerlink" title="审批："></a>审批：</h3><ul><li>确认所有必须批准该计划的人的姓名和角色。</li><li>为签名和日期提供空间。(如果要打印文件的话。)</li></ul><h3 id="测试计划指南："><a href="#测试计划指南：" class="headerlink" title="测试计划指南："></a>测试计划指南：</h3><ul><li><p>使计划简洁。 避免冗余和多余。 如果您认为您不需要上述模板中提到的部分，请继续删除测试计划中的该部分。</p></li><li><p>请明确点。 例如，当您将操作系统指定为测试环境的属性时，请提及操作系统版本/版本，而不仅仅是操作系统名称。</p></li><li><p>尽可能使用列表和表。 避免冗长的段落。</p></li><li><p>在基础测试之前先进行测试计划的审查，或者将其发送给审批人员。 您的测试计划的质量会说明您或您的团队将要执行的测试质量。</p></li><li><p>必要时更新计划。 一个过时的和未使用的发臭文件，比没有文件的首先更糟糕。</p></li></ul><p><a href="index.md">首页</a>  |  <a href="%E7%AC%A6%E5%90%88%E6%80%A7%E6%B5%8B%E8%AF%95.md">符合性测试</a>  |  <a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
           
       </categories>
       
@@ -429,11 +454,11 @@
     
     
     <entry>
-      <title>缺陷重要程度</title>
-      <link href="/object-object/stf/que-xian-yan-chong-cheng-du/"/>
-      <url>/object-object/stf/que-xian-yan-chong-cheng-du/</url>
+      <title>缺陷优先级</title>
+      <link href="/object-object/stf/que-xian-you-xian-ji/"/>
+      <url>/object-object/stf/que-xian-you-xian-ji/</url>
       
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
       
       
       <categories>
@@ -454,11 +479,11 @@
     
     
     <entry>
-      <title>缺陷优先级</title>
-      <link href="/object-object/stf/que-xian-you-xian-ji/"/>
-      <url>/object-object/stf/que-xian-you-xian-ji/</url>
+      <title>缺陷重要程度</title>
+      <link href="/object-object/stf/que-xian-yan-chong-cheng-du/"/>
+      <url>/object-object/stf/que-xian-yan-chong-cheng-du/</url>
       
-        <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
       
       <categories>
@@ -504,9 +529,9 @@
     
     
     <entry>
-      <title>缺陷概率</title>
-      <link href="/object-object/stf/que-xian-gai-lu/"/>
-      <url>/object-object/stf/que-xian-gai-lu/</url>
+      <title>质量维度</title>
+      <link href="/object-object/stf/zhi-liang-wei-du/"/>
+      <url>/object-object/stf/zhi-liang-wei-du/</url>
       
         <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
@@ -529,9 +554,9 @@
     
     
     <entry>
-      <title>质量维度</title>
-      <link href="/object-object/stf/zhi-liang-wei-du/"/>
-      <url>/object-object/stf/zhi-liang-wei-du/</url>
+      <title>缺陷概率</title>
+      <link href="/object-object/stf/que-xian-gai-lu/"/>
+      <url>/object-object/stf/que-xian-gai-lu/</url>
       
         <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
@@ -604,31 +629,6 @@
     
     
     <entry>
-      <title>软件测试方法</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="%E7%81%B0%E7%9B%92%E6%B5%8B%E8%AF%95.md">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95.md">软件测试级别</a>和<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%B1%BB%E5%9E%8B.md">软件测试类型</a>。</p><p><a href="index.md">首页</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>随机测试</title>
       <link href="/object-object/stf/sui-ji-ce-shi/"/>
       <url>/object-object/stf/sui-ji-ce-shi/</url>
@@ -654,11 +654,11 @@
     
     
     <entry>
-      <title>验收测试</title>
-      <link href="/object-object/stf/yan-shou-ce-shi/"/>
-      <url>/object-object/stf/yan-shou-ce-shi/</url>
+      <title>软件测试方法</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
       
-        <content type="html"><![CDATA[<p>验收的目的是评估系统是否符合业务需求，并评估交付是否可以接受。</p><h2 id="验收测试基本原理"><a href="#验收测试基本原理" class="headerlink" title="验收测试基本原理"></a>验收测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>验收测试</strong>是软件测试一个级别，是测试系统是否可接受。</p><p>此测试的目的是评估系统是否符合业务需求，并评估交付是否可以接受。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfldkGHQlXn6mKiawZfBDfVsZj7OSQht6FA7nrgOeoA52nN5T5TsMSa7g/0?wx_fmt=jpeg" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>验收测试：</strong>对用户需求、需求和业务流程进行正式测试，以确定系统是否满足验收标准，并允许用户、客户或其他授权实体确定是否接受该系统。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔、帽、体、尾、夹的过程中，分别单独制作墨盒和圆珠笔，并分别进行测试。当两个或多个单元准备就绪时，就会进行组装并进行集成测试。当完整的笔被整合后，系统测试就完成了。一旦系统测试完成，就会执行验收测试，以确认圆珠笔是否已经准备好，可以供终端用户使用。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常，在验收测试使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。测试通常不遵循严格的程序并不是照本宣科而是相当于<a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a>。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>验收测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>验收测试案例/检查案例<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>验收测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行验收测试"><a href="#什么时候进行验收测试" class="headerlink" title="什么时候进行验收测试?"></a>什么时候进行验收测试?</h3><p>验收测试是在<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>后进行的，然后才可用于实际使用。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><ul><li><p>内部验收测试(也称为Alpha测试)由开发软件的组织成员执行，但他们没有直接参与项目(开发或测试)。通常，它是产品管理、销售和/或客户支持的成员。</p></li><li><p>外部验收测试由开发软件的组织的非雇员执行。</p><ul><li><p>客户验收测试由开发软件的组织的客户执行。他们是要求组织开发软件的人。[这是在软件没有被组织拥有的情况下开发的。]</p></li><li><p>用户验收测试(也称为Beta测试)由软件的最终用户执行。他们可以是顾客自己，也可以是顾客的顾客。</p></li></ul></li></ul><p><a href="index.md">首页</a>  |  <a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>  |  <a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="%E7%81%B0%E7%9B%92%E6%B5%8B%E8%AF%95.md">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95.md">软件测试级别</a>和<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%B1%BB%E5%9E%8B.md">软件测试类型</a>。</p><p><a href="index.md">首页</a></p>]]></content>
       
       
       <categories>
@@ -729,23 +729,23 @@
     
     
     <entry>
-      <title>测试页面效果</title>
-      <link href="/object-object/text-exp/test/"/>
-      <url>/object-object/text-exp/test/</url>
+      <title>验收测试</title>
+      <link href="/object-object/stf/yan-shou-ce-shi/"/>
+      <url>/object-object/stf/yan-shou-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="index.md">首页</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">性能测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<p>验收的目的是评估系统是否符合业务需求，并评估交付是否可以接受。</p><h2 id="验收测试基本原理"><a href="#验收测试基本原理" class="headerlink" title="验收测试基本原理"></a>验收测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>验收测试</strong>是软件测试一个级别，是测试系统是否可接受。</p><p>此测试的目的是评估系统是否符合业务需求，并评估交付是否可以接受。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfldkGHQlXn6mKiawZfBDfVsZj7OSQht6FA7nrgOeoA52nN5T5TsMSa7g/0?wx_fmt=jpeg" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>验收测试：</strong>对用户需求、需求和业务流程进行正式测试，以确定系统是否满足验收标准，并允许用户、客户或其他授权实体确定是否接受该系统。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔、帽、体、尾、夹的过程中，分别单独制作墨盒和圆珠笔，并分别进行测试。当两个或多个单元准备就绪时，就会进行组装并进行集成测试。当完整的笔被整合后，系统测试就完成了。一旦系统测试完成，就会执行验收测试，以确认圆珠笔是否已经准备好，可以供终端用户使用。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常，在验收测试使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。测试通常不遵循严格的程序并不是照本宣科而是相当于<a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a>。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>验收测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>验收测试案例/检查案例<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>验收测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行验收测试"><a href="#什么时候进行验收测试" class="headerlink" title="什么时候进行验收测试?"></a>什么时候进行验收测试?</h3><p>验收测试是在<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>后进行的，然后才可用于实际使用。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><ul><li><p>内部验收测试(也称为Alpha测试)由开发软件的组织成员执行，但他们没有直接参与项目(开发或测试)。通常，它是产品管理、销售和/或客户支持的成员。</p></li><li><p>外部验收测试由开发软件的组织的非雇员执行。</p><ul><li><p>客户验收测试由开发软件的组织的客户执行。他们是要求组织开发软件的人。[这是在软件没有被组织拥有的情况下开发的。]</p></li><li><p>用户验收测试(也称为Beta测试)由软件的最终用户执行。他们可以是顾客自己，也可以是顾客的顾客。</p></li></ul></li></ul><p><a href="index.md">首页</a>  |  <a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>  |  <a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a> </p>]]></content>
       
       
       <categories>
           
-          <category> Test_exp </category>
+          <category> STF </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 测试经验 </tag>
+            <tag> 测试基础 </tag>
             
         </tags>
       
