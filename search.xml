@@ -5,8 +5,8 @@
     
     <entry>
       <title>软件测试基础</title>
-      <link href="/stf/index"/>
-      <url>/stf/index</url>
+      <link href="/2021/12/11/stf/index/"/>
+      <url>/2021/12/11/stf/index/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试基础"><a href="#软件测试基础" class="headerlink" title="软件测试基础"></a>软件测试基础</h2><p>你希望掌握软件测试的基本知识吗?如果是的,…</p><p>Welcome to Software Testing Fundamentals (STF) !</p><p>STF 是一个分享软件测试基础知识的平台。如果我们要“陈腔滥调”，那么测试人员、测试人员和测试人员就会发现这个站点。我们的目标是在质量上建立一个有质量内容的资源库。</p><p>是的，你找到了它:对软件测试爱好者来说，这个不太彻底的全面的网站。由于我们的大部分文章都是基于各种资源、参考资料和经验，我们不主张任何原创或真实性。根据自己的情况浏览网站。</p><p>通过软件测试基础，如质量保证、质量控制、软件开发生命周期和软件测试生命周期。并且，通过了解软件测试级别，如单元测试、集成测试、系统测试和验收测试等。然后，检查各种软件测试类型，如烟雾测试、功能测试、可用性测试、安全性测试、性能测试、回归测试和符合性测试。另外，了解软件测试工件、缺陷和软件测试指标。最后，欣赏我们收集的软件测试资源，如笑话、引用、工作、练习、杂志、博客和证书。</p><h3 id="Basics（基础）"><a href="#Basics（基础）" class="headerlink" title="Basics（基础）"></a>Basics（基础）</h3><ul><li>Software Quality（软件质量）</li><li>Dimensions of Quality（质量范围）</li><li>Software Quality Assurance（软件质量保证）</li><li>Software Quality Control（软件质量控制）</li><li>Verification vs Validation（确认与验证）</li><li>SDLC</li><li>STLC</li><li>Definition of test（定义测试）</li><li>Software Testing Myths（软件测试神话）</li></ul><h3 id="Levels（阶段）"><a href="#Levels（阶段）" class="headerlink" title="Levels（阶段）"></a>Levels（阶段）</h3><ul><li><a href="%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.md">Unit Testing</a>（单元测试）</li><li><a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">Integration Testing</a>（集成测试）</li><li><a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">System testing</a>（系统测试）</li><li><a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">Acceptance testing</a>（验收测试）</li></ul><h3 id="Methods-（方法）"><a href="#Methods-（方法）" class="headerlink" title="Methods （方法）"></a><a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95.md">Methods</a> （方法）</h3><ul><li><a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">Black Box Testing</a>（黑盒测试）</li><li><a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">White Box Testing</a>（白盒测试）</li><li><a href="%E7%81%B0%E7%9B%92%E6%B5%8B%E8%AF%95.md">Gray Box Testing</a> （灰盒测试）</li><li><a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">Agile Testing</a>（敏捷测试）</li><li><a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">Ad hoc Testing</a>（随机测试）</li></ul><h3 id="Types（类型）"><a href="#Types（类型）" class="headerlink" title="Types（类型）"></a><a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%B1%BB%E5%9E%8B.md">Types</a>（类型）</h3><ul><li><a href="%E5%86%92%E7%83%9F%E6%B5%8B%E8%AF%95.md">Smoke Testing</a>（冒烟测试）</li><li><a href="%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95.md">Function Testing</a>（功能测试）</li><li><a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">Usability Testing</a>（易用性测试）</li><li><a href="%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95.md">Security Testing</a> （安全测试）</li><li><a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">Performance testing</a> （性能测试）</li><li><a href="%E5%9B%9E%E5%BD%92%E6%B5%8B%E8%AF%95.md">Regression Testing</a>  (回归测试)</li><li><a href="%E7%AC%A6%E5%90%88%E6%80%A7%E6%B5%8B%E8%AF%95.md">Compliance Testing</a>（符合性测试）</li></ul><h3 id="Artifacts（测试产品）"><a href="#Artifacts（测试产品）" class="headerlink" title="Artifacts（测试产品）"></a>Artifacts（测试产品）</h3><ul><li><a href="%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92.md">Test Plan</a> （测试计划） </li><li><a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">Test Case</a> （测试用例）</li><li><a href="%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC.md">Test Script</a> （测试脚本）</li></ul><h3 id="Defects（缺陷）"><a href="#Defects（缺陷）" class="headerlink" title="Defects（缺陷）"></a>Defects（缺陷）</h3><ul><li>Defect （缺陷）</li><li>Defect Severity（缺陷严重程度）</li><li>Defect Probability（缺陷概率）</li><li>Defect Priority（缺陷优先级别）</li><li>Defect Life Cycle（缺陷生命周期）</li><li>Defect Report（缺陷报告）</li></ul><h3 id="Metrics（指标）"><a href="#Metrics（指标）" class="headerlink" title="Metrics（指标）"></a>Metrics（指标）</h3><ul><li>Defect Age </li><li>Defect Density （缺陷密度）</li><li>Defect Detection Efficiency （缺陷检测效率）</li></ul><h3 id="Resources（资源）"><a href="#Resources（资源）" class="headerlink" title="Resources（资源）"></a>Resources（资源）</h3><ul><li>Software Testing Jokes（软件测试笑话）</li><li>Software Testing Quotes（软件测试报价）</li><li>Software Testing Jobs（软件测试工作）</li><li>Software Testing Exercises（软件测试练习）</li><li>Software Testing Magazines（软件测试杂志）</li><li><a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2.md">Software Testing Blogs</a>（软件测试博客）</li><li>Software Testing Certifications（软件测试证书）</li></ul>]]></content>
       
@@ -30,8 +30,8 @@
     
     <entry>
       <title>功能测试</title>
-      <link href="/stf/gong-neng-ce-shi"/>
-      <url>/stf/gong-neng-ce-shi</url>
+      <link href="/2021/12/11/stf/gong-neng-ce-shi/"/>
+      <url>/2021/12/11/stf/gong-neng-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>和<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="index.md">首页</a>  |  <a href="%E5%86%92%E7%83%9F%E6%B5%8B%E8%AF%95.md">冒烟测试</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a> </p>]]></content>
       
@@ -55,8 +55,8 @@
     
     <entry>
       <title>冒烟测试</title>
-      <link href="/stf/mou-yan-ce-shi"/>
-      <url>/stf/mou-yan-ce-shi</url>
+      <link href="/2021/12/11/stf/mou-yan-ce-shi/"/>
+      <url>/2021/12/11/stf/mou-yan-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="冒烟测试基本原理"><a href="#冒烟测试基本原理" class="headerlink" title="冒烟测试基本原理"></a>冒烟测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>冒烟测试，也被称为“构建验证测试”，是一种软件测试，它由一系列非详尽的测试组成，旨在确保最重要的功能发挥作用。这个测试的结果用来决定一个构建是否足够稳定以进行进一步的测试。</p><p>据说，“冒烟测试”一词来自类似于硬件测试的软件测试，在测试中，该设备在第一次开机时没有着火(或不冒烟)，通过了测试。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfXRPxj8P7efj6snB837fuoTb6f7cCSeMc1L60YowUyxmL4Bj5ibOjibjQ/0?wx_fmt=jpeg" alt="冒烟测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>冒烟测试覆盖了软件的大部分主要功能，但没有一个是深入的。这个测试的结果用来决定是否继续进行进一步的测试。如果冒烟测试通过，继续进行进一步的测试。如果失败，停止进一步的测试，并要求一个新的构建与所需的修复。如果应用程序被严重破坏，详细的测试可能是浪费时间和精力。</p><p>冒烟测试有助于在周期的早期暴露集成和重大问题。它可以在新创建的软件和增强的软件上进行。冒烟测试是人工或在自动化工具/脚本的帮助下进行的。如果经常准备构建，最好是将冒烟测试自动化。</p><p>当应用程序成熟时，随着功能的增加，冒烟测试也需要更加广泛。有时，在代码中只需要一个不正确的字符来呈现整个应用程序无用。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它揭露集成问题。</li><li>它可以早期发现问题。</li><li>它提供了一定程度的信心，对软件的改变没有对主要领域产生不利影响（当然，这些测试被冒烟测试所覆盖）</li></ul><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>烟雾测试通常用于<a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a>、<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>和<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>级别。</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>不要认为烟雾测试是功能/回归测试的替代品。</p><p><a href="index.md">首页</a>  |  <a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a>  |  <a href="%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95.md">功能测试</a> </p>]]></content>
       
@@ -80,8 +80,8 @@
     
     <entry>
       <title>单元测试</title>
-      <link href="/stf/dan-yuan-ce-shi"/>
-      <url>/stf/dan-yuan-ce-shi</url>
+      <link href="/2021/12/11/stf/dan-yuan-ce-shi/"/>
+      <url>/2021/12/11/stf/dan-yuan-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfMYKd6o5FiaCT2WicOSAoRQN2q8QV2utYOh2Zw6Mc6zCqA8XLp1tAcIKg/0?wx_fmt=jpeg" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>ISTQB定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="http://www.baidu.com/">白盒测试</a>方法进行。</p><h3 id="什么时候进行"><a href="#什么时候进行" class="headerlink" title="什么时候进行"></a>什么时候进行</h3><p>单元测试通常由软件开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可重用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动GUI，提供一些输入，希望能够按下您的代码，并希望您已经设置好了)。如果您有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;您不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠。发展的更快</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>使用接近于生产的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果您不能正确解决问题，您将能够捕获缺陷。 其次，您的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保您正在使用版本控制系统来跟踪您的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设您有一个由两个单元组成的程序，并且您执行的唯一测试是系统测试。您跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="index.md">首页</a>  |  <a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%A5%9E%E8%AF%9D.md">软件测试神话</a>  |  <a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a> </p>]]></content>
       
@@ -105,8 +105,8 @@
     
     <entry>
       <title>回归测试</title>
-      <link href="/stf/hui-gui-ce-shi"/>
-      <url>/stf/hui-gui-ce-shi</url>
+      <link href="/2021/12/11/stf/hui-gui-ce-shi/"/>
+      <url>/2021/12/11/stf/hui-gui-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="回归测试基本原理"><a href="#回归测试基本原理" class="headerlink" title="回归测试基本原理"></a>回归测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>回归测试是一种软件测试，旨在确保软件的更改(增强或缺陷修复)不会对其产生不利影响。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>任何代码变更影响与代码没有直接关联的功能的可能性总是存在的，并且必须进行回归测试，以确保修复一件事并没有破坏另一件事。</p><p>在回归测试期间，不会创建新的测试用例，但是之前创建的测试用例被重新执行。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>在任何级别的测试(单元、集成、系统或验收)中都可以执行回归测试，但主要用在系统测试期间。</p><h3 id="范围"><a href="#范围" class="headerlink" title="范围"></a>范围</h3><p>在理想情况下，完全回归测试是可取的，但通常存在时间/资源约束。在这种情况下，必须对变更进行影响分析，以识别出受更改影响最大的软件区域，<br>并在出现故障时对用户产生最大的影响，并在这些区域进行集中测试。</p><p>由于回归测试的规模和重要性，越来越多的公司和项目采用回归测试自动化工具。</p><h3 id="字面意思的回归"><a href="#字面意思的回归" class="headerlink" title="字面意思的回归"></a>字面意思的回归</h3><p>回归(名词):回到以前的地方或状态的行为;返回或降级。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfxNu3cz9vGXAKFHT7NxW8R5Hvb3KiboFZGwBqJ65VWlb1Ih9US1TyIiaA/0?wx_fmt=jpeg" alt="回归测试"></p><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>你可以把回归测试看作类似于moonwalk或backslide，一种舞蹈技术(由迈克尔·杰克逊推广)，它让舞者在尝试向前走的时候被向后拉。<br>好吧，很多人不同意这个类比，但见鬼!让我们找点乐子!</p><p><a href="index.md">首页</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%B5%8B%E8%AF%95.md">性能测试测试</a>  |  <a href="%E7%AC%A6%E5%90%88%E6%80%A7%E6%B5%8B%E8%AF%95.md">符合性测试</a> </p>]]></content>
       
@@ -130,8 +130,8 @@
     
     <entry>
       <title>安全测试</title>
-      <link href="/stf/an-quan-ce-shi"/>
-      <url>/stf/an-quan-ce-shi</url>
+      <link href="/2021/12/11/stf/an-quan-ce-shi/"/>
+      <url>/2021/12/11/stf/an-quan-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="index.md">首页</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">性能测试</a> </p>]]></content>
       
@@ -155,8 +155,8 @@
     
     <entry>
       <title>性能测试</title>
-      <link href="/stf/xing-neng-ce-shi"/>
-      <url>/stf/xing-neng-ce-shi</url>
+      <link href="/2021/12/11/stf/xing-neng-ce-shi/"/>
+      <url>/2021/12/11/stf/xing-neng-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfpMiagpDrfWH2iatckyp5m9GRDw0EckJSZPFMPibDDYRlcNGglOXBicKc4A/0?wx_fmt=png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="index.md">首页</a>  |  <a href="%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95.md">安全测试</a>  |  <a href="%E5%9B%9E%E5%BD%92%E6%B5%8B%E8%AF%95.md">回归测试</a> </p>]]></content>
       
@@ -180,8 +180,8 @@
     
     <entry>
       <title>易用性测试</title>
-      <link href="/stf/yi-yong-xing-ce-shi"/>
-      <url>/stf/yi-yong-xing-ce-shi</url>
+      <link href="/2021/12/11/stf/yi-yong-xing-ce-shi/"/>
+      <url>/2021/12/11/stf/yi-yong-xing-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCje2fnicbcic0HbURYNBj556pqPq83lqWPM3PiaLGgMBH9hT7nr85gmy7licbDMcxCfXYgoBiawLU28MK4A/0?wx_fmt=jpeg" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="index.md">首页</a>  |  <a href="">检验测试</a>  |  <a href="">随机测试</a> </p>]]></content>
       
@@ -205,8 +205,8 @@
     
     <entry>
       <title>敏捷测试</title>
-      <link href="/stf/min-jie-ce-shi"/>
-      <url>/stf/min-jie-ce-shi</url>
+      <link href="/2021/12/11/stf/min-jie-ce-shi/"/>
+      <url>/2021/12/11/stf/min-jie-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="敏捷测试基础"><a href="#敏捷测试基础" class="headerlink" title="敏捷测试基础"></a>敏捷测试基础</h2><p>本文介绍敏捷测试假设您已经了解了敏捷软件开发方法（Scrum，极限编程或其他敏捷）。另外，敏捷测试只会在高层讨论这个想法，你是得不到细节的。</p><h3 id="简短的定义"><a href="#简短的定义" class="headerlink" title="简短的定义"></a>简短的定义</h3><p>敏捷测试是一种遵循敏捷软件开发原理的软件测试方法。</p><h3 id="敏捷软件测试宣言"><a href="#敏捷软件测试宣言" class="headerlink" title="敏捷软件测试宣言"></a>敏捷软件测试宣言</h3><pre class="line-numbers language-none"><code class="language-none">我们发现更好的方法测试软件通过它帮助了其他人。通过这项工作，我们得到了这些价值:<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>​    </p><pre class="line-numbers language-none"><code class="language-none">个体和互动高于流程和工具工作的软件高于详尽的文档客户合作高于合同谈判响应变化高于遵循计划<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">也就是说，尽管右项有其价值，我们更重视左项的价值。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="敏捷测试概念阐述"><a href="#敏捷测试概念阐述" class="headerlink" title="敏捷测试概念阐述"></a>敏捷测试概念阐述</h3><ul><li><p><strong>个体和交互胜过过程和工具：</strong> 这意味着灵活的人和沟通被看重于死板的过程和工具。然而,这并不意味着敏捷测试忽略了流程和工具。 事实上,敏捷测试是建立在非常简单的、强大的、合理的流程进行日常会议的过程或准备每日构建。类似地，敏捷测试试图利用工具，特别是测试自动化，尽可能多。不过， 需要清楚地认识到这一点，驱动这些工具的测试人员和工具的输出依赖于测试人员(而不是相反的)。</p></li><li><p><strong>工作的软件高于详尽的文档:</strong> 这意味着功能和可用的软件综价值高于全面而无用的文档。尽管这更多的是针对预先需求的规范和设计规范，但是对于测试计划和测试用例来说也是如此。我们的主要目标是测试本身，而不是仅仅指向那个目标的任何复杂的文档。但是，最好有必要的文档，这样“图片”就清楚了，如果一个成员离开，“图片”就留在团队里。</p></li><li><p><strong>客户合作高于合同谈判：</strong> 这意味着客户频繁且紧密地与项目的进展进行接触(不是通过复杂的进度报告，而是通过软件的工作片段)这确实给需要定期与团队协作的客户带来了额外的负担(而不是等到合同的最后，希望交付能像承诺的那样)。但是，这种频繁的参与确保了项目正朝着正确的方向前进，而不是在预计鱼类时建设青蛙。</p></li><li><p><strong>响应变化高于遵循计划：</strong> 这意味着接受变化是自然的，并对它们做出反应而不害怕它们。事先有个计划总是好的，但是不管花费多少，即使情况发生了变化，坚持一个计划也不是很好。假设您编写一个测试用例，这是您的计划，假设有一个特定的需求。现在，如果需求发生变化，你不要因为浪费你的时间和精力而感叹。相反，您可以及时调整测试用例以验证已更改的要求。当然，只有一个FOOL会尝试在新软件上运行相同的旧测试用例，并将测试标记为FAIL。</p></li></ul><h3 id="敏捷宣言背后的原则"><a href="#敏捷宣言背后的原则" class="headerlink" title="敏捷宣言背后的原则"></a>敏捷宣言背后的原则</h3><p>在敏捷宣言背后，是一些敏捷实践者不幸未能理解或实现的原则。如果您打算接受敏捷测试，我们鼓励您仔细检查每一个原则并彻底地消化它们。在右边的列中，最初的原则被专门为软件测试人员重新编写。</p><table><thead><tr><th>我们遵循这些原则</th><th>对软件测试人员来说意味着什么：</th></tr></thead><tbody><tr><td>我们的首要任务是通过早期和持续交付有价值的软件来满足客户。</td><td>我们的首要任务是通过早期和持续交付高质量的软件来满足客户。</td></tr><tr><td>欢迎改变需求，即使是在开发后期。敏捷过程利用变更来满足客户的竞争优势。</td><td>欢迎改变需求，即使是在测试后期。敏捷过程利用变更来满足客户的竞争优势。</td></tr></tbody></table><p>|经常交付工作软件，从几个星期到几个月，偏好于较短的时间范围。|频繁地交付高质量的软件，从几个星期到几个月，偏好于较短的时间范围。<br>|业务人员和开发人员必须在整个项目中每天工作。|业务人员、开发人员和测试人员必须在整个项目中每天工作。|<br>|围绕有动机的个人构建项目。给他们提供他们需要的环境和支持，并相信他们能完成工作|围绕有动机的个人构建测试项目。给他们提供他们需要的环境和支持，并相信他们能完成工作。|<br>|在开发团队中传递信息的最有效和有效的方法是面对面的交谈。|在测试团队中传递信息的最有效和有效的方法是面对面的交谈。|<br>|工作软件是进度的主要衡量标准。|工作高质量的软件是进度的主要衡量标准。|<br>|敏捷过程促进可持续发展。发起人、开发人员和用户应该能够无限期地保持恒定的速度。|敏捷过程促进可持续发展和测试。发起人、开发人员、测试人员和用户应该能够始终保持恒定的速度。|<br>|持续关注技术卓越和好的设计提高了敏捷性。|持续关注技术卓越和良好的测试设计可以提高敏捷性。|<br>|简单——最大限度地发挥工作量的艺术——是必不可少的。|简单——最大限度地发挥工作量的艺术——是必不可少的。|<br>|最好的架构、需求和设计来自自己组织的团队。|最好的架构、需求和设计来自自己组织的团队。|<br>|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|</p><h3 id="一直存在的问题"><a href="#一直存在的问题" class="headerlink" title="一直存在的问题"></a>一直存在的问题</h3><p>那么，所有传统的软件测试方法、类型和工件会怎样呢?我们要扔掉它们吗?</p><h3 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h3><p>Naaah !您仍然需要所有这些软件测试方法、类型和工件(但是在不同程度的优先级和必要性)。然而，你需要完全抛弃传统的态度，接受敏捷的态度。</p><p>Test Script </br><br>Test Case </p><p><a href="index.md">首页</a>  |  <a href="%E7%81%B0%E7%9B%92%E8%84%9A%E6%9C%AC.md">灰盒脚本</a>  |  <a href="%E9%9A%8F%E6%9C%BA%E7%94%A8%E4%BE%8B.md">随机用例</a> </p>]]></content>
       
@@ -229,34 +229,9 @@
     
     
     <entry>
-      <title>测试脚本</title>
-      <link href="/stf/ce-shi-jiao-ben"/>
-      <url>/stf/ce-shi-jiao-ben</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试脚本基本原理"><a href="#测试脚本基本原理" class="headerlink" title="测试脚本基本原理"></a>测试脚本基本原理</h2><p><strong>测试脚本</strong> 是一组指令(使用脚本/编程语言编写)，这些指令是在测试系统上执行的，以验证系统是否按照预期执行。测试脚本用于自动化测试。</p><p>有时，在手工测试中使用的一组指令(以人类语言编写的)也被称为测试脚本，但更好的术语是<a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a>。</p><p>自动化测试中使用的一些脚本语言是:</p><ul><li>Unix Shell Sctipt</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>Perl</li><li>Ruby</li><li>Tcl</li><li>VBScript</li></ul><p>还有许多测试自动化工具/框架为您生成测试脚本;不需要实际的编码。许多这些工具都有自己的脚本语言(其中一些是基于核心脚本语言的)。例如，GUI自动化工具Sikuli使用了基于Python的Sikuli脚本。一个测试脚本可以像下面这样简单:</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">sample_test_script</span> <span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token builtin">type</span> <span class="token punctuation">(</span><span class="token string">"TextA"</span><span class="token punctuation">)</span>click <span class="token punctuation">(</span>ImageButtonA<span class="token punctuation">)</span>assertExist <span class="token punctuation">(</span>ImageResultA<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>测试执行引擎和测试脚本库(连同测试数据)统称为测试工具。</p><p><a href="index.md">首页</a>  |  <a href=".md">软件测试生命周期</a>  | <a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">敏捷测试</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>测试用例</title>
-      <link href="/stf/ce-shi-yong-li"/>
-      <url>/stf/ce-shi-yong-li</url>
+      <link href="/2021/12/11/stf/ce-shi-yong-li/"/>
+      <url>/2021/12/11/stf/ce-shi-yong-li/</url>
       
         <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； </br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；</br>2.在数量字段中输入硬币数量；</br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；</br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;</br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。</br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>racher</td></tr><tr><td>创建日期</td><td>07/28/2017</td></tr><tr><td>执行者</td><td>racher</td></tr><tr><td>执行日期</td><td>08/08/2017</td></tr><tr><td>测试环境</td><td>1.OS：Windows 7 sp1 X64;</br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使您的测试用例“原子”。</p></li><li><p>确保所有的正面场景和负面场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/2021/12/11/STF/index/">首页</a>  |  <a href="https://veryaime.github.io/2021/12/11/STF/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/2021/12/11/SFT/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
       
@@ -279,9 +254,34 @@
     
     
     <entry>
+      <title>测试脚本</title>
+      <link href="/2021/12/11/stf/ce-shi-jiao-ben/"/>
+      <url>/2021/12/11/stf/ce-shi-jiao-ben/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试脚本基本原理"><a href="#测试脚本基本原理" class="headerlink" title="测试脚本基本原理"></a>测试脚本基本原理</h2><p><strong>测试脚本</strong> 是一组指令(使用脚本/编程语言编写)，这些指令是在测试系统上执行的，以验证系统是否按照预期执行。测试脚本用于自动化测试。</p><p>有时，在手工测试中使用的一组指令(以人类语言编写的)也被称为测试脚本，但更好的术语是<a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a>。</p><p>自动化测试中使用的一些脚本语言是:</p><ul><li>Unix Shell Sctipt</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>Perl</li><li>Ruby</li><li>Tcl</li><li>VBScript</li></ul><p>还有许多测试自动化工具/框架为您生成测试脚本;不需要实际的编码。许多这些工具都有自己的脚本语言(其中一些是基于核心脚本语言的)。例如，GUI自动化工具Sikuli使用了基于Python的Sikuli脚本。一个测试脚本可以像下面这样简单:</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">sample_test_script</span> <span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token builtin">type</span> <span class="token punctuation">(</span><span class="token string">"TextA"</span><span class="token punctuation">)</span>click <span class="token punctuation">(</span>ImageButtonA<span class="token punctuation">)</span>assertExist <span class="token punctuation">(</span>ImageResultA<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>测试执行引擎和测试脚本库(连同测试数据)统称为测试工具。</p><p><a href="index.md">首页</a>  |  <a href=".md">软件测试生命周期</a>  | <a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">敏捷测试</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>测试计划</title>
-      <link href="/stf/ce-shi-ji-hua"/>
-      <url>/stf/ce-shi-ji-hua</url>
+      <link href="/2021/12/11/stf/ce-shi-ji-hua/"/>
+      <url>/2021/12/11/stf/ce-shi-ji-hua/</url>
       
         <content type="html"><![CDATA[<h2 id="测试计划基本原理"><a href="#测试计划基本原理" class="headerlink" title="测试计划基本原理"></a>测试计划基本原理</h2><h3 id="测试计划定义"><a href="#测试计划定义" class="headerlink" title="测试计划定义"></a>测试计划定义</h3><p>软件测试计划是描述测试范围和活动的文档。它是在一个项目中正式测试任何软件/产品的基础。</p><p><u>ISTQB 定义</u></p><ul><li><p><strong>测试计划：</strong> 一个描述预期测试活动的范围、方法、资源和时间表的文档。它确定了其他测试项目，测试的特性，测试任务，谁将完成每个任务，测试环境的独立性，测试环境，测试设计技术和进入和退出标准，以及他们选择的基本原理，以及任何需要应急计划的风险。它是测试规划过程的记录。</p></li><li><p><strong>主测试计划：</strong> 一个典型地处理多个测试级别的测试计划。</p></li><li><p><strong>阶段测试计划：</strong> 典型地解决一个测试阶段的测试计划。</p></li></ul><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7Vfhblny8cia8c8aHJQiauUxYx70iaPuQoRw8qQJ7fbWrAj87OYvrg68icswQ/0?wx_fmt=jpeg" alt="测试计划书"></p><h3 id="测试计划类型"><a href="#测试计划类型" class="headerlink" title="测试计划类型"></a>测试计划类型</h3><p>你可以有以下几种测试计划:</p><ul><li><p><strong>主测试计划：</strong> 统一所有其他测试计划的项目/产品的单个高级测试计划。</p></li><li><p><strong>测试级别的测试计划:</strong> 每个测试级别的计划。</p><ul><li>单元测试计划书</li><li>系统集成测试计划书</li><li>系统测试计划书</li><li>验收测试计划书</li></ul></li><li><p><strong>测试类型特定的测试计划：</strong> 计划主要类型的测试，如性能测试计划和安全测试计划。</p></li></ul><h3 id="测试计划样板"><a href="#测试计划样板" class="headerlink" title="测试计划样板"></a>测试计划样板</h3><p>软件测试计划的格式和内容取决于正在执行的过程、标准和测试管理工具。不过，下面的格式是基于IEEE软件测试文档的标准，它提供了一个测试计划应该包含什么内容的摘要。</p><h3 id="测试计划标识符："><a href="#测试计划标识符：" class="headerlink" title="测试计划标识符："></a>测试计划标识符：</h3><ul><li>为文档提供唯一标识符。(如果你有配置管理系统的话，请遵守。)</li></ul><h3 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h3><ul><li>提供测试计划的概述。</li><li>指定目标/宗旨。</li><li>指定任何约束。</li></ul><h3 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h3><p>列出相关的文件，如果有链接的话，包括以下内容:</p><ul><li>项目规划</li><li>配置管理规划</li></ul><h3 id="测试项目："><a href="#测试项目：" class="headerlink" title="测试项目："></a>测试项目：</h3><ul><li>列出测试项目(软件/产品)及其版本。</li></ul><h3 id="功能测试："><a href="#功能测试：" class="headerlink" title="功能测试："></a>功能测试：</h3><ul><li>列出要测试的软件/产品的特性。</li><li>提供对需要测试的特性的要求和/或设计规范的引用</li></ul><h3 id="特性不被测试："><a href="#特性不被测试：" class="headerlink" title="特性不被测试："></a>特性不被测试：</h3><ul><li>列出不需要测试的软件/产品的特性。</li><li>指定这些特性不需要测试的原因。</li></ul><h3 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h3><ul><li>提到测试的总体方法。</li><li>指定测试级别[如果是主测试计划]，测试类型和测试方法[手动/自动化; 白盒/黑盒/灰盒]</li></ul><h3 id="项目通过-失败标准"><a href="#项目通过-失败标准" class="headerlink" title="项目通过/失败标准:"></a>项目通过/失败标准:</h3><ul><li>指定用于确定每个测试项目(软件/产品)已通过或失败测试的标准。</li></ul><h3 id="暂停标准和恢复要求："><a href="#暂停标准和恢复要求：" class="headerlink" title="暂停标准和恢复要求："></a>暂停标准和恢复要求：</h3><ul><li>指定用于挂起测试活动的标准。</li><li>指定测试活动，在恢复测试时必须重新执行。</li></ul><h3 id="测试可交付成果"><a href="#测试可交付成果" class="headerlink" title="测试可交付成果:"></a>测试可交付成果:</h3><ul><li>列出测试可交付成果，并与他们联系，包括以下内容:<ul><li>测试计划书（本文的本身）</li><li>测试用例</li><li>测试脚本</li><li>缺陷/处理日志</li><li>测试报告</li></ul></li></ul><h3 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h3><ul><li>指定测试环境的属性:硬件、软件、网络等。</li><li>列出任何测试或相关工具。</li></ul><h3 id="评估："><a href="#评估：" class="headerlink" title="评估："></a>评估：</h3><p>提供一个测试评估的摘要(成本或努力)和/或提供一个链接到详细的评估。</p><h3 id="时间表："><a href="#时间表：" class="headerlink" title="时间表："></a>时间表：</h3><p>提供时间表的摘要，指定关键的测试里程碑，并/或提供一个链接到详细的时间表。</p><h3 id="人员配备和培训需求"><a href="#人员配备和培训需求" class="headerlink" title="人员配备和培训需求:"></a>人员配备和培训需求:</h3><ul><li>根据角色和所需技能指定人员需求。</li><li>提供相应的技术培训。</li></ul><h3 id="职责："><a href="#职责：" class="headerlink" title="职责："></a>职责：</h3><ul><li>列出每个团队/角色/个人的职责。</li></ul><h3 id="风险："><a href="#风险：" class="headerlink" title="风险："></a>风险：</h3><ul><li>列出已确定的风险。</li><li>为每个风险指定缓解计划和应急计划。</li></ul><h3 id="假设和依赖关系"><a href="#假设和依赖关系" class="headerlink" title="假设和依赖关系:"></a>假设和依赖关系:</h3><ul><li>列出在准备这个计划时所做的假设。</li><li>依赖项列表。</li></ul><h3 id="审批："><a href="#审批：" class="headerlink" title="审批："></a>审批：</h3><ul><li>确认所有必须批准该计划的人的姓名和角色。</li><li>为签名和日期提供空间。(如果要打印文件的话。)</li></ul><h3 id="测试计划指南："><a href="#测试计划指南：" class="headerlink" title="测试计划指南："></a>测试计划指南：</h3><ul><li><p>使计划简洁。 避免冗余和多余。 如果您认为您不需要上述模板中提到的部分，请继续删除测试计划中的该部分。</p></li><li><p>请明确点。 例如，当您将操作系统指定为测试环境的属性时，请提及操作系统版本/版本，而不仅仅是操作系统名称。</p></li><li><p>尽可能使用列表和表。 避免冗长的段落。</p></li><li><p>在基础测试之前先进行测试计划的审查，或者将其发送给审批人员。 您的测试计划的质量会说明您或您的团队将要执行的测试质量。</p></li><li><p>必要时更新计划。 一个过时的和未使用的发臭文件，比没有文件的首先更糟糕。</p></li></ul><p><a href="index.md">首页</a>  |  <a href="%E7%AC%A6%E5%90%88%E6%80%A7%E6%B5%8B%E8%AF%95.md">符合性测试</a>  |  <a href="%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B.md">测试用例</a></p>]]></content>
       
@@ -305,8 +305,8 @@
     
     <entry>
       <title>灰盒测试</title>
-      <link href="/stf/hui-he-ce-shi"/>
-      <url>/stf/hui-he-ce-shi</url>
+      <link href="/2021/12/11/stf/hui-he-ce-shi/"/>
+      <url>/2021/12/11/stf/hui-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95.md">软件测试方法</a>，是<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法和<a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="index.md">首页</a>  |  <a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a>  |  <a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">敏捷测试</a> </p>]]></content>
       
@@ -330,8 +330,8 @@
     
     <entry>
       <title>白盒测试</title>
-      <link href="/stf/bai-he-ce-shi"/>
-      <url>/stf/bai-he-ce-shi</url>
+      <link href="/2021/12/11/stf/bai-he-ce-shi/"/>
+      <url>/2021/12/11/stf/bai-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95.md">软件测试</a>方法，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子;在里面清楚地看到。</p><p>ISTQB定义</p><ul><li><p><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</p></li><li><p><strong>白盒测试技巧：</strong> 基于an的方法派生和/或选择测试用例的过程分析某一部件或系统的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.md">单元测试</a> : 单元测试</li><li><a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a> : 用于单元间的测试路径。</li><li><a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="白盒测试优势"><a href="#白盒测试优势" class="headerlink" title="白盒测试优势"></a>白盒测试优势</h3><ul><li><p>可以在更早的阶段开始测试。无需等待GUI可用。</p></li><li><p>测试更加彻底，可能覆盖大部分路径。</p></li></ul><h3 id="白盒测试劣势"><a href="#白盒测试劣势" class="headerlink" title="白盒测试劣势"></a>白盒测试劣势</h3><ul><li><p>由于测试可能非常复杂，需要高技能的资源，并对编程和实现有透彻的了解。</p></li><li><p>如果执行变化太频繁，测试脚本维护可能成为一个负担。</p></li><li><p>由于这种测试方法与正在测试的应用程序密切相关，因此，满足各种类型的实现/平台的工具可能并不容易获得。</p></li></ul><p><a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a>与<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>形成对比。阅读<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95%E5%92%8C%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95%E7%9A%84%E5%8C%BA%E5%88%AB.md">黑盒测试和白盒测试的区别</a>。</p><p><a href="index.md">首页</a>  |  <a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>  |  <a href="%E7%81%B0%E7%9B%92%E6%B5%8B%E8%AF%95.md">灰盒测试</a> </p>]]></content>
       
@@ -355,8 +355,8 @@
     
     <entry>
       <title>符合性测试</title>
-      <link href="/stf/fu-he-xing-ce-shi"/>
-      <url>/stf/fu-he-xing-ce-shi</url>
+      <link href="/2021/12/11/stf/fu-he-xing-ce-shi/"/>
+      <url>/2021/12/11/stf/fu-he-xing-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，规则测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7Vfs460aza7cKbYib4PSDic9USfyblTudXFjyricgJ5ZMgct52vfNI6OSKXQ/0?wx_fmt=jpeg" alt="符合性测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>内部标准可以是公司自己制定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成。这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="index.md">首页</a>  |  <a href="%E5%9B%9E%E5%BD%92%E6%B5%8B%E8%AF%95.md">回归测试</a>  |  <a href="%E6%B5%8B%E8%AF%95%E8%AE%A1%E5%88%92.md">测试计划</a> </p>]]></content>
       
@@ -380,8 +380,8 @@
     
     <entry>
       <title>系统测试</title>
-      <link href="/stf/xi-tong-ce-shi"/>
-      <url>/stf/xi-tong-ce-shi</url>
+      <link href="/2021/12/11/stf/xi-tong-ce-shi/"/>
+      <url>/2021/12/11/stf/xi-tong-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfBrgf6feiaj26dq0pRDfWGORkECCtGaOYGN4YLS4ibnUpnCKHrEic2Y4Ww/0?wx_fmt=jpeg" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a>之后在<a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="index.md">首页</a>  |  <a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a>  |  <a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a> </p>]]></content>
       
@@ -405,8 +405,8 @@
     
     <entry>
       <title>缺陷</title>
-      <link href="/stf/que-xian"/>
-      <url>/stf/que-xian</url>
+      <link href="/2021/12/11/stf/que-xian/"/>
+      <url>/2021/12/11/stf/que-xian/</url>
       
         <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="%E7%BC%BA%E9%99%B7%E6%8A%A5%E5%91%8A.md">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfXkQBnddAKVSBVhMmJ2TQDql4vj8KlOlVyuGiavvgdSDIqolZ0ZTPrhQ/0?wx_fmt=jpeg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="%E7%BC%BA%E9%99%B7%E4%B8%A5%E9%87%8D%E7%A8%8B%E5%BA%A6.md">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="%E7%BC%BA%E9%99%B7%E6%A6%82%E7%8E%87.md">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="%E7%BC%BA%E9%99%B7%E4%BC%98%E5%85%88%E7%BA%A7.md">缺陷优先级</a>)</li><li>质量相关维度(见<a href="%E8%B4%A8%E9%87%8F%E7%BB%B4%E5%BA%A6.md">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="index.md">首页</a>  |  <a href="%E7%81%B0%E7%9B%92%E8%84%9A%E6%9C%AC.md">灰盒脚本</a>  |  <a href="%E7%BC%BA%E9%99%B7%E4%B8%A5%E9%87%8D%E7%A8%8B%E5%BA%A6.md">缺陷严重程度</a> </p>]]></content>
       
@@ -430,8 +430,8 @@
     
     <entry>
       <title>缺陷重要程度</title>
-      <link href="/stf/que-xian-yan-chong-cheng-du"/>
-      <url>/stf/que-xian-yan-chong-cheng-du</url>
+      <link href="/2021/12/11/stf/que-xian-yan-chong-cheng-du/"/>
+      <url>/2021/12/11/stf/que-xian-yan-chong-cheng-du/</url>
       
         <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
@@ -455,8 +455,8 @@
     
     <entry>
       <title>缺陷优先级</title>
-      <link href="/stf/que-xian-you-xian-ji"/>
-      <url>/stf/que-xian-you-xian-ji</url>
+      <link href="/2021/12/11/stf/que-xian-you-xian-ji/"/>
+      <url>/2021/12/11/stf/que-xian-you-xian-ji/</url>
       
         <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
       
@@ -480,8 +480,8 @@
     
     <entry>
       <title>缺陷报告</title>
-      <link href="/stf/que-xian-bao-gao"/>
-      <url>/stf/que-xian-bao-gao</url>
+      <link href="/2021/12/11/stf/que-xian-bao-gao/"/>
+      <url>/2021/12/11/stf/que-xian-bao-gao/</url>
       
         <content type="html"><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3>]]></content>
       
@@ -505,8 +505,8 @@
     
     <entry>
       <title>缺陷概率</title>
-      <link href="/stf/que-xian-gai-lu"/>
-      <url>/stf/que-xian-gai-lu</url>
+      <link href="/2021/12/11/stf/que-xian-gai-lu/"/>
+      <url>/2021/12/11/stf/que-xian-gai-lu/</url>
       
         <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
@@ -530,8 +530,8 @@
     
     <entry>
       <title>质量维度</title>
-      <link href="/stf/zhi-liang-wei-du"/>
-      <url>/stf/zhi-liang-wei-du</url>
+      <link href="/2021/12/11/stf/zhi-liang-wei-du/"/>
+      <url>/2021/12/11/stf/zhi-liang-wei-du/</url>
       
         <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
@@ -555,8 +555,8 @@
     
     <entry>
       <title>软件测试分类</title>
-      <link href="/stf/ruan-jian-ce-shi-fen-lei-nao-tu"/>
-      <url>/stf/ruan-jian-ce-shi-fen-lei-nao-tu</url>
+      <link href="/2021/12/11/stf/ruan-jian-ce-shi-fen-lei-nao-tu/"/>
+      <url>/2021/12/11/stf/ruan-jian-ce-shi-fen-lei-nao-tu/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h2 id="软件测试分类脑图"><a href="#软件测试分类脑图" class="headerlink" title="软件测试分类脑图"></a>软件测试分类脑图</h2><p><a href="https://www.processon.com/mindmap/59abb3a8e4b063c756faae33">软件测试分类脑图</a></p><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjehCMdu3NGtOvWAJtPJ3pPicdKsDjficRYRtEejPe0CZFjJrHxgO9DGuRuvqiaBJd2Wp1CZboydicHsiaw/0?wx_fmt=jpeg" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
       
@@ -580,8 +580,8 @@
     
     <entry>
       <title>软件测试博客</title>
-      <link href="/stf/ruan-jian-ce-shi-bo-ke"/>
-      <url>/stf/ruan-jian-ce-shi-bo-ke</url>
+      <link href="/2021/12/11/stf/ruan-jian-ce-shi-bo-ke/"/>
+      <url>/2021/12/11/stf/ruan-jian-ce-shi-bo-ke/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p><p><a href="index.md">首页</a>  |  <a href="%E7%81%B0%E7%9B%92%E8%84%9A%E6%9C%AC.md">灰盒脚本</a>  |  <a href="%E9%9A%8F%E6%9C%BA%E7%94%A8%E4%BE%8B.md">随机用例</a> </p>]]></content>
       
@@ -605,8 +605,8 @@
     
     <entry>
       <title>软件测试方法</title>
-      <link href="/stf/ruan-jian-ce-shi-fang-fa"/>
-      <url>/stf/ruan-jian-ce-shi-fang-fa</url>
+      <link href="/2021/12/11/stf/ruan-jian-ce-shi-fang-fa/"/>
+      <url>/2021/12/11/stf/ruan-jian-ce-shi-fang-fa/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="%E7%81%B0%E7%9B%92%E6%B5%8B%E8%AF%95.md">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="%E6%95%8F%E6%8D%B7%E6%B5%8B%E8%AF%95.md">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E6%96%B9%E6%B3%95.md">软件测试级别</a>和<a href="%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%B1%BB%E5%9E%8B.md">软件测试类型</a>。</p><p><a href="index.md">首页</a></p>]]></content>
       
@@ -629,34 +629,9 @@
     
     
     <entry>
-      <title>集成测试</title>
-      <link href="/stf/ji-cheng-ce-shi"/>
-      <url>/stf/ji-cheng-ce-shi</url>
-      
-        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7Vf9jlQoEvkfzkcegGsXwrdk29wJLS7IQmibLZ1eiaXUm9z1ocGiaovg0gng/0?wx_fmt=jpeg" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="index.md">首页</a>  |  <a href="%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.md">单元测试</a>  |  <a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>随机测试</title>
-      <link href="/stf/sui-ji-ce-shi"/>
-      <url>/stf/sui-ji-ce-shi</url>
+      <link href="/2021/12/11/stf/sui-ji-ce-shi/"/>
+      <url>/2021/12/11/stf/sui-ji-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcFE2Ca8ZEO3ujiaAjyUNIibia0h96fWicjum9weAQgicGppVhN6y5k29GqDILqS4cf4kGib5fCvMWvv2RA/0?wx_fmt=jpeg" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="index.md">首页</a>  |  <a href="">可用性测试</a>  |  <a href="">性能测试</a></p>]]></content>
       
@@ -679,9 +654,34 @@
     
     
     <entry>
+      <title>集成测试</title>
+      <link href="/2021/12/11/stf/ji-cheng-ce-shi/"/>
+      <url>/2021/12/11/stf/ji-cheng-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7Vf9jlQoEvkfzkcegGsXwrdk29wJLS7IQmibLZ1eiaXUm9z1ocGiaovg0gng/0?wx_fmt=jpeg" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="index.md">首页</a>  |  <a href="%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.md">单元测试</a>  |  <a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>验收测试</title>
-      <link href="/stf/yan-shou-ce-shi"/>
-      <url>/stf/yan-shou-ce-shi</url>
+      <link href="/2021/12/11/stf/yan-shou-ce-shi/"/>
+      <url>/2021/12/11/stf/yan-shou-ce-shi/</url>
       
         <content type="html"><![CDATA[<p>验收的目的是评估系统是否符合业务需求，并评估交付是否可以接受。</p><h2 id="验收测试基本原理"><a href="#验收测试基本原理" class="headerlink" title="验收测试基本原理"></a>验收测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>验收测试</strong>是软件测试一个级别，是测试系统是否可接受。</p><p>此测试的目的是评估系统是否符合业务需求，并评估交付是否可以接受。</p><p><img src="https://mmbiz.qlogo.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfldkGHQlXn6mKiawZfBDfVsZj7OSQht6FA7nrgOeoA52nN5T5TsMSa7g/0?wx_fmt=jpeg" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>验收测试：</strong>对用户需求、需求和业务流程进行正式测试，以确定系统是否满足验收标准，并允许用户、客户或其他授权实体确定是否接受该系统。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔、帽、体、尾、夹的过程中，分别单独制作墨盒和圆珠笔，并分别进行测试。当两个或多个单元准备就绪时，就会进行组装并进行集成测试。当完整的笔被整合后，系统测试就完成了。一旦系统测试完成，就会执行验收测试，以确认圆珠笔是否已经准备好，可以供终端用户使用。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常，在验收测试使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。测试通常不遵循严格的程序并不是照本宣科而是相当于<a href="%E9%9A%8F%E6%9C%BA%E6%B5%8B%E8%AF%95.md">随机测试</a>。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>验收测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>验收测试案例/检查案例<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>验收测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行验收测试"><a href="#什么时候进行验收测试" class="headerlink" title="什么时候进行验收测试?"></a>什么时候进行验收测试?</h3><p>验收测试是在<a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>后进行的，然后才可用于实际使用。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><ul><li><p>内部验收测试(也称为Alpha测试)由开发软件的组织成员执行，但他们没有直接参与项目(开发或测试)。通常，它是产品管理、销售和/或客户支持的成员。</p></li><li><p>外部验收测试由开发软件的组织的非雇员执行。</p><ul><li><p>客户验收测试由开发软件的组织的客户执行。他们是要求组织开发软件的人。[这是在软件没有被组织拥有的情况下开发的。]</p></li><li><p>用户验收测试(也称为Beta测试)由软件的最终用户执行。他们可以是顾客自己，也可以是顾客的顾客。</p></li></ul></li></ul><p><a href="index.md">首页</a>  |  <a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a>  |  <a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a> </p>]]></content>
       
@@ -705,8 +705,8 @@
     
     <entry>
       <title>黑盒测试</title>
-      <link href="/stf/hei-he-ce-shi"/>
-      <url>/stf/hei-he-ce-shi</url>
+      <link href="/2021/12/11/stf/hei-he-ce-shi/"/>
+      <url>/2021/12/11/stf/hei-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="黑盒测试基础原理"><a href="#黑盒测试基础原理" class="headerlink" title="黑盒测试基础原理"></a>黑盒测试基础原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>黑盒测试</strong> ，也被称为行为测试，是一种软件测试方法，其中测试的项目的内部结构/设计/实现不被测试人员所知。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfVRfNDYEMTLKc8WgjhFmfG5RN8mDgOSd9b86UCB7nRBNnWibZBExprIg/0?wx_fmt=gif" alt="黑盒测试"></p><p>之所以这样命名，是因为软件程序，在测试人员的眼中，就像一个黑盒子;在里面，谁也看不见。该方法试图在以下类别中找出错误:</p><ul><li>错误和遗漏功能</li><li>界面错误</li><li>数据结构或外部数据库访问中的错误</li><li>行为或性能错误</li><li>初始化和终止错误</li></ul><p>ISTQB定义</p><ul><li><p><strong>黑盒测试：</strong> 测试，无论是功能性的还是非功能性的，都没有涉及到<br>组件或系统的内部结构。</p></li><li><p><strong>黑盒测试设计技术：</strong> 基于an的方法派生和/或选择测试用例的过程<br>对组件或系统的规格、功能或非功能性的分析<br>没有提到它的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>一个测试人员不了解网站的内部结构，使用浏览器测试网页;提供输入(单击、击键)并根据预期的结果验证输出。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>黑盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="%E9%9B%86%E6%88%90%E6%B5%8B%E8%AF%95.md">集成测试</a></li><li><a href="%E7%B3%BB%E7%BB%9F%E6%B5%8B%E8%AF%95.md">系统测试</a></li><li><a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a></li></ul><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>这个级别越高，盒子越复杂，使用的黑盒测试方法就越多。</p><h3 id="黑盒测试技术"><a href="#黑盒测试技术" class="headerlink" title="黑盒测试技术"></a>黑盒测试技术</h3><p><a href="index.md">首页</a>  |  <a href="%E9%AA%8C%E6%94%B6%E6%B5%8B%E8%AF%95.md">验收测试</a>  |  <a href="%E7%99%BD%E7%9B%92%E6%B5%8B%E8%AF%95.md">白盒测试</a> </p>]]></content>
       
@@ -730,8 +730,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/stf/hello-world"/>
-      <url>/stf/hello-world</url>
+      <link href="/2021/12/09/stf/hello-world/"/>
+      <url>/2021/12/09/stf/hello-world/</url>
       
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
