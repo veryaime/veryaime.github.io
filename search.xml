@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>测试页面效果</title>
-      <link href="/object-object/text-exp/test/"/>
-      <url>/object-object/text-exp/test/</url>
-      
-        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="index.md">首页</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">性能测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Test_exp </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试经验 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件测试基础</title>
       <link href="/object-object/stf/index/"/>
       <url>/object-object/stf/index/</url>
@@ -329,11 +304,11 @@
     
     
     <entry>
-      <title>白盒测试</title>
-      <link href="/object-object/stf/bai-he-ce-shi/"/>
-      <url>/object-object/stf/bai-he-ce-shi/</url>
+      <title>灰盒测试</title>
+      <link href="/object-object/stf/hui-he-ce-shi/"/>
+      <url>/object-object/stf/hui-he-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="https://veryaime.github.io/object-object/stf/raun-jian-ce-shi-fang-fa/">软件测试</a>方法，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子;在里面清楚地看到。</p><p>ISTQB定义</p><ul><li><p><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</p></li><li><p><strong>白盒测试技巧：</strong> 基于an的方法派生和/或选择测试用例的过程分析某一部件或系统的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="白盒测试优势"><a href="#白盒测试优势" class="headerlink" title="白盒测试优势"></a>白盒测试优势</h3><ul><li><p>可以在更早的阶段开始测试。无需等待GUI可用。</p></li><li><p>测试更加彻底，可能覆盖大部分路径。</p></li></ul><h3 id="白盒测试劣势"><a href="#白盒测试劣势" class="headerlink" title="白盒测试劣势"></a>白盒测试劣势</h3><ul><li>由于测试可能非常复杂，需要高技能的资源，并对编程和实现有透彻的了解。</li><li>如果执行变化太频繁，测试脚本维护可能成为一个负担。</li><li>由于这种测试方法与正在测试的应用程序密切相关，因此，满足各种类型的实现/平台的工具可能并不容易获得。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>与<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>形成对比。</p><h4 id="TODO-阅读黑盒测试和白盒测试的区别。"><a href="#TODO-阅读黑盒测试和白盒测试的区别。" class="headerlink" title="TODO: 阅读黑盒测试和白盒测试的区别。"></a>TODO: 阅读<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi-he-bai-he-ce-shi-de-qu-bie/">黑盒测试和白盒测试的区别</a>。</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
       
       
       <categories>
@@ -354,11 +329,11 @@
     
     
     <entry>
-      <title>灰盒测试</title>
-      <link href="/object-object/stf/hui-he-ce-shi/"/>
-      <url>/object-object/stf/hui-he-ce-shi/</url>
+      <title>白盒测试</title>
+      <link href="/object-object/stf/bai-he-ce-shi/"/>
+      <url>/object-object/stf/bai-he-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="https://veryaime.github.io/object-object/stf/raun-jian-ce-shi-fang-fa/">软件测试</a>方法，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子;在里面清楚地看到。</p><p>ISTQB定义</p><ul><li><p><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</p></li><li><p><strong>白盒测试技巧：</strong> 基于an的方法派生和/或选择测试用例的过程分析某一部件或系统的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="白盒测试优势"><a href="#白盒测试优势" class="headerlink" title="白盒测试优势"></a>白盒测试优势</h3><ul><li><p>可以在更早的阶段开始测试。无需等待GUI可用。</p></li><li><p>测试更加彻底，可能覆盖大部分路径。</p></li></ul><h3 id="白盒测试劣势"><a href="#白盒测试劣势" class="headerlink" title="白盒测试劣势"></a>白盒测试劣势</h3><ul><li>由于测试可能非常复杂，需要高技能的资源，并对编程和实现有透彻的了解。</li><li>如果执行变化太频繁，测试脚本维护可能成为一个负担。</li><li>由于这种测试方法与正在测试的应用程序密切相关，因此，满足各种类型的实现/平台的工具可能并不容易获得。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>与<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>形成对比。</p><h4 id="TODO-阅读黑盒测试和白盒测试的区别。"><a href="#TODO-阅读黑盒测试和白盒测试的区别。" class="headerlink" title="TODO: 阅读黑盒测试和白盒测试的区别。"></a>TODO: 阅读<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi-he-bai-he-ce-shi-de-qu-bie/">黑盒测试和白盒测试的区别</a>。</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
       
       
       <categories>
@@ -746,6 +721,31 @@
         <tags>
             
             <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试页面效果</title>
+      <link href="/object-object/text-exp/test/"/>
+      <url>/object-object/text-exp/test/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/4iaE7bB4HCjcUdtgiaNZ9yFpnHY3UBp7VfFHUKSWXFPBibUyxND0BNDicMWMZeywCaKyPL1ojOXVuRibicMJBQLdHhAA/0?wx_fmt=jpeg" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="index.md">首页</a>  |  <a href="%E6%98%93%E7%94%A8%E6%80%A7%E6%B5%8B%E8%AF%95.md">易用性测试</a>  |  <a href="%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95.md">性能测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Test_exp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试经验 </tag>
             
         </tags>
       
