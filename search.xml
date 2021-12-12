@@ -129,6 +129,31 @@
     
     
     <entry>
+      <title>性能测试</title>
+      <link href="/object-object/stf/xing-neng-ce-shi/"/>
+      <url>/object-object/stf/xing-neng-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安全测试</title>
       <link href="/object-object/stf/an-quan-ce-shi/"/>
       <url>/object-object/stf/an-quan-ce-shi/</url>
@@ -159,31 +184,6 @@
       <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>性能测试</title>
-      <link href="/object-object/stf/xing-neng-ce-shi/"/>
-      <url>/object-object/stf/xing-neng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
       
       
       <categories>
@@ -329,31 +329,6 @@
     
     
     <entry>
-      <title>系统测试</title>
-      <link href="/object-object/stf/xi-tong-ce-shi/"/>
-      <url>/object-object/stf/xi-tong-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>白盒测试</title>
       <link href="/object-object/stf/bai-he-ce-shi/"/>
       <url>/object-object/stf/bai-he-ce-shi/</url>
@@ -404,11 +379,11 @@
     
     
     <entry>
-      <title>缺陷</title>
-      <link href="/object-object/stf/que-xian/"/>
-      <url>/object-object/stf/que-xian/</url>
+      <title>系统测试</title>
+      <link href="/object-object/stf/xi-tong-ce-shi/"/>
+      <url>/object-object/stf/xi-tong-ce-shi/</url>
       
-        <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://pic4.zhimg.com/v2-96681aa93a2a3d4afedd88e00b02bd8b_r.jpg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="https://veryaime.github.io/object-object/stf/que-xian-gai-lv/">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/">缺陷优先级</a>)</li><li>质量相关维度(见<a href="https://veryaime.github.io/object-object/stf/zhi-liang-wei-du/">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-jiao-ben/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>) </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
       
       
       <categories>
@@ -454,11 +429,11 @@
     
     
     <entry>
-      <title>缺陷优先级</title>
-      <link href="/object-object/stf/que-xian-you-xian-ji/"/>
-      <url>/object-object/stf/que-xian-you-xian-ji/</url>
+      <title>缺陷</title>
+      <link href="/object-object/stf/que-xian/"/>
+      <url>/object-object/stf/que-xian/</url>
       
-        <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
+        <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://pic4.zhimg.com/v2-96681aa93a2a3d4afedd88e00b02bd8b_r.jpg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="https://veryaime.github.io/object-object/stf/que-xian-gai-lv/">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/">缺陷优先级</a>)</li><li>质量相关维度(见<a href="https://veryaime.github.io/object-object/stf/zhi-liang-wei-du/">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-jiao-ben/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>) </p>]]></content>
       
       
       <categories>
@@ -504,36 +479,11 @@
     
     
     <entry>
-      <title>质量维度</title>
-      <link href="/object-object/stf/zhi-liang-wei-du/"/>
-      <url>/object-object/stf/zhi-liang-wei-du/</url>
+      <title>缺陷优先级</title>
+      <link href="/object-object/stf/que-xian-you-xian-ji/"/>
+      <url>/object-object/stf/que-xian-you-xian-ji/</url>
       
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>软件测试分类</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
       
       
       <categories>
@@ -604,6 +554,31 @@
     
     
     <entry>
+      <title>软件测试分类</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
+      
+        <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件测试方法</title>
       <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
       <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
@@ -634,6 +609,31 @@
       <url>/object-object/stf/sui-ji-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>质量维度</title>
+      <link href="/object-object/stf/zhi-liang-wei-du/"/>
+      <url>/object-object/stf/zhi-liang-wei-du/</url>
+      
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
       
       <categories>

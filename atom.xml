@@ -144,6 +144,32 @@
   </entry>
   
   <entry>
+    <title>性能测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-12T07:24:22.645Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;性能测试基本原理&quot;&gt;&lt;a href=&quot;#性能测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;性能测试基本原理&quot;&gt;&lt;/a&gt;性能测试基本原理&lt;/h2&gt;&lt;p&gt;性能测试定义、类型和技巧:&lt;/p&gt;
+&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
+    
+    
+    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>安全测试</title>
     <link href="https://veryaime.github.io/object-object/stf/an-quan-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/an-quan-ce-shi/</id>
@@ -182,32 +208,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;易用性测试基本原理&quot;&gt;&lt;a href=&quot;#易用性测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;易用性测试基本原理&quot;&gt;&lt;/a&gt;易用性测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>性能测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T07:24:22.645Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;性能测试基本原理&quot;&gt;&lt;a href=&quot;#性能测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;性能测试基本原理&quot;&gt;&lt;/a&gt;性能测试基本原理&lt;/h2&gt;&lt;p&gt;性能测试定义、类型和技巧:&lt;/p&gt;
-&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot;</summary>
         
       
     
@@ -346,31 +346,6 @@
   </entry>
   
   <entry>
-    <title>系统测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T07:24:20.173Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;系统测试基础&quot;&gt;&lt;a href=&quot;#系统测试基础&quot; class=&quot;headerlink&quot; title=&quot;系统测试基础&quot;&gt;&lt;/a&gt;系统测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>白盒测试</title>
     <link href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</id>
@@ -421,19 +396,18 @@
   </entry>
   
   <entry>
-    <title>缺陷</title>
-    <link href="https://veryaime.github.io/object-object/stf/que-xian/"/>
-    <id>https://veryaime.github.io/object-object/stf/que-xian/</id>
+    <title>系统测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T07:24:00.757Z</updated>
+    <updated>2021-12-12T07:24:20.173Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;软件缺陷/错误:定义、解释、分类、细节:&lt;/p&gt;
-&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;系统测试基础&quot;&gt;&lt;a href=&quot;#系统测试基础&quot; class=&quot;headerlink&quot; title=&quot;系统测试基础&quot;&gt;&lt;/a&gt;系统测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -472,18 +446,19 @@
   </entry>
   
   <entry>
-    <title>缺陷优先级</title>
-    <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
-    <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
+    <title>缺陷</title>
+    <link href="https://veryaime.github.io/object-object/stf/que-xian/"/>
+    <id>https://veryaime.github.io/object-object/stf/que-xian/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T07:24:06.782Z</updated>
+    <updated>2021-12-12T07:24:00.757Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;软件缺陷/错误:定义、解释、分类、细节:&lt;/p&gt;
+&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -509,6 +484,31 @@
         
         
     <summary type="html">&lt;h3 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
+    
+    
+    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>缺陷优先级</title>
+    <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
+    <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-12T07:24:06.782Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
         
       
     
