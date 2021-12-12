@@ -129,86 +129,11 @@
     
     
     <entry>
-      <title>性能测试</title>
-      <link href="/object-object/stf/xing-neng-ce-shi/"/>
-      <url>/object-object/stf/xing-neng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>安全测试</title>
       <link href="/object-object/stf/an-quan-ce-shi/"/>
       <url>/object-object/stf/an-quan-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，旨在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。一定要看看测试指南: <a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">https://www.owasp.org/index.php/Category:OWASP_Testing_Project</a></p><p>OWASP 2013年的十大安全威胁如下:</p><ul><li>注入</li><li>失效的验证和会话管理</li><li>跨站点脚本(XSS)</li><li>不安全的直接对象引用</li><li>安全配置错误</li><li>暴露敏感数据</li><li>功能级别访问控制缺失</li><li>跨站请求伪造(CSRF)</li><li>使用已知的脆弱组件</li><li>非法链接跳转</li></ul><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>敏捷测试</title>
-      <link href="/object-object/stf/min-jie-ce-shi/"/>
-      <url>/object-object/stf/min-jie-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="敏捷测试基础"><a href="#敏捷测试基础" class="headerlink" title="敏捷测试基础"></a>敏捷测试基础</h2><p>本文介绍敏捷测试假设您已经了解了敏捷软件开发方法（Scrum，极限编程或其他敏捷）。另外，敏捷测试只会在高层讨论这个想法，你是得不到细节的。</p><h3 id="简短的定义"><a href="#简短的定义" class="headerlink" title="简短的定义"></a>简短的定义</h3><p>敏捷测试是一种遵循敏捷软件开发原理的软件测试方法。</p><h3 id="敏捷软件测试宣言"><a href="#敏捷软件测试宣言" class="headerlink" title="敏捷软件测试宣言"></a>敏捷软件测试宣言</h3><pre class="line-numbers language-none"><code class="language-none">我们发现更好的方法测试软件通过它帮助了其他人。通过这项工作，我们得到了这些价值:<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>​    </p><pre class="line-numbers language-none"><code class="language-none">个体和互动高于流程和工具工作的软件高于详尽的文档客户合作高于合同谈判响应变化高于遵循计划<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">也就是说，尽管右项有其价值，我们更重视左项的价值。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="敏捷测试概念阐述"><a href="#敏捷测试概念阐述" class="headerlink" title="敏捷测试概念阐述"></a>敏捷测试概念阐述</h3><ul><li><p><strong>个体和交互胜过过程和工具：</strong> 这意味着灵活的人和沟通被看重于死板的过程和工具。然而,这并不意味着敏捷测试忽略了流程和工具。 事实上,敏捷测试是建立在非常简单的、强大的、合理的流程进行日常会议的过程或准备每日构建。类似地，敏捷测试试图利用工具，特别是测试自动化，尽可能多。不过， 需要清楚地认识到这一点，驱动这些工具的测试人员和工具的输出依赖于测试人员(而不是相反的)。</p></li><li><p><strong>工作的软件高于详尽的文档:</strong> 这意味着功能和可用的软件综价值高于全面而无用的文档。尽管这更多的是针对预先需求的规范和设计规范，但是对于测试计划和测试用例来说也是如此。我们的主要目标是测试本身，而不是仅仅指向那个目标的任何复杂的文档。但是，最好有必要的文档，这样“图片”就清楚了，如果一个成员离开，“图片”就留在团队里。</p></li><li><p><strong>客户合作高于合同谈判：</strong> 这意味着客户频繁且紧密地与项目的进展进行接触(不是通过复杂的进度报告，而是通过软件的工作片段)这确实给需要定期与团队协作的客户带来了额外的负担(而不是等到合同的最后，希望交付能像承诺的那样)。但是，这种频繁的参与确保了项目正朝着正确的方向前进，而不是在预计鱼类时建设青蛙。</p></li><li><p><strong>响应变化高于遵循计划：</strong> 这意味着接受变化是自然的，并对它们做出反应而不害怕它们。事先有个计划总是好的，但是不管花费多少，即使情况发生了变化，坚持一个计划也不是很好。假设您编写一个测试用例，这是您的计划，假设有一个特定的需求。现在，如果需求发生变化，你不要因为浪费你的时间和精力而感叹。相反，您可以及时调整测试用例以验证已更改的要求。当然，只有一个FOOL会尝试在新软件上运行相同的旧测试用例，并将测试标记为FAIL。</p></li></ul><h3 id="敏捷宣言背后的原则"><a href="#敏捷宣言背后的原则" class="headerlink" title="敏捷宣言背后的原则"></a>敏捷宣言背后的原则</h3><p>在敏捷宣言背后，是一些敏捷实践者不幸未能理解或实现的原则。如果您打算接受敏捷测试，我们鼓励您仔细检查每一个原则并彻底地消化它们。在右边的列中，最初的原则被专门为软件测试人员重新编写。</p><table><thead><tr><th>我们遵循这些原则</th><th>对软件测试人员来说意味着什么：</th></tr></thead><tbody><tr><td>我们的首要任务是通过早期和持续交付有价值的软件来满足客户。</td><td>我们的首要任务是通过早期和持续交付高质量的软件来满足客户。</td></tr><tr><td>欢迎改变需求，即使是在开发后期。敏捷过程利用变更来满足客户的竞争优势。</td><td>欢迎改变需求，即使是在测试后期。敏捷过程利用变更来满足客户的竞争优势。</td></tr></tbody></table><p>|经常交付工作软件，从几个星期到几个月，偏好于较短的时间范围。|频繁地交付高质量的软件，从几个星期到几个月，偏好于较短的时间范围。<br>|业务人员和开发人员必须在整个项目中每天工作。|业务人员、开发人员和测试人员必须在整个项目中每天工作。|<br>|围绕有动机的个人构建项目。给他们提供他们需要的环境和支持，并相信他们能完成工作|围绕有动机的个人构建测试项目。给他们提供他们需要的环境和支持，并相信他们能完成工作。|<br>|在开发团队中传递信息的最有效和有效的方法是面对面的交谈。|在测试团队中传递信息的最有效和有效的方法是面对面的交谈。|<br>|工作软件是进度的主要衡量标准。|工作高质量的软件是进度的主要衡量标准。|<br>|敏捷过程促进可持续发展。发起人、开发人员和用户应该能够无限期地保持恒定的速度。|敏捷过程促进可持续发展和测试。发起人、开发人员、测试人员和用户应该能够始终保持恒定的速度。|<br>|持续关注技术卓越和好的设计提高了敏捷性。|持续关注技术卓越和良好的测试设计可以提高敏捷性。|<br>|简单——最大限度地发挥工作量的艺术——是必不可少的。|简单——最大限度地发挥工作量的艺术——是必不可少的。|<br>|最好的架构、需求和设计来自自己组织的团队。|最好的架构、需求和设计来自自己组织的团队。|<br>|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|</p><h3 id="一直存在的问题"><a href="#一直存在的问题" class="headerlink" title="一直存在的问题"></a>一直存在的问题</h3><p>那么，所有传统的软件测试方法、类型和工件会怎样呢?我们要扔掉它们吗?</p><h3 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h3><p>Naaah !您仍然需要所有这些软件测试方法、类型和工件(但是在不同程度的优先级和必要性)。然而，你需要完全抛弃传统的态度，接受敏捷的态度。</p><p>Test Script </br><br>Test Case </p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机用例</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>易用性测试</title>
-      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
-      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
       
       
       <categories>
@@ -254,11 +179,11 @@
     
     
     <entry>
-      <title>测试脚本</title>
-      <link href="/object-object/stf/ce-shi-jiao-ben/"/>
-      <url>/object-object/stf/ce-shi-jiao-ben/</url>
+      <title>敏捷测试</title>
+      <link href="/object-object/stf/min-jie-ce-shi/"/>
+      <url>/object-object/stf/min-jie-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="测试脚本基本原理"><a href="#测试脚本基本原理" class="headerlink" title="测试脚本基本原理"></a>测试脚本基本原理</h2><p><strong>测试脚本</strong> 是一组指令(使用脚本/编程语言编写)，这些指令是在测试系统上执行的，以验证系统是否按照预期执行。测试脚本用于自动化测试。</p><p>有时，在手工测试中使用的一组指令(以人类语言编写的)也被称为测试脚本，但更好的术语是<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</p><p>自动化测试中使用的一些脚本语言是:</p><ul><li>Unix Shell Sctipt</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>Perl</li><li>Ruby</li><li>Tcl</li><li>VBScript</li></ul><p>还有许多测试自动化工具/框架为您生成测试脚本;不需要实际的编码。许多这些工具都有自己的脚本语言(其中一些是基于核心脚本语言的)。例如，GUI自动化工具Sikuli使用了基于Python的Sikuli脚本。一个测试脚本可以像下面这样简单:</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">sample_test_script</span> <span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token builtin">type</span> <span class="token punctuation">(</span><span class="token string">"TextA"</span><span class="token punctuation">)</span>click <span class="token punctuation">(</span>ImageButtonA<span class="token punctuation">)</span>assertExist <span class="token punctuation">(</span>ImageResultA<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>测试执行引擎和测试脚本库(连同测试数据)统称为测试工具。</p><h4 id="TODO：-软件测试生命周期"><a href="#TODO：-软件测试生命周期" class="headerlink" title="TODO： 软件测试生命周期"></a>TODO： 软件测试生命周期</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-sheng-ming-zhou-qi/">软件测试生命周期</a>  | <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="敏捷测试基础"><a href="#敏捷测试基础" class="headerlink" title="敏捷测试基础"></a>敏捷测试基础</h2><p>本文介绍敏捷测试假设您已经了解了敏捷软件开发方法（Scrum，极限编程或其他敏捷）。另外，敏捷测试只会在高层讨论这个想法，你是得不到细节的。</p><h3 id="简短的定义"><a href="#简短的定义" class="headerlink" title="简短的定义"></a>简短的定义</h3><p>敏捷测试是一种遵循敏捷软件开发原理的软件测试方法。</p><h3 id="敏捷软件测试宣言"><a href="#敏捷软件测试宣言" class="headerlink" title="敏捷软件测试宣言"></a>敏捷软件测试宣言</h3><pre class="line-numbers language-none"><code class="language-none">我们发现更好的方法测试软件通过它帮助了其他人。通过这项工作，我们得到了这些价值:<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>​    </p><pre class="line-numbers language-none"><code class="language-none">个体和互动高于流程和工具工作的软件高于详尽的文档客户合作高于合同谈判响应变化高于遵循计划<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">也就是说，尽管右项有其价值，我们更重视左项的价值。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="敏捷测试概念阐述"><a href="#敏捷测试概念阐述" class="headerlink" title="敏捷测试概念阐述"></a>敏捷测试概念阐述</h3><ul><li><p><strong>个体和交互胜过过程和工具：</strong> 这意味着灵活的人和沟通被看重于死板的过程和工具。然而,这并不意味着敏捷测试忽略了流程和工具。 事实上,敏捷测试是建立在非常简单的、强大的、合理的流程进行日常会议的过程或准备每日构建。类似地，敏捷测试试图利用工具，特别是测试自动化，尽可能多。不过， 需要清楚地认识到这一点，驱动这些工具的测试人员和工具的输出依赖于测试人员(而不是相反的)。</p></li><li><p><strong>工作的软件高于详尽的文档:</strong> 这意味着功能和可用的软件综价值高于全面而无用的文档。尽管这更多的是针对预先需求的规范和设计规范，但是对于测试计划和测试用例来说也是如此。我们的主要目标是测试本身，而不是仅仅指向那个目标的任何复杂的文档。但是，最好有必要的文档，这样“图片”就清楚了，如果一个成员离开，“图片”就留在团队里。</p></li><li><p><strong>客户合作高于合同谈判：</strong> 这意味着客户频繁且紧密地与项目的进展进行接触(不是通过复杂的进度报告，而是通过软件的工作片段)这确实给需要定期与团队协作的客户带来了额外的负担(而不是等到合同的最后，希望交付能像承诺的那样)。但是，这种频繁的参与确保了项目正朝着正确的方向前进，而不是在预计鱼类时建设青蛙。</p></li><li><p><strong>响应变化高于遵循计划：</strong> 这意味着接受变化是自然的，并对它们做出反应而不害怕它们。事先有个计划总是好的，但是不管花费多少，即使情况发生了变化，坚持一个计划也不是很好。假设您编写一个测试用例，这是您的计划，假设有一个特定的需求。现在，如果需求发生变化，你不要因为浪费你的时间和精力而感叹。相反，您可以及时调整测试用例以验证已更改的要求。当然，只有一个FOOL会尝试在新软件上运行相同的旧测试用例，并将测试标记为FAIL。</p></li></ul><h3 id="敏捷宣言背后的原则"><a href="#敏捷宣言背后的原则" class="headerlink" title="敏捷宣言背后的原则"></a>敏捷宣言背后的原则</h3><p>在敏捷宣言背后，是一些敏捷实践者不幸未能理解或实现的原则。如果您打算接受敏捷测试，我们鼓励您仔细检查每一个原则并彻底地消化它们。在右边的列中，最初的原则被专门为软件测试人员重新编写。</p><table><thead><tr><th>我们遵循这些原则</th><th>对软件测试人员来说意味着什么：</th></tr></thead><tbody><tr><td>我们的首要任务是通过早期和持续交付有价值的软件来满足客户。</td><td>我们的首要任务是通过早期和持续交付高质量的软件来满足客户。</td></tr><tr><td>欢迎改变需求，即使是在开发后期。敏捷过程利用变更来满足客户的竞争优势。</td><td>欢迎改变需求，即使是在测试后期。敏捷过程利用变更来满足客户的竞争优势。</td></tr></tbody></table><p>|经常交付工作软件，从几个星期到几个月，偏好于较短的时间范围。|频繁地交付高质量的软件，从几个星期到几个月，偏好于较短的时间范围。<br>|业务人员和开发人员必须在整个项目中每天工作。|业务人员、开发人员和测试人员必须在整个项目中每天工作。|<br>|围绕有动机的个人构建项目。给他们提供他们需要的环境和支持，并相信他们能完成工作|围绕有动机的个人构建测试项目。给他们提供他们需要的环境和支持，并相信他们能完成工作。|<br>|在开发团队中传递信息的最有效和有效的方法是面对面的交谈。|在测试团队中传递信息的最有效和有效的方法是面对面的交谈。|<br>|工作软件是进度的主要衡量标准。|工作高质量的软件是进度的主要衡量标准。|<br>|敏捷过程促进可持续发展。发起人、开发人员和用户应该能够无限期地保持恒定的速度。|敏捷过程促进可持续发展和测试。发起人、开发人员、测试人员和用户应该能够始终保持恒定的速度。|<br>|持续关注技术卓越和好的设计提高了敏捷性。|持续关注技术卓越和良好的测试设计可以提高敏捷性。|<br>|简单——最大限度地发挥工作量的艺术——是必不可少的。|简单——最大限度地发挥工作量的艺术——是必不可少的。|<br>|最好的架构、需求和设计来自自己组织的团队。|最好的架构、需求和设计来自自己组织的团队。|<br>|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|</p><h3 id="一直存在的问题"><a href="#一直存在的问题" class="headerlink" title="一直存在的问题"></a>一直存在的问题</h3><p>那么，所有传统的软件测试方法、类型和工件会怎样呢?我们要扔掉它们吗?</p><h3 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h3><p>Naaah !您仍然需要所有这些软件测试方法、类型和工件(但是在不同程度的优先级和必要性)。然而，你需要完全抛弃传统的态度，接受敏捷的态度。</p><p>Test Script </br><br>Test Case </p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机用例</a> </p>]]></content>
       
       
       <categories>
@@ -354,36 +279,11 @@
     
     
     <entry>
-      <title>符合性测试</title>
-      <link href="/object-object/stf/fu-he-xing-ce-shi/"/>
-      <url>/object-object/stf/fu-he-xing-ce-shi/</url>
+      <title>易用性测试</title>
+      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
+      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，规则测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://img-blog.csdnimg.cn/wm/178c8fb206ac6ef795fe1e73e36af403.jpg?x-oss-process=image/resize,h_236,w_382" alt="符合性测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>内部标准可以是公司自己制定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成。这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>系统测试</title>
-      <link href="/object-object/stf/xi-tong-ce-shi/"/>
-      <url>/object-object/stf/xi-tong-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
       
       
       <categories>
@@ -404,11 +304,36 @@
     
     
     <entry>
-      <title>缺陷</title>
-      <link href="/object-object/stf/que-xian/"/>
-      <url>/object-object/stf/que-xian/</url>
+      <title>性能测试</title>
+      <link href="/object-object/stf/xing-neng-ce-shi/"/>
+      <url>/object-object/stf/xing-neng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://pic4.zhimg.com/v2-96681aa93a2a3d4afedd88e00b02bd8b_r.jpg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="https://veryaime.github.io/object-object/stf/que-xian-gai-lv/">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/">缺陷优先级</a>)</li><li>质量相关维度(见<a href="https://veryaime.github.io/object-object/stf/zhi-liang-wei-du/">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-jiao-ben/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>) </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试脚本</title>
+      <link href="/object-object/stf/ce-shi-jiao-ben/"/>
+      <url>/object-object/stf/ce-shi-jiao-ben/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试脚本基本原理"><a href="#测试脚本基本原理" class="headerlink" title="测试脚本基本原理"></a>测试脚本基本原理</h2><p><strong>测试脚本</strong> 是一组指令(使用脚本/编程语言编写)，这些指令是在测试系统上执行的，以验证系统是否按照预期执行。测试脚本用于自动化测试。</p><p>有时，在手工测试中使用的一组指令(以人类语言编写的)也被称为测试脚本，但更好的术语是<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</p><p>自动化测试中使用的一些脚本语言是:</p><ul><li>Unix Shell Sctipt</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>Perl</li><li>Ruby</li><li>Tcl</li><li>VBScript</li></ul><p>还有许多测试自动化工具/框架为您生成测试脚本;不需要实际的编码。许多这些工具都有自己的脚本语言(其中一些是基于核心脚本语言的)。例如，GUI自动化工具Sikuli使用了基于Python的Sikuli脚本。一个测试脚本可以像下面这样简单:</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">sample_test_script</span> <span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token builtin">type</span> <span class="token punctuation">(</span><span class="token string">"TextA"</span><span class="token punctuation">)</span>click <span class="token punctuation">(</span>ImageButtonA<span class="token punctuation">)</span>assertExist <span class="token punctuation">(</span>ImageResultA<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>测试执行引擎和测试脚本库(连同测试数据)统称为测试工具。</p><h4 id="TODO：-软件测试生命周期"><a href="#TODO：-软件测试生命周期" class="headerlink" title="TODO： 软件测试生命周期"></a>TODO： 软件测试生命周期</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-sheng-ming-zhou-qi/">软件测试生命周期</a>  | <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></p>]]></content>
       
       
       <categories>
@@ -554,86 +479,86 @@
     
     
     <entry>
+      <title>缺陷</title>
+      <link href="/object-object/stf/que-xian/"/>
+      <url>/object-object/stf/que-xian/</url>
+      
+        <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://pic4.zhimg.com/v2-96681aa93a2a3d4afedd88e00b02bd8b_r.jpg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="https://veryaime.github.io/object-object/stf/que-xian-gai-lv/">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/">缺陷优先级</a>)</li><li>质量相关维度(见<a href="https://veryaime.github.io/object-object/stf/zhi-liang-wei-du/">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-jiao-ben/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>) </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>符合性测试</title>
+      <link href="/object-object/stf/fu-he-xing-ce-shi/"/>
+      <url>/object-object/stf/fu-he-xing-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，规则测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://img-blog.csdnimg.cn/wm/178c8fb206ac6ef795fe1e73e36af403.jpg?x-oss-process=image/resize,h_236,w_382" alt="符合性测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>内部标准可以是公司自己制定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成。这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>系统测试</title>
+      <link href="/object-object/stf/xi-tong-ce-shi/"/>
+      <url>/object-object/stf/xi-tong-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>软件测试分类</title>
       <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
       <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>软件测试博客</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>软件测试方法</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="https://veryaime.github.io/object-object/stf/raun-ji-ce-shi-fang-fa/">软件测试级别</a>和<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fen-lei/">软件测试类型</a>。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>随机测试</title>
-      <link href="/object-object/stf/sui-ji-ce-shi/"/>
-      <url>/object-object/stf/sui-ji-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
       
       
       <categories>
@@ -709,6 +634,81 @@
       <url>/object-object/stf/hei-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="黑盒测试基础原理"><a href="#黑盒测试基础原理" class="headerlink" title="黑盒测试基础原理"></a>黑盒测试基础原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>黑盒测试</strong> ，也被称为行为测试，是一种软件测试方法，其中测试的项目的内部结构/设计/实现不被测试人员所知。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。</p><p><img src="https://images2015.cnblogs.com/blog/1020866/201704/1020866-20170418154131056-1664321306.png" alt="黑盒测试"></p><p>之所以这样命名，是因为软件程序，在测试人员的眼中，就像一个黑盒子;在里面，谁也看不见。该方法试图在以下类别中找出错误:</p><ul><li>错误和遗漏功能</li><li>界面错误</li><li>数据结构或外部数据库访问中的错误</li><li>行为或性能错误</li><li>初始化和终止错误</li></ul><p>ISTQB定义</p><ul><li><p><strong>黑盒测试：</strong> 测试，无论是功能性的还是非功能性的，都没有涉及到<br>组件或系统的内部结构。</p></li><li><p><strong>黑盒测试设计技术：</strong> 基于an的方法派生和/或选择测试用例的过程<br>对组件或系统的规格、功能或非功能性的分析<br>没有提到它的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>一个测试人员不了解网站的内部结构，使用浏览器测试网页;提供输入(单击、击键)并根据预期的结果验证输出。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>黑盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a></li></ul><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>这个级别越高，盒子越复杂，使用的黑盒测试方法就越多。</p><h3 id="黑盒测试技术"><a href="#黑盒测试技术" class="headerlink" title="黑盒测试技术"></a>黑盒测试技术</h3><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件测试博客</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
+      
+        <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件测试方法</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="https://veryaime.github.io/object-object/stf/raun-ji-ce-shi-fang-fa/">软件测试级别</a>和<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fen-lei/">软件测试类型</a>。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随机测试</title>
+      <link href="/object-object/stf/sui-ji-ce-shi/"/>
+      <url>/object-object/stf/sui-ji-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
       
       
       <categories>
