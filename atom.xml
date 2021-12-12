@@ -6,7 +6,7 @@
   <link href="https://veryaime.github.io/atom.xml" rel="self"/>
   
   <link href="https://veryaime.github.io/"/>
-  <updated>2021-12-11T11:42:01.179Z</updated>
+  <updated>2021-12-12T07:23:57.082Z</updated>
   <id>https://veryaime.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>冒烟测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-12T07:23:57.082Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;冒烟测试基本原理&quot;&gt;&lt;a href=&quot;#冒烟测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;冒烟测试基本原理&quot;&gt;&lt;/a&gt;冒烟测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
+    
+    
+    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>软件测试基础</title>
     <link href="https://veryaime.github.io/object-object/stf/index/"/>
     <id>https://veryaime.github.io/object-object/stf/index/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:42:01.179Z</updated>
+    <updated>2021-12-12T07:24:29.298Z</updated>
     
     
       
@@ -43,36 +68,11 @@
   </entry>
   
   <entry>
-    <title>冒烟测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:08:29.212Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;冒烟测试基本原理&quot;&gt;&lt;a href=&quot;#冒烟测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;冒烟测试基本原理&quot;&gt;&lt;/a&gt;冒烟测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>功能测试</title>
     <link href="https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:43:57.815Z</updated>
+    <updated>2021-12-12T07:23:46.384Z</updated>
     
     
       
@@ -94,11 +94,36 @@
   </entry>
   
   <entry>
+    <title>回归测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-12T06:54:29.790Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;回归测试基本原理&quot;&gt;&lt;a href=&quot;#回归测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;回归测试基本原理&quot;&gt;&lt;/a&gt;回归测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
+    
+    
+    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>单元测试</title>
     <link href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:45:21.503Z</updated>
+    <updated>2021-12-12T07:23:43.611Z</updated>
     
     
       
@@ -123,7 +148,7 @@
     <link href="https://veryaime.github.io/object-object/stf/an-quan-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/an-quan-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T03:28:10.408Z</updated>
+    <updated>2021-12-12T07:24:37.759Z</updated>
     
     
       
@@ -149,7 +174,7 @@
     <link href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:50:38.188Z</updated>
+    <updated>2021-12-12T07:24:22.645Z</updated>
     
     
       
@@ -171,36 +196,11 @@
   </entry>
   
   <entry>
-    <title>回归测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:02:03.246Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;回归测试基本原理&quot;&gt;&lt;a href=&quot;#回归测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;回归测试基本原理&quot;&gt;&lt;/a&gt;回归测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>敏捷测试</title>
     <link href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/min-jie-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:52:45.954Z</updated>
+    <updated>2021-12-12T07:23:58.794Z</updated>
     
     
       
@@ -225,7 +225,7 @@
     <link href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:25:28.075Z</updated>
+    <updated>2021-12-12T07:24:25.739Z</updated>
     
     
       
@@ -250,7 +250,7 @@
     <link href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/"/>
     <id>https://veryaime.github.io/object-object/stf/ce-shi-yong-li/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:59:38.381Z</updated>
+    <updated>2021-12-12T07:24:32.113Z</updated>
     
     
       
@@ -275,7 +275,7 @@
     <link href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/"/>
     <id>https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:46:46.608Z</updated>
+    <updated>2021-12-12T07:24:33.245Z</updated>
     
     
       
@@ -300,7 +300,7 @@
     <link href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/"/>
     <id>https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T03:32:34.769Z</updated>
+    <updated>2021-12-12T07:24:34.482Z</updated>
     
     
       
@@ -325,7 +325,7 @@
     <link href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/hui-he-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:00:07.920Z</updated>
+    <updated>2021-12-12T07:23:51.295Z</updated>
     
     
       
@@ -350,7 +350,7 @@
     <link href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:12:53.445Z</updated>
+    <updated>2021-12-12T07:24:35.821Z</updated>
     
     
       
@@ -375,7 +375,7 @@
     <link href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:47:37.129Z</updated>
+    <updated>2021-12-12T07:23:45.471Z</updated>
     
     
       
@@ -400,7 +400,7 @@
     <link href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:21:57.772Z</updated>
+    <updated>2021-12-12T07:24:20.173Z</updated>
     
     
       
@@ -425,7 +425,7 @@
     <link href="https://veryaime.github.io/object-object/stf/que-xian/"/>
     <id>https://veryaime.github.io/object-object/stf/que-xian/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T11:08:36.164Z</updated>
+    <updated>2021-12-12T07:24:00.757Z</updated>
     
     
       
@@ -451,7 +451,7 @@
     <link href="https://veryaime.github.io/object-object/stf/que-xian-yan-chong-cheng-du/"/>
     <id>https://veryaime.github.io/object-object/stf/que-xian-yan-chong-cheng-du/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:49:38.770Z</updated>
+    <updated>2021-12-12T07:24:04.679Z</updated>
     
     
       
@@ -476,7 +476,7 @@
     <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
     <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:49:47.614Z</updated>
+    <updated>2021-12-12T07:24:06.782Z</updated>
     
     
       
@@ -501,7 +501,7 @@
     <link href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/"/>
     <id>https://veryaime.github.io/object-object/stf/que-xian-bao-gao/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-11T10:49:17.158Z</updated>
+    <updated>2021-12-12T07:24:02.180Z</updated>
     
     
       
