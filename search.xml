@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>冒烟测试</title>
-      <link href="/object-object/stf/mou-yan-ce-shi/"/>
-      <url>/object-object/stf/mou-yan-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="冒烟测试基本原理"><a href="#冒烟测试基本原理" class="headerlink" title="冒烟测试基本原理"></a>冒烟测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>冒烟测试，也被称为“构建验证测试”，是一种软件测试，它由一系列非详尽的测试组成，旨在确保最重要的功能发挥作用。这个测试的结果用来决定一个构建是否足够稳定以进行进一步的测试。</p><p>据说，“冒烟测试”一词来自类似于硬件测试的软件测试，在测试中，该设备在第一次开机时没有着火(或不冒烟)，通过了测试。</p><p><img src="https://pic2.zhimg.com/80/v2-37972fe835c481b668688249cef61a9d_1440w.jpg" alt="冒烟测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>冒烟测试覆盖了软件的大部分主要功能，但没有一个是深入的。这个测试的结果用来决定是否继续进行进一步的测试。如果冒烟测试通过，继续进行进一步的测试。如果失败，停止进一步的测试，并要求一个新的构建与所需的修复。如果应用程序被严重破坏，详细的测试可能是浪费时间和精力。</p><p>冒烟测试有助于在周期的早期暴露集成和重大问题。它可以在新创建的软件和增强的软件上进行。冒烟测试是人工或在自动化工具/脚本的帮助下进行的。如果经常准备构建，最好是将冒烟测试自动化。</p><p>当应用程序成熟时，随着功能的增加，冒烟测试也需要更加广泛。有时，在代码中只需要一个不正确的字符来呈现整个应用程序无用。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它揭露集成问题。</li><li>它可以早期发现问题。</li><li>它提供了一定程度的信心，对软件的改变没有对主要领域产生不利影响（当然，这些测试被冒烟测试所覆盖）</li></ul><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>烟雾测试通常用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>、<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>级别。</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>不要认为烟雾测试是功能/回归测试的替代品。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/">功能测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件测试基础</title>
       <link href="/object-object/stf/index/"/>
       <url>/object-object/stf/index/</url>
@@ -54,11 +29,61 @@
     
     
     <entry>
+      <title>单元测试</title>
+      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
+      <url>/object-object/stf/dan-yuan-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>ISTQB定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行"><a href="#什么时候进行" class="headerlink" title="什么时候进行"></a>什么时候进行</h3><p>单元测试通常由软件开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可重用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动GUI，提供一些输入，希望能够按下您的代码，并希望您已经设置好了)。如果您有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;您不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠。发展的更快</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>使用接近于生产的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果您不能正确解决问题，您将能够捕获缺陷。 其次，您的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保您正在使用版本控制系统来跟踪您的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设您有一个由两个单元组成的程序，并且您执行的唯一测试是系统测试。您跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>功能测试</title>
       <link href="/object-object/stf/gong-neng-ce-shi/"/>
       <url>/object-object/stf/gong-neng-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/">冒烟测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>冒烟测试</title>
+      <link href="/object-object/stf/mou-yan-ce-shi/"/>
+      <url>/object-object/stf/mou-yan-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="冒烟测试基本原理"><a href="#冒烟测试基本原理" class="headerlink" title="冒烟测试基本原理"></a>冒烟测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>冒烟测试，也被称为“构建验证测试”，是一种软件测试，它由一系列非详尽的测试组成，旨在确保最重要的功能发挥作用。这个测试的结果用来决定一个构建是否足够稳定以进行进一步的测试。</p><p>据说，“冒烟测试”一词来自类似于硬件测试的软件测试，在测试中，该设备在第一次开机时没有着火(或不冒烟)，通过了测试。</p><p><img src="https://pic2.zhimg.com/80/v2-37972fe835c481b668688249cef61a9d_1440w.jpg" alt="冒烟测试"></p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>冒烟测试覆盖了软件的大部分主要功能，但没有一个是深入的。这个测试的结果用来决定是否继续进行进一步的测试。如果冒烟测试通过，继续进行进一步的测试。如果失败，停止进一步的测试，并要求一个新的构建与所需的修复。如果应用程序被严重破坏，详细的测试可能是浪费时间和精力。</p><p>冒烟测试有助于在周期的早期暴露集成和重大问题。它可以在新创建的软件和增强的软件上进行。冒烟测试是人工或在自动化工具/脚本的帮助下进行的。如果经常准备构建，最好是将冒烟测试自动化。</p><p>当应用程序成熟时，随着功能的增加，冒烟测试也需要更加广泛。有时，在代码中只需要一个不正确的字符来呈现整个应用程序无用。</p><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它揭露集成问题。</li><li>它可以早期发现问题。</li><li>它提供了一定程度的信心，对软件的改变没有对主要领域产生不利影响（当然，这些测试被冒烟测试所覆盖）</li></ul><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>烟雾测试通常用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>、<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>级别。</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>不要认为烟雾测试是功能/回归测试的替代品。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/">功能测试</a> </p>]]></content>
       
       
       <categories>
@@ -134,6 +159,31 @@
       <url>/object-object/stf/xing-neng-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>敏捷测试</title>
+      <link href="/object-object/stf/min-jie-ce-shi/"/>
+      <url>/object-object/stf/min-jie-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="敏捷测试基础"><a href="#敏捷测试基础" class="headerlink" title="敏捷测试基础"></a>敏捷测试基础</h2><p>本文介绍敏捷测试假设您已经了解了敏捷软件开发方法（Scrum，极限编程或其他敏捷）。另外，敏捷测试只会在高层讨论这个想法，你是得不到细节的。</p><h3 id="简短的定义"><a href="#简短的定义" class="headerlink" title="简短的定义"></a>简短的定义</h3><p>敏捷测试是一种遵循敏捷软件开发原理的软件测试方法。</p><h3 id="敏捷软件测试宣言"><a href="#敏捷软件测试宣言" class="headerlink" title="敏捷软件测试宣言"></a>敏捷软件测试宣言</h3><pre class="line-numbers language-none"><code class="language-none">我们发现更好的方法测试软件通过它帮助了其他人。通过这项工作，我们得到了这些价值:<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>​    </p><pre class="line-numbers language-none"><code class="language-none">个体和互动高于流程和工具工作的软件高于详尽的文档客户合作高于合同谈判响应变化高于遵循计划<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">也就是说，尽管右项有其价值，我们更重视左项的价值。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="敏捷测试概念阐述"><a href="#敏捷测试概念阐述" class="headerlink" title="敏捷测试概念阐述"></a>敏捷测试概念阐述</h3><ul><li><p><strong>个体和交互胜过过程和工具：</strong> 这意味着灵活的人和沟通被看重于死板的过程和工具。然而,这并不意味着敏捷测试忽略了流程和工具。 事实上,敏捷测试是建立在非常简单的、强大的、合理的流程进行日常会议的过程或准备每日构建。类似地，敏捷测试试图利用工具，特别是测试自动化，尽可能多。不过， 需要清楚地认识到这一点，驱动这些工具的测试人员和工具的输出依赖于测试人员(而不是相反的)。</p></li><li><p><strong>工作的软件高于详尽的文档:</strong> 这意味着功能和可用的软件综价值高于全面而无用的文档。尽管这更多的是针对预先需求的规范和设计规范，但是对于测试计划和测试用例来说也是如此。我们的主要目标是测试本身，而不是仅仅指向那个目标的任何复杂的文档。但是，最好有必要的文档，这样“图片”就清楚了，如果一个成员离开，“图片”就留在团队里。</p></li><li><p><strong>客户合作高于合同谈判：</strong> 这意味着客户频繁且紧密地与项目的进展进行接触(不是通过复杂的进度报告，而是通过软件的工作片段)这确实给需要定期与团队协作的客户带来了额外的负担(而不是等到合同的最后，希望交付能像承诺的那样)。但是，这种频繁的参与确保了项目正朝着正确的方向前进，而不是在预计鱼类时建设青蛙。</p></li><li><p><strong>响应变化高于遵循计划：</strong> 这意味着接受变化是自然的，并对它们做出反应而不害怕它们。事先有个计划总是好的，但是不管花费多少，即使情况发生了变化，坚持一个计划也不是很好。假设您编写一个测试用例，这是您的计划，假设有一个特定的需求。现在，如果需求发生变化，你不要因为浪费你的时间和精力而感叹。相反，您可以及时调整测试用例以验证已更改的要求。当然，只有一个FOOL会尝试在新软件上运行相同的旧测试用例，并将测试标记为FAIL。</p></li></ul><h3 id="敏捷宣言背后的原则"><a href="#敏捷宣言背后的原则" class="headerlink" title="敏捷宣言背后的原则"></a>敏捷宣言背后的原则</h3><p>在敏捷宣言背后，是一些敏捷实践者不幸未能理解或实现的原则。如果您打算接受敏捷测试，我们鼓励您仔细检查每一个原则并彻底地消化它们。在右边的列中，最初的原则被专门为软件测试人员重新编写。</p><table><thead><tr><th>我们遵循这些原则</th><th>对软件测试人员来说意味着什么：</th></tr></thead><tbody><tr><td>我们的首要任务是通过早期和持续交付有价值的软件来满足客户。</td><td>我们的首要任务是通过早期和持续交付高质量的软件来满足客户。</td></tr><tr><td>欢迎改变需求，即使是在开发后期。敏捷过程利用变更来满足客户的竞争优势。</td><td>欢迎改变需求，即使是在测试后期。敏捷过程利用变更来满足客户的竞争优势。</td></tr></tbody></table><p>|经常交付工作软件，从几个星期到几个月，偏好于较短的时间范围。|频繁地交付高质量的软件，从几个星期到几个月，偏好于较短的时间范围。<br>|业务人员和开发人员必须在整个项目中每天工作。|业务人员、开发人员和测试人员必须在整个项目中每天工作。|<br>|围绕有动机的个人构建项目。给他们提供他们需要的环境和支持，并相信他们能完成工作|围绕有动机的个人构建测试项目。给他们提供他们需要的环境和支持，并相信他们能完成工作。|<br>|在开发团队中传递信息的最有效和有效的方法是面对面的交谈。|在测试团队中传递信息的最有效和有效的方法是面对面的交谈。|<br>|工作软件是进度的主要衡量标准。|工作高质量的软件是进度的主要衡量标准。|<br>|敏捷过程促进可持续发展。发起人、开发人员和用户应该能够无限期地保持恒定的速度。|敏捷过程促进可持续发展和测试。发起人、开发人员、测试人员和用户应该能够始终保持恒定的速度。|<br>|持续关注技术卓越和好的设计提高了敏捷性。|持续关注技术卓越和良好的测试设计可以提高敏捷性。|<br>|简单——最大限度地发挥工作量的艺术——是必不可少的。|简单——最大限度地发挥工作量的艺术——是必不可少的。|<br>|最好的架构、需求和设计来自自己组织的团队。|最好的架构、需求和设计来自自己组织的团队。|<br>|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|</p><h3 id="一直存在的问题"><a href="#一直存在的问题" class="headerlink" title="一直存在的问题"></a>一直存在的问题</h3><p>那么，所有传统的软件测试方法、类型和工件会怎样呢?我们要扔掉它们吗?</p><h3 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h3><p>Naaah !您仍然需要所有这些软件测试方法、类型和工件(但是在不同程度的优先级和必要性)。然而，你需要完全抛弃传统的态度，接受敏捷的态度。</p><p>Test Script </br><br>Test Case </p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机用例</a> </p>]]></content>
       
       
       <categories>
@@ -259,6 +309,31 @@
       <url>/object-object/stf/hui-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>白盒测试</title>
+      <link href="/object-object/stf/bai-he-ce-shi/"/>
+      <url>/object-object/stf/bai-he-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="https://veryaime.github.io/object-object/stf/raun-jian-ce-shi-fang-fa/">软件测试</a>方法，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子;在里面清楚地看到。</p><p>ISTQB定义</p><ul><li><p><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</p></li><li><p><strong>白盒测试技巧：</strong> 基于an的方法派生和/或选择测试用例的过程分析某一部件或系统的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="白盒测试优势"><a href="#白盒测试优势" class="headerlink" title="白盒测试优势"></a>白盒测试优势</h3><ul><li><p>可以在更早的阶段开始测试。无需等待GUI可用。</p></li><li><p>测试更加彻底，可能覆盖大部分路径。</p></li></ul><h3 id="白盒测试劣势"><a href="#白盒测试劣势" class="headerlink" title="白盒测试劣势"></a>白盒测试劣势</h3><ul><li>由于测试可能非常复杂，需要高技能的资源，并对编程和实现有透彻的了解。</li><li>如果执行变化太频繁，测试脚本维护可能成为一个负担。</li><li>由于这种测试方法与正在测试的应用程序密切相关，因此，满足各种类型的实现/平台的工具可能并不容易获得。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>与<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>形成对比。</p><h4 id="TODO-阅读黑盒测试和白盒测试的区别。"><a href="#TODO-阅读黑盒测试和白盒测试的区别。" class="headerlink" title="TODO: 阅读黑盒测试和白盒测试的区别。"></a>TODO: 阅读<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi-he-bai-he-ce-shi-de-qu-bie/">黑盒测试和白盒测试的区别</a>。</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
       
       
       <categories>
@@ -654,31 +729,6 @@
     
     
     <entry>
-      <title>单元测试</title>
-      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
-      <url>/object-object/stf/dan-yuan-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>ISTQB定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行"><a href="#什么时候进行" class="headerlink" title="什么时候进行"></a>什么时候进行</h3><p>单元测试通常由软件开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可重用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动GUI，提供一些输入，希望能够按下您的代码，并希望您已经设置好了)。如果您有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;您不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠。发展的更快</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>使用接近于生产的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果您不能正确解决问题，您将能够捕获缺陷。 其次，您的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保您正在使用版本控制系统来跟踪您的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设您有一个由两个单元组成的程序，并且您执行的唯一测试是系统测试。您跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>测试页面效果</title>
       <link href="/object-object/text-exp/test/"/>
       <url>/object-object/text-exp/test/</url>
@@ -696,56 +746,6 @@
         <tags>
             
             <tag> 测试经验 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>白盒测试</title>
-      <link href="/object-object/stf/bai-he-ce-shi/"/>
-      <url>/object-object/stf/bai-he-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="https://veryaime.github.io/object-object/stf/raun-jian-ce-shi-fang-fa/">软件测试</a>方法，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子;在里面清楚地看到。</p><p>ISTQB定义</p><ul><li><p><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</p></li><li><p><strong>白盒测试技巧：</strong> 基于an的方法派生和/或选择测试用例的过程分析某一部件或系统的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="白盒测试优势"><a href="#白盒测试优势" class="headerlink" title="白盒测试优势"></a>白盒测试优势</h3><ul><li><p>可以在更早的阶段开始测试。无需等待GUI可用。</p></li><li><p>测试更加彻底，可能覆盖大部分路径。</p></li></ul><h3 id="白盒测试劣势"><a href="#白盒测试劣势" class="headerlink" title="白盒测试劣势"></a>白盒测试劣势</h3><ul><li>由于测试可能非常复杂，需要高技能的资源，并对编程和实现有透彻的了解。</li><li>如果执行变化太频繁，测试脚本维护可能成为一个负担。</li><li>由于这种测试方法与正在测试的应用程序密切相关，因此，满足各种类型的实现/平台的工具可能并不容易获得。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>与<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>形成对比。</p><h4 id="TODO-阅读黑盒测试和白盒测试的区别。"><a href="#TODO-阅读黑盒测试和白盒测试的区别。" class="headerlink" title="TODO: 阅读黑盒测试和白盒测试的区别。"></a>TODO: 阅读<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi-he-bai-he-ce-shi-de-qu-bie/">黑盒测试和白盒测试的区别</a>。</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>敏捷测试</title>
-      <link href="/object-object/stf/min-jie-ce-shi/"/>
-      <url>/object-object/stf/min-jie-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="敏捷测试基础"><a href="#敏捷测试基础" class="headerlink" title="敏捷测试基础"></a>敏捷测试基础</h2><p>本文介绍敏捷测试假设您已经了解了敏捷软件开发方法（Scrum，极限编程或其他敏捷）。另外，敏捷测试只会在高层讨论这个想法，你是得不到细节的。</p><h3 id="简短的定义"><a href="#简短的定义" class="headerlink" title="简短的定义"></a>简短的定义</h3><p>敏捷测试是一种遵循敏捷软件开发原理的软件测试方法。</p><h3 id="敏捷软件测试宣言"><a href="#敏捷软件测试宣言" class="headerlink" title="敏捷软件测试宣言"></a>敏捷软件测试宣言</h3><pre class="line-numbers language-none"><code class="language-none">我们发现更好的方法测试软件通过它帮助了其他人。通过这项工作，我们得到了这些价值:<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>​    </p><pre class="line-numbers language-none"><code class="language-none">个体和互动高于流程和工具工作的软件高于详尽的文档客户合作高于合同谈判响应变化高于遵循计划<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">也就是说，尽管右项有其价值，我们更重视左项的价值。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="敏捷测试概念阐述"><a href="#敏捷测试概念阐述" class="headerlink" title="敏捷测试概念阐述"></a>敏捷测试概念阐述</h3><ul><li><p><strong>个体和交互胜过过程和工具：</strong> 这意味着灵活的人和沟通被看重于死板的过程和工具。然而,这并不意味着敏捷测试忽略了流程和工具。 事实上,敏捷测试是建立在非常简单的、强大的、合理的流程进行日常会议的过程或准备每日构建。类似地，敏捷测试试图利用工具，特别是测试自动化，尽可能多。不过， 需要清楚地认识到这一点，驱动这些工具的测试人员和工具的输出依赖于测试人员(而不是相反的)。</p></li><li><p><strong>工作的软件高于详尽的文档:</strong> 这意味着功能和可用的软件综价值高于全面而无用的文档。尽管这更多的是针对预先需求的规范和设计规范，但是对于测试计划和测试用例来说也是如此。我们的主要目标是测试本身，而不是仅仅指向那个目标的任何复杂的文档。但是，最好有必要的文档，这样“图片”就清楚了，如果一个成员离开，“图片”就留在团队里。</p></li><li><p><strong>客户合作高于合同谈判：</strong> 这意味着客户频繁且紧密地与项目的进展进行接触(不是通过复杂的进度报告，而是通过软件的工作片段)这确实给需要定期与团队协作的客户带来了额外的负担(而不是等到合同的最后，希望交付能像承诺的那样)。但是，这种频繁的参与确保了项目正朝着正确的方向前进，而不是在预计鱼类时建设青蛙。</p></li><li><p><strong>响应变化高于遵循计划：</strong> 这意味着接受变化是自然的，并对它们做出反应而不害怕它们。事先有个计划总是好的，但是不管花费多少，即使情况发生了变化，坚持一个计划也不是很好。假设您编写一个测试用例，这是您的计划，假设有一个特定的需求。现在，如果需求发生变化，你不要因为浪费你的时间和精力而感叹。相反，您可以及时调整测试用例以验证已更改的要求。当然，只有一个FOOL会尝试在新软件上运行相同的旧测试用例，并将测试标记为FAIL。</p></li></ul><h3 id="敏捷宣言背后的原则"><a href="#敏捷宣言背后的原则" class="headerlink" title="敏捷宣言背后的原则"></a>敏捷宣言背后的原则</h3><p>在敏捷宣言背后，是一些敏捷实践者不幸未能理解或实现的原则。如果您打算接受敏捷测试，我们鼓励您仔细检查每一个原则并彻底地消化它们。在右边的列中，最初的原则被专门为软件测试人员重新编写。</p><table><thead><tr><th>我们遵循这些原则</th><th>对软件测试人员来说意味着什么：</th></tr></thead><tbody><tr><td>我们的首要任务是通过早期和持续交付有价值的软件来满足客户。</td><td>我们的首要任务是通过早期和持续交付高质量的软件来满足客户。</td></tr><tr><td>欢迎改变需求，即使是在开发后期。敏捷过程利用变更来满足客户的竞争优势。</td><td>欢迎改变需求，即使是在测试后期。敏捷过程利用变更来满足客户的竞争优势。</td></tr></tbody></table><p>|经常交付工作软件，从几个星期到几个月，偏好于较短的时间范围。|频繁地交付高质量的软件，从几个星期到几个月，偏好于较短的时间范围。<br>|业务人员和开发人员必须在整个项目中每天工作。|业务人员、开发人员和测试人员必须在整个项目中每天工作。|<br>|围绕有动机的个人构建项目。给他们提供他们需要的环境和支持，并相信他们能完成工作|围绕有动机的个人构建测试项目。给他们提供他们需要的环境和支持，并相信他们能完成工作。|<br>|在开发团队中传递信息的最有效和有效的方法是面对面的交谈。|在测试团队中传递信息的最有效和有效的方法是面对面的交谈。|<br>|工作软件是进度的主要衡量标准。|工作高质量的软件是进度的主要衡量标准。|<br>|敏捷过程促进可持续发展。发起人、开发人员和用户应该能够无限期地保持恒定的速度。|敏捷过程促进可持续发展和测试。发起人、开发人员、测试人员和用户应该能够始终保持恒定的速度。|<br>|持续关注技术卓越和好的设计提高了敏捷性。|持续关注技术卓越和良好的测试设计可以提高敏捷性。|<br>|简单——最大限度地发挥工作量的艺术——是必不可少的。|简单——最大限度地发挥工作量的艺术——是必不可少的。|<br>|最好的架构、需求和设计来自自己组织的团队。|最好的架构、需求和设计来自自己组织的团队。|<br>|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|</p><h3 id="一直存在的问题"><a href="#一直存在的问题" class="headerlink" title="一直存在的问题"></a>一直存在的问题</h3><p>那么，所有传统的软件测试方法、类型和工件会怎样呢?我们要扔掉它们吗?</p><h3 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h3><p>Naaah !您仍然需要所有这些软件测试方法、类型和工件(但是在不同程度的优先级和必要性)。然而，你需要完全抛弃传统的态度，接受敏捷的态度。</p><p>Test Script </br><br>Test Case </p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机用例</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
             
         </tags>
       
