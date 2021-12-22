@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="白盒测试, 测试人">
-    <meta name="description" content="白盒测试也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种[软件测试](软件测试.md)方法，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。">
+    <meta name="keywords" content="gRPC 访问服务端接口失败解决方案, 测试人">
+    <meta name="description" content="错误提示 too many colons in address">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>白盒测试 | 测试人</title>
+    <title>gRPC 访问服务端接口失败解决方案 | 测试人</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/46.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">白盒测试</h1>
+                    <h1 class="description center-align post-title">gRPC 访问服务端接口失败解决方案</h1>
                 </div>
             </div>
         </div>
@@ -409,8 +409,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                                <span class="chip bg-color">软件测试基础</span>
+                            <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                                <span class="chip bg-color">测试经验</span>
                             </a>
                         
                     </div>
@@ -421,8 +421,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/" class="post-category">
-                                软件测试基础
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/" class="post-category">
+                                测试经验
                             </a>
                         
                     </div>
@@ -434,7 +434,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-11
+                    2021-03-23
                 </div>
                 
 
@@ -458,25 +458,13 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="(https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/)">软件测试方法</a>，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p>
-<p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子。</p>
-<p>国际软件测试资质认证委员会（ISTQB）定义</p>
-<ul>
-<li><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</li>
-<li><strong>白盒测试技巧：</strong> 选择测试用例的过程分析某一部件或系统的内部结构。</li>
-</ul>
-<p><img src="https://pics6.baidu.com/feed/203fb80e7bec54e75a8d10f72e8ca5564ec26a34.jpeg?token=0b64ce09c736a08b194bdc3d6f1d7b56&s=59843C720F427C49485C14CE0000E0B1"></p>
-<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p>
-<p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p>
-<h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p>
-<ul>
-<li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li>
-<li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li>
-<li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li>
-</ul>
-<p>然而，它主要应用于单元测试。</p>
-<h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p><img src="https://pics7.baidu.com/feed/96dda144ad3459826ebe6e089a400fabcaef84ab.jpeg?token=e68322a8169dbf01c9107e5508788572&s=1C205E324D3272031974DDCB020060B1"></p>
-<p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>
+                <h1 id="gRPC客户端访问服务端失败解决方案"><a href="#gRPC客户端访问服务端失败解决方案" class="headerlink" title="gRPC客户端访问服务端失败解决方案"></a>gRPC客户端访问服务端失败解决方案</h1><h3 id="1-报错信息"><a href="#1-报错信息" class="headerlink" title="1 报错信息"></a>1 报错信息</h3><pre class="line-numbers language-none"><code class="language-none">&#123;&quot;file&quot;:&quot;&#x2F;cmd&#x2F;channel&#x2F;xxx&#x2F;prepay.go&quot;,&quot;level&quot;:&quot;error&quot;,&quot;line&quot;:220,&quot;msg&quot;:&quot;xxx.DoPrepayGRPC error: xxx2Client.CreateOrder: rpc error: code &#x3D; Unavailable desc &#x3D; connection error: desc &#x3D; \&quot;transport: Error while dialing dial tcp: address http:&#x2F;&#x2F;127.0.0.1:11281: too many colons in address\&quot;&quot;,&quot;pid&quot;:60118,&quot;requestid&quot;:&quot;2_1615862181_5&quot;,&quot;sdkid&quot;:&quot;xxx_global&quot;,&quot;time&quot;:&quot;2021-03-16T10:36:21+08:00&quot;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><strong>错误关键字：too many colons in address</strong></p>
+<h3 id="2-原因"><a href="#2-原因" class="headerlink" title="2  原因"></a>2  原因</h3><p>我碰到的原因是因为grpc客户端用的接口要使用服务器ip或域名，不是URL,不需要加协议前缀。</p>
+<p>同时也不需要path，是因为已经通过协议封装，协议里面有service和interface的信息，序列化了，不需要通过path来分发到具体的接口，但是通过在代码中带一个参数mehod，如method=”/server/add”，然后程序通过 if method==xxx判断走什么逻辑。</p>
+<h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3 解决方案"></a>3 解决方案</h3><p>需要把”http://“去掉。 直接是127.0.0.1:11281</p>
+<p>如果你在其他地方碰到同一个报错也可以尝试这个方法是否有效。</p>
 
                 
             </div>
@@ -503,7 +491,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</a>
+                    <a href="https://veryaime.github.io/object-object/text-exp/grpc-diao-yong-fu-wu-duan-jie-kou-bao-cuo/">https://veryaime.github.io/object-object/text-exp/grpc-diao-yong-fu-wu-duan-jie-kou-bao-cuo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -541,8 +529,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                                    <span class="chip bg-color">软件测试基础</span>
+                                <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                                    <span class="chip bg-color">测试经验</span>
                                 </a>
                             
                         </div>
@@ -718,31 +706,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/object-object/stf/hui-he-ce-shi/">
+                <a href="/object-object/text-exp/grpc-fang-wen-fu-wu-duan-bao-cuo/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/47.jpg" class="responsive-img" alt="灰盒测试">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="gRPC访问服务端失败解决方案">
                         
-                        <span class="card-title">灰盒测试</span>
+                        <span class="card-title">gRPC访问服务端失败解决方案</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            灰盒测试是一种软件测试方法，是黑盒测试方法和白盒测试方法的结合
+                            错误提示 rpc error code = Unimplemented desc = unknown service xxx 可能原因
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-23
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/" class="post-category">
-                                    软件测试基础
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/" class="post-category">
+                                    测试经验
                                 </a>
                             
                             
@@ -752,8 +740,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">软件测试基础</span>
+                    <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                        <span class="chip bg-color">测试经验</span>
                     </a>
                     
                 </div>
@@ -767,31 +755,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/object-object/stf/fu-he-xing-ce-shi/">
+                <a href="/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="符合性测试">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="golang float 精度掉失问题解决方案">
                         
-                        <span class="card-title">符合性测试</span>
+                        <span class="card-title">golang float 精度掉失问题解决方案</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            符合性测试 (也称为一致性测试，规则测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。
+                            接口发请求price=0.99，golang处理后返回price=0.9899999999......
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-23
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/" class="post-category">
-                                    软件测试基础
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/" class="post-category">
+                                    测试经验
                                 </a>
                             
                             
@@ -801,8 +789,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">软件测试基础</span>
+                    <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                        <span class="chip bg-color">测试经验</span>
                     </a>
                     
                 </div>
