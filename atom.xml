@@ -119,6 +119,31 @@
   </entry>
   
   <entry>
+    <title>单元测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-17T04:59:33.502Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;单元测试基础&quot;&gt;&lt;a href=&quot;#单元测试基础&quot; class=&quot;headerlink&quot; title=&quot;单元测试基础&quot;&gt;&lt;/a&gt;单元测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
+    
+    
+    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>回归测试</title>
     <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
@@ -144,18 +169,19 @@
   </entry>
   
   <entry>
-    <title>单元测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/</id>
+    <title>安全测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/an-quan-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/an-quan-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-17T04:59:33.502Z</updated>
+    <updated>2021-12-13T01:09:56.548Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;单元测试基础&quot;&gt;&lt;a href=&quot;#单元测试基础&quot; class=&quot;headerlink&quot; title=&quot;单元测试基础&quot;&gt;&lt;/a&gt;单元测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;安全测试基本原理&quot;&gt;&lt;a href=&quot;#安全测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;安全测试基本原理&quot;&gt;&lt;/a&gt;安全测试基本原理&lt;/h2&gt;&lt;p&gt;安全性测试的定义,重点领域、示例等,…&lt;/p&gt;
+&lt;h3 id=&quot;定义&quot;&gt;&lt;a</summary>
         
       
     
@@ -320,31 +346,6 @@
   </entry>
   
   <entry>
-    <title>符合性测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-17T05:08:12.705Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;符合性测试基本原理&quot;&gt;&lt;a href=&quot;#符合性测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;符合性测试基本原理&quot;&gt;&lt;/a&gt;符合性测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>灰盒测试</title>
     <link href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/hui-he-ce-shi/</id>
@@ -395,19 +396,18 @@
   </entry>
   
   <entry>
-    <title>安全测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/an-quan-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/an-quan-ce-shi/</id>
+    <title>符合性测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-13T01:09:56.548Z</updated>
+    <updated>2021-12-17T05:08:12.705Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;安全测试基本原理&quot;&gt;&lt;a href=&quot;#安全测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;安全测试基本原理&quot;&gt;&lt;/a&gt;安全测试基本原理&lt;/h2&gt;&lt;p&gt;安全性测试的定义,重点领域、示例等,…&lt;/p&gt;
-&lt;h3 id=&quot;定义&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;符合性测试基本原理&quot;&gt;&lt;a href=&quot;#符合性测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;符合性测试基本原理&quot;&gt;&lt;/a&gt;符合性测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -433,31 +433,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;系统测试基础&quot;&gt;&lt;a href=&quot;#系统测试基础&quot; class=&quot;headerlink&quot; title=&quot;系统测试基础&quot;&gt;&lt;/a&gt;系统测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
-    
-    
-    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>缺陷优先级</title>
-    <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
-    <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-12T07:24:06.782Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -509,6 +484,31 @@
         
         
     <summary type="html">&lt;h2 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="STF" scheme="https://veryaime.github.io/categories/STF/"/>
+    
+    
+    <category term="测试基础" scheme="https://veryaime.github.io/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>缺陷优先级</title>
+    <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
+    <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-12T07:24:06.782Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
         
       
     

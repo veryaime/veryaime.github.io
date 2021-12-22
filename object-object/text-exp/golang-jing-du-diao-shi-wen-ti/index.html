@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="随机测试, 测试人">
-    <meta name="description" content="随机测试也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。">
+    <meta name="keywords" content="golang float 精度掉失问题解决方案, 测试人">
+    <meta name="description" content="接口发请求price=0.99，golang处理后返回price=0.9899999999......">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>随机测试 | 测试人</title>
+    <title>golang float 精度掉失问题解决方案 | 测试人</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">随机测试</h1>
+                    <h1 class="description center-align post-title">golang float 精度掉失问题解决方案</h1>
                 </div>
             </div>
         </div>
@@ -409,8 +409,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                                <span class="chip bg-color">测试基础</span>
+                            <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                                <span class="chip bg-color">测试经验</span>
                             </a>
                         
                     </div>
@@ -421,8 +421,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/STF/" class="post-category">
-                                STF
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/" class="post-category">
+                                测试经验
                             </a>
                         
                     </div>
@@ -434,7 +434,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-12-11
+                    2021-03-23
                 </div>
                 
 
@@ -458,11 +458,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p>
-<p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p>
-<p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p>
-<p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p>
-<p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>
+                <h1 id="golang-float-精度掉失问题解决方案"><a href="#golang-float-精度掉失问题解决方案" class="headerlink" title="golang float 精度掉失问题解决方案"></a>golang float 精度掉失问题解决方案</h1><h3 id="1-具体信息"><a href="#1-具体信息" class="headerlink" title="1 具体信息"></a>1 具体信息</h3><pre class="line-numbers language-none"><code class="language-none">&#123;&quot;file&quot;:&quot;&#x2F;pkg&#x2F;interceptor&#x2F;logger&#x2F;log.go&quot;,&quot;level&quot;:&quot;info&quot;,&quot;line&quot;:32,&quot;msg&quot;:&quot;grpc.service: &#x2F;xxx&#x2F;CreateOrder, req: orderid:\&quot;orderid_1616209853\&quot; region:\&quot;ID\&quot; productid:\&quot;goodsid_1\&quot; product_name:\&quot;product_name\&quot; product_count:1 price:0.99 currency:\&quot;USD\&quot; expired_time:1616296253 aid:1 userip:\&quot;127.0.0.1\&quot; appid:\&quot;xxx\&quot; , resp: code:1000 msg:\&quot;ok\&quot; pay_url:\&quot;http:&#x2F;&#x2F;127.0.0.1:30004&#x2F;exchange?currency&#x3D;USD\u0026pay_orderid&#x3D;29322021032011105300000018470885\u0026price&#x3D;0.9899999999999999911182158029987476766109466552734375\u0026product_name&#x3D;product_name\&quot; , grpc_code: OK&quot;,&quot;requestid&quot;:&quot;932_1616209853_1&quot;,&quot;time&quot;:&quot;2021-03-20T11:10:53+08:00&quot;,&quot;version&quot;:&quot;2.2.2.317&quot;&#125;
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>具体表现：接口发请求price=0.99，golang处理后返回price=0.9899999999……</p>
+<h3 id="2-可能原因"><a href="#2-可能原因" class="headerlink" title="2  可能原因"></a>2  可能原因</h3><ul>
+<li>decimal是以10为底 ，golang float是以2为底，所以导致精度掉失</li>
+<li>可以了解下浮点数表示方法：<a target="_blank" rel="noopener" href="https://blog.csdn.net/K346K346/article/details/50487127">疯狂点我</a></li>
+</ul>
+<h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3 解决方案"></a>3 解决方案</h3><ul>
+<li>使用<a target="_blank" rel="noopener" href="https://pkg.go.dev/github.com/shopspring/decimal#NewFromFloatWithExponent">NewFromFloatWithExponent</a>方法进行转换。</li>
+</ul>
 
                 
             </div>
@@ -489,7 +495,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/</a>
+                    <a href="https://veryaime.github.io/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/">https://veryaime.github.io/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -527,8 +533,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                                    <span class="chip bg-color">测试基础</span>
+                                <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                                    <span class="chip bg-color">测试经验</span>
                                 </a>
                             
                         </div>
@@ -704,31 +710,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/object-object/stf/ruan-jian-ce-shi-fang-fa/">
+                <a href="/object-object/text-exp/grpc-ce-shi-zong-jie/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/29.jpg" class="responsive-img" alt="软件测试方法">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="我的gRPC测试总结">
                         
-                        <span class="card-title">软件测试方法</span>
+                        <span class="card-title">我的gRPC测试总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            介绍软件测试的一些方法/技术。
+                            分享我测试 gRPC 测试经验
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-06-12
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/STF/" class="post-category">
-                                    STF
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/" class="post-category">
+                                    测试经验
                                 </a>
                             
                             
@@ -738,8 +744,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">测试基础</span>
+                    <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                        <span class="chip bg-color">测试经验</span>
                     </a>
                     
                 </div>
@@ -750,45 +756,46 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/object-object/stf/ji-cheng-ce-shi/">
+                <a href="/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="集成测试">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="golang float 精度掉失问题解决方案">
                         
-                        <span class="card-title">集成测试</span>
+                        <span class="card-title">golang float 精度掉失问题解决方案</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            集成测试是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。
+                            接口发请求price=0.99，golang处理后返回price=0.9899999999......
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-03-23
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/STF/" class="post-category">
-                                    STF
+                            <a href="/categories/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/" class="post-category">
+                                    测试经验
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/">
-                        <span class="chip bg-color">测试基础</span>
+                    <a href="/tags/%E6%B5%8B%E8%AF%95%E7%BB%8F%E9%AA%8C/">
+                        <span class="chip bg-color">测试经验</span>
                     </a>
                     
                 </div>
