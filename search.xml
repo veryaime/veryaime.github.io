@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>功能测试</title>
-      <link href="/object-object/stf/gong-neng-ce-shi/"/>
-      <url>/object-object/stf/gong-neng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/">冒烟测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>冒烟测试</title>
       <link href="/object-object/stf/mou-yan-ce-shi/"/>
       <url>/object-object/stf/mou-yan-ce-shi/</url>
@@ -104,11 +79,11 @@
     
     
     <entry>
-      <title>单元测试</title>
-      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
-      <url>/object-object/stf/dan-yuan-ce-shi/</url>
+      <title>功能测试</title>
+      <link href="/object-object/stf/gong-neng-ce-shi/"/>
+      <url>/object-object/stf/gong-neng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>国际软件测试认证委员会（ISTQB）定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行，谁执行"><a href="#什么时候进行，谁执行" class="headerlink" title="什么时候进行，谁执行"></a>什么时候进行，谁执行</h3><p>单元测试通常由在开发功能代码时执行，由开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可复用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动 GUI，提供一些输入，希望能够按下你的代码，并希望你已经设置好了)。如果你有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;你不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠，发展的更快。</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>尽可能使用接近于生产环境的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果你不能正确解决问题，你将能够捕获缺陷。 其次，你的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保你正在使用版本控制系统来跟踪你的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设你有一个由两个单元组成的程序，并且你执行的唯一测试是系统测试。你跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/">冒烟测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a> </p>]]></content>
       
       
       <categories>
@@ -154,11 +129,11 @@
     
     
     <entry>
-      <title>安全测试</title>
-      <link href="/object-object/stf/an-quan-ce-shi/"/>
-      <url>/object-object/stf/an-quan-ce-shi/</url>
+      <title>单元测试</title>
+      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
+      <url>/object-object/stf/dan-yuan-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，指在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。涉及到安全测试的同学一定要看看<a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">测试指南</a>以及OWASP每年的<a href="https://owasp.org/www-project-top-ten/">十大安全威胁</a>。</p><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>国际软件测试认证委员会（ISTQB）定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行，谁执行"><a href="#什么时候进行，谁执行" class="headerlink" title="什么时候进行，谁执行"></a>什么时候进行，谁执行</h3><p>单元测试通常由在开发功能代码时执行，由开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可复用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动 GUI，提供一些输入，希望能够按下你的代码，并希望你已经设置好了)。如果你有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;你不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠，发展的更快。</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>尽可能使用接近于生产环境的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果你不能正确解决问题，你将能够捕获缺陷。 其次，你的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保你正在使用版本控制系统来跟踪你的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设你有一个由两个单元组成的程序，并且你执行的唯一测试是系统测试。你跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
       
       
       <categories>
@@ -329,6 +304,31 @@
     
     
     <entry>
+      <title>符合性测试</title>
+      <link href="/object-object/stf/fu-he-xing-ce-shi/"/>
+      <url>/object-object/stf/fu-he-xing-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://img-blog.csdnimg.cn/wm/178c8fb206ac6ef795fe1e73e36af403.jpg?x-oss-process=image/resize,h_236,w_382" alt="符合性测试"></p><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>内部标准可以是公司自身定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成，这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>灰盒测试</title>
       <link href="/object-object/stf/hui-he-ce-shi/"/>
       <url>/object-object/stf/hui-he-ce-shi/</url>
@@ -379,61 +379,36 @@
     
     
     <entry>
+      <title>安全测试</title>
+      <link href="/object-object/stf/an-quan-ce-shi/"/>
+      <url>/object-object/stf/an-quan-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，指在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。涉及到安全测试的同学一定要看看<a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">测试指南</a>以及OWASP每年的<a href="https://owasp.org/www-project-top-ten/">十大安全威胁</a>。</p><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>系统测试</title>
       <link href="/object-object/stf/xi-tong-ce-shi/"/>
       <url>/object-object/stf/xi-tong-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>符合性测试</title>
-      <link href="/object-object/stf/fu-he-xing-ce-shi/"/>
-      <url>/object-object/stf/fu-he-xing-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://img-blog.csdnimg.cn/wm/178c8fb206ac6ef795fe1e73e36af403.jpg?x-oss-process=image/resize,h_236,w_382" alt="符合性测试"></p><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>内部标准可以是公司自身定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成，这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>缺陷重要程度</title>
-      <link href="/object-object/stf/que-xian-yan-chong-cheng-du/"/>
-      <url>/object-object/stf/que-xian-yan-chong-cheng-du/</url>
-      
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
       
       
       <categories>
@@ -479,11 +454,11 @@
     
     
     <entry>
-      <title>缺陷报告</title>
-      <link href="/object-object/stf/que-xian-bao-gao/"/>
-      <url>/object-object/stf/que-xian-bao-gao/</url>
+      <title>缺陷</title>
+      <link href="/object-object/stf/que-xian/"/>
+      <url>/object-object/stf/que-xian/</url>
       
-        <content type="html"><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3>]]></content>
+        <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://pic4.zhimg.com/v2-96681aa93a2a3d4afedd88e00b02bd8b_r.jpg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="https://veryaime.github.io/object-object/stf/que-xian-gai-lv/">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/">缺陷优先级</a>)</li><li>质量相关维度(见<a href="https://veryaime.github.io/object-object/stf/zhi-liang-wei-du/">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-jiao-ben/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>) </p>]]></content>
       
       
       <categories>
@@ -504,11 +479,36 @@
     
     
     <entry>
-      <title>缺陷</title>
-      <link href="/object-object/stf/que-xian/"/>
-      <url>/object-object/stf/que-xian/</url>
+      <title>缺陷重要程度</title>
+      <link href="/object-object/stf/que-xian-yan-chong-cheng-du/"/>
+      <url>/object-object/stf/que-xian-yan-chong-cheng-du/</url>
       
-        <content type="html"><![CDATA[<p>软件缺陷/错误:定义、解释、分类、细节:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>软件缺陷/缺陷是软件产品中的一个条件，它不能满足软件需求(如需求规范中所述)或最终用户期望(这可能不是指定的，但是是合理的)。换句话说，缺陷是编码或逻辑中的一个错误，导致程序出现故障或产生不正确/意外的结果。</p><ul><li>一个包含大量错误的程序据说是有bug的。</li><li>在软件中详细描述bug的报告称为bug报告。(见 <a href="https://veryaime.github.io/object-object/stf/que-xian-bao-gao/">缺陷报告</a>)</li><li>跟踪bug的应用程序称为bug跟踪工具。</li><li>找到bug的原因的过程称为调试。</li><li>在软件程序中故意注入错误的过程，通过监视这些bug的检测来估计测试覆盖率，被称为填错。</li></ul><p><img src="https://pic4.zhimg.com/v2-96681aa93a2a3d4afedd88e00b02bd8b_r.jpg" alt="bug"></p><p>软件的测试证明，缺陷的存在，但不一定就存在缺陷。</p><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><p>软件缺陷/错误通常按照：</p><ul><li>严重程度/影响(见<a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>)</li><li>概率/可见性(见<a href="https://veryaime.github.io/object-object/stf/que-xian-gai-lv/">缺陷概率</a>)</li><li>优先级/紧急状态(见<a href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/">缺陷优先级</a>)</li><li>质量相关维度(见<a href="https://veryaime.github.io/object-object/stf/zhi-liang-wei-du/">质量维度</a>)</li><li>相关模块/组件</li><li>相位检测</li><li>阶段注入</li></ul><p>相关模块/组件</p><p>相关模块/组件表示检测到缺陷的软件模块或组件。这提供了关于哪些模块/组件具有bug或风险的信息。</p><ul><li>模块/组件A</li><li>模块/组件B</li><li>模块/组件C</li><li>… </li></ul><p>阶段注入</p><p>阶段注入指示软件开发生命周期中的阶段，在那里引入了bug。在软件开发生命周期中，阶段注入总是比被检测到的阶段更早。只有在正确的根源分析后才能知道注入的阶段。</p><ul><li>需求开发</li><li>高层次设计</li><li>详细设计</li><li>编码</li><li>构建/部署</li></ul><p>请注意，上面的分类只是指导方针，由项目/组织决定使用哪种类型的分类。在大多数情况下，分类取决于正在使用的缺陷跟踪工具。项目成员必须事先就分类(以及每个分类的含义)达成一致，以避免争论、冲突和不健康的争吵。</p><p><strong>注意</strong> ：我们更喜欢“缺陷”这个词而不是“Bug”，因为“缺陷”更全面。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-jiao-ben/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/que-xian-yan-zhong-cheng-du/">缺陷严重程度</a>) </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>缺陷报告</title>
+      <link href="/object-object/stf/que-xian-bao-gao/"/>
+      <url>/object-object/stf/que-xian-bao-gao/</url>
+      
+        <content type="html"><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3>]]></content>
       
       
       <categories>
@@ -604,31 +604,6 @@
     
     
     <entry>
-      <title>软件测试方法</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="https://veryaime.github.io/object-object/stf/raun-ji-ce-shi-fang-fa/">软件测试级别</a>和<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fen-lei/">软件测试类型</a>。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> STF </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件测试博客</title>
       <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
       <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
@@ -654,11 +629,11 @@
     
     
     <entry>
-      <title>随机测试</title>
-      <link href="/object-object/stf/sui-ji-ce-shi/"/>
-      <url>/object-object/stf/sui-ji-ce-shi/</url>
+      <title>软件测试方法</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
       
-        <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="https://veryaime.github.io/object-object/stf/raun-ji-ce-shi-fang-fa/">软件测试级别</a>和<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fen-lei/">软件测试类型</a>。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a></p>]]></content>
       
       
       <categories>
@@ -684,6 +659,31 @@
       <url>/object-object/stf/ji-cheng-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> STF </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随机测试</title>
+      <link href="/object-object/stf/sui-ji-ce-shi/"/>
+      <url>/object-object/stf/sui-ji-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
       
       
       <categories>
@@ -767,9 +767,9 @@
     
     
     <entry>
-      <title>我的gRPC测试经验</title>
-      <link href="/object-object/text-exp/grpc-ce-shi-ji-lu/"/>
-      <url>/object-object/text-exp/grpc-ce-shi-ji-lu/</url>
+      <title>我的gRPC测试总结</title>
+      <link href="/object-object/text-exp/grpc-ce-shi-zong-jie/"/>
+      <url>/object-object/text-exp/grpc-ce-shi-zong-jie/</url>
       
         <content type="html"><![CDATA[<h2 id="我的gRPC测试经验"><a href="#我的gRPC测试经验" class="headerlink" title="我的gRPC测试经验"></a>我的gRPC测试经验</h2><p><strong>记一次gRPC测试经验，离测试结束已有一段时间了，一直没空更新，接假期梳理一下，希望对大家有帮助。</strong></p><h3 id="1-gRPC选型背景及业务交互"><a href="#1-gRPC选型背景及业务交互" class="headerlink" title="1 gRPC选型背景及业务交互"></a>1 gRPC选型背景及业务交互</h3><h4 id="1-1选gRPC技术主要背景有"><a href="#1-1选gRPC技术主要背景有" class="headerlink" title="1.1选gRPC技术主要背景有"></a>1.1选gRPC技术主要背景有</h4><ul><li><p>技术的迭代，在一个系统新业务做为试点，积累更多经验，为后续内部服务接口从HTTP转gRPC切换提供基础；</p></li><li><p>为满足未来对性能有极高要求的场景；</p></li><li><p>gRPC清晰的 API 规范以及对流的良好支持，再加上有Nginx的加持，对于内部服务使用，gRPC是不二选择；</p></li><li><p>适配多语言，减少第三方调用成本。</p><h4 id="1-2-业务交互"><a href="#1-2-业务交互" class="headerlink" title="1.2 业务交互"></a>1.2 业务交互</h4><p>内部系统业务交互示意图：</p><p><img src="https://pic2.zhimg.com/80/v2-06e9d593e07556ada8f3ec849e320eb1_720w.jpg"></p></li></ul><h3 id="2-gRPC"><a href="#2-gRPC" class="headerlink" title="2  gRPC"></a>2  gRPC</h3><h4 id="2-1-gRPC是什么"><a href="#2-1-gRPC是什么" class="headerlink" title="2.1 gRPC是什么"></a>2.1 gRPC是什么</h4><p>借用gRPC首页的一句话来理解它是什么。</p><pre class="line-numbers language-none"><code class="language-none">A high performance, open source universal RPC framework<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>如下图，gRPC与RPC一样，也是使用了定义服务的思想，通过制定参数和返回类型实现的一种远程过程调用方法。Client可以直接调用Server端的接口，就想调用本地的方法一样。在服务器端，服务器实现了这个接口并运行一个 gRPC 服务器来处理客户端调用。</p><p><img src="https://pic3.zhimg.com/80/v2-1a6c82ef9d50de88905ea4a315633f66_720w.jpg"></p><h4 id="2-2-proto文件"><a href="#2-2-proto文件" class="headerlink" title="2.2 proto文件"></a>2.2 proto文件</h4><p> 说到proto文件(*.proto)，不得不提<a href="https://developers.google.com/protocol-buffers/docs/overview">协议缓冲区</a>，它是一种用于序列化结构化数据的机制。gRPC使用协议缓冲区创建proto文件，定义结构化数据，protobuf 的术语中，结构化数据被称为 Message。通俗点说相当于确定数据协议，数据结构中存在哪些数据，数据类型是怎么样。如下例子：</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment"># 定义语法类型</span>syntax <span class="token operator">=</span> <span class="token string">"proto3"</span><span class="token punctuation">;</span> <span class="token comment"># 声明包名</span>package 包名<span class="token punctuation">;</span> <span class="token comment"># 声明服务</span>service TestServer <span class="token punctuation">&#123;</span>   <span class="token comment"># 以下 分别是 服务端 推送流， 客户端 推送流 ，双向流。</span>  rpc CardList <span class="token punctuation">(</span>cardListReq<span class="token punctuation">)</span> returns <span class="token punctuation">(</span>cardListRsp<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token comment"># 流请求结构</span>message StreamReqData <span class="token punctuation">&#123;</span>   string data <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token comment"># 流返回结构</span>message StreamResData <span class="token punctuation">&#123;</span>   string data <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token comment"># 定义请求结构体</span>message cardListReq <span class="token punctuation">&#123;</span>  <span class="token builtin">map</span><span class="token operator">&lt;</span>string<span class="token punctuation">,</span> string<span class="token operator">></span> extra <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>  string orderid <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>  string gen_id <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span>  int64  curpage <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span>  int64  pagesize <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token comment"># 定义返回结构体</span>message cardListRsp <span class="token punctuation">&#123;</span>  <span class="token builtin">map</span><span class="token operator">&lt;</span>string<span class="token punctuation">,</span> string<span class="token operator">></span> extra <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>  int32  code <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span> <span class="token comment"># 返回码</span>  string msg <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">;</span> <span class="token comment"># 返回信息</span>  <span class="token builtin">map</span><span class="token operator">&lt;</span>string<span class="token punctuation">,</span> string<span class="token operator">></span> codes <span class="token operator">=</span> <span class="token number">4</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span>`<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>那我们拿到这个文件怎么用呢？可以使用protoc编译器把proto文件，但要确保你编译的proto文件是最新的，具体命令如下：</p><pre class="line-numbers language-none"><code class="language-none">xxxxxxxxxx python -m grpc_tools.protoc -I .&#x2F; --python_out&#x3D;&#123;py文件输出存放dir&#125; --grpc_python_out&#x3D;&#123;grpc文件输出存放dir&#125; .&#x2F;test.proto&#x2F;*输出4个文件：test_pb2_grpc.py   test_pb2.py test_pb2_grpc.pyc test_pb2.pyc*&#x2F;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h4 id="2-3-环境配置"><a href="#2-3-环境配置" class="headerlink" title="2.3 环境配置"></a>2.3 环境配置</h4><ul><li>Nginx配置</li></ul><p> HTTP的Nginx配置和gRPC有点区别，下面列出了在配置Nginx时需要注意的地方：</p><pre class="line-numbers language-python" data-language="python"><code class="language-python">server <span class="token punctuation">&#123;</span>    listen       <span class="token number">80</span> http2<span class="token punctuation">;</span> <span class="token comment"># 因为gRPC是基于HTTP2,所以这里要使用HTTP2。目前Nginx不支持HTTH1和HTTP2共用一个端口，要检查配置的port是否已使用。</span>   <span class="token comment"># grpc prrof test inprovement,default 1000 解决高并发下请求连接数限制问题，在文章后面会有介绍</span>    keepalive_requests <span class="token number">1000</span><span class="token punctuation">;</span>    server_name  domain<span class="token punctuation">;</span>    <span class="token punctuation">.</span>    <span class="token punctuation">.</span>    <span class="token punctuation">.</span><span class="token comment"># 下面"A.B"就是当初proto文件中定义的包名及服务名</span>    location <span class="token operator">~</span> <span class="token operator">/</span><span class="token punctuation">(</span>test<span class="token punctuation">.</span>TestServer<span class="token operator">|</span>test<span class="token punctuation">.</span>GameProduct<span class="token punctuation">)</span><span class="token operator">/</span> <span class="token punctuation">&#123;</span><span class="token punctuation">.</span>        <span class="token punctuation">.</span>        <span class="token punctuation">.</span>      <span class="token comment"># 这里需要配置成grcp_pass,在HTTP中proxy_pass http</span>        grpc_pass grpc<span class="token punctuation">:</span><span class="token operator">//</span>test_channel<span class="token punctuation">;</span>     <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="2-4-客户端用例实现"><a href="#2-4-客户端用例实现" class="headerlink" title="2.4 客户端用例实现"></a>2.4 客户端用例实现</h4><p> 得到编译出来的gRPC文件，我们需要在Client中导入，下面是一个简单例子：</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> grpc<span class="token keyword">import</span> test_pb2 <span class="token keyword">as</span> pb<span class="token keyword">import</span> test_pb2_grpc <span class="token keyword">as</span> pb_grpc<span class="token keyword">def</span> <span class="token function">test_get_card_list</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token triple-quoted-string string">"""分页获取卡密"""</span>    server <span class="token operator">=</span> grpc<span class="token punctuation">.</span>insecure_channel<span class="token punctuation">(</span><span class="token string">'&#123;domain/server ip&#125;:&#123;port&#125;'</span><span class="token punctuation">)</span>    cardListstub <span class="token operator">=</span> pb_grpc<span class="token punctuation">.</span>TestServerStub<span class="token punctuation">(</span>server<span class="token punctuation">)</span>    <span class="token keyword">try</span><span class="token punctuation">:</span>        respCardList <span class="token operator">=</span> cardListstub<span class="token punctuation">.</span>CardList<span class="token punctuation">(</span>pb<span class="token punctuation">.</span>cardListReq<span class="token punctuation">(</span>            orderid<span class="token operator">=</span><span class="token string">"orderid_87534042742"</span><span class="token punctuation">,</span>            curpage<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>            pagesize<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>            gen_id<span class="token operator">=</span><span class="token string">"gen_87534042742"</span><span class="token punctuation">,</span>        <span class="token punctuation">)</span><span class="token punctuation">)</span>        <span class="token comment"># 设置断言</span>        <span class="token keyword">if</span> respCardList<span class="token punctuation">.</span>code <span class="token operator">==</span> <span class="token number">1000</span><span class="token punctuation">:</span>            <span class="token keyword">assert</span> <span class="token string">'ok'</span> <span class="token keyword">in</span> respCardList<span class="token punctuation">.</span>msg            <span class="token keyword">print</span> respCardList        <span class="token keyword">else</span><span class="token punctuation">:</span>            <span class="token keyword">assert</span> respCardList<span class="token punctuation">.</span>code <span class="token operator">==</span> <span class="token number">1000</span>    <span class="token keyword">except</span> grpc<span class="token punctuation">.</span>RpcError <span class="token keyword">as</span> e<span class="token punctuation">:</span>        <span class="token keyword">print</span> <span class="token string">'--------------- 返回未知状态，请查看日志排查问题 --------------'</span>        <span class="token keyword">assert</span> <span class="token string">'UNKNOWN'</span> <span class="token keyword">in</span> e        <span class="token comment"># print e</span>    <span class="token keyword">except</span> Exception <span class="token keyword">as</span> e<span class="token punctuation">:</span>        <span class="token keyword">print</span> <span class="token string">"get except: %s"</span> <span class="token operator">%</span> <span class="token builtin">str</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>对于我们测试同学来说，了解proto内容含义、原理及怎么使用，已经满足工作需要了。</p><h3 id="3-ghz压测"><a href="#3-ghz压测" class="headerlink" title="3 ghz压测"></a><strong>3 ghz压测</strong></h3><h4 id="3-1-环境搭建"><a href="#3-1-环境搭建" class="headerlink" title="3.1 环境搭建"></a>3.1 环境搭建</h4><p> 在网上搜了一波，对于gRPC压测基本都是使用ghz工具，具体介绍就不展开了，请看<a href="https://ghz.sh/docs/intro">ghz介绍</a>。官网有安装方法和一些用法介绍，像<a href="https://httpd.apache.org/docs/2.4/programs/ab.html">ab</a>一样，易上手。</p><h4 id="3-2-压测脚本"><a href="#3-2-压测脚本" class="headerlink" title="3.2 压测脚本"></a>3.2 压测脚本</h4><p>下面截取gRPC其中一个接口的代码，写脚本的目的是通过传参的方式执行，在终端执行方便些。</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token comment">#coding:utf-8</span><span class="token keyword">import</span>  subprocess<span class="token keyword">import</span> json<span class="token keyword">import</span> sys<span class="token keyword">import</span> time<span class="token keyword">import</span> uuid<span class="token keyword">class</span> <span class="token class-name">TESTAPI</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">__init__</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>        <span class="token keyword">pass</span>    <span class="token comment"># args一般为列表</span>    <span class="token keyword">def</span> <span class="token function">exeCmd</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span>args<span class="token punctuation">)</span><span class="token punctuation">:</span>        sub<span class="token operator">=</span>subprocess<span class="token punctuation">.</span>Popen<span class="token punctuation">(</span>args<span class="token punctuation">,</span>shell<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>stdout<span class="token operator">=</span>subprocess<span class="token punctuation">.</span>PIPE<span class="token punctuation">,</span>stderr<span class="token operator">=</span>subprocess<span class="token punctuation">.</span>STDOUT<span class="token punctuation">)</span>        out<span class="token punctuation">,</span>err<span class="token operator">=</span>sub<span class="token punctuation">.</span>communicate<span class="token punctuation">(</span><span class="token punctuation">)</span>        <span class="token keyword">return</span> out<span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">"utf-8"</span><span class="token punctuation">)</span>    <span class="token comment"># 获取传入参数</span>    <span class="token keyword">def</span> <span class="token function">getParas</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>        concurrency <span class="token operator">=</span> sys<span class="token punctuation">.</span>argv<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span>        total <span class="token operator">=</span> sys<span class="token punctuation">.</span>argv<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span>        <span class="token keyword">return</span> concurrency<span class="token punctuation">,</span>total    <span class="token keyword">def</span> <span class="token function">cardList</span><span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span>        getParas <span class="token operator">=</span> self<span class="token punctuation">.</span>getParas<span class="token punctuation">(</span><span class="token punctuation">)</span>        reqData<span class="token operator">=</span><span class="token punctuation">&#123;</span><span class="token string">"orderid"</span><span class="token punctuation">:</span><span class="token string">"orderid_87534042742"</span><span class="token punctuation">,</span><span class="token string">"gen_id"</span><span class="token punctuation">:</span><span class="token string">"gen_87534042742"</span><span class="token punctuation">&#125;</span>        reqData<span class="token operator">=</span>json<span class="token punctuation">.</span>dumps<span class="token punctuation">(</span>reqData<span class="token punctuation">)</span>        <span class="token comment"># 拼接cmd 参数可自由组合 具体用法可参考官网使用说明 比较简单 一看就会</span>        args<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"./ghz"</span><span class="token punctuation">,</span><span class="token string">"--insecure"</span><span class="token punctuation">,</span><span class="token string">"--proto"</span><span class="token punctuation">,</span><span class="token string">"./test.proto"</span><span class="token punctuation">,</span>            <span class="token string">"--call"</span><span class="token punctuation">,</span><span class="token string">"test.TestServer/CardList"</span><span class="token punctuation">,</span><span class="token string">"-d"</span><span class="token punctuation">,</span>reqData<span class="token punctuation">,</span><span class="token string">"-c"</span><span class="token punctuation">,</span>getParas<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">"-n"</span><span class="token punctuation">,</span>getParas<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token string">"&#123;domain/server ip&#125;:&#123;port&#125;"</span><span class="token punctuation">]</span>        <span class="token comment"># 执行指令并输出结果</span>        <span class="token keyword">print</span><span class="token punctuation">(</span>self<span class="token punctuation">.</span>exeCmd<span class="token punctuation">(</span>args<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token keyword">if</span> __name__ <span class="token operator">==</span> <span class="token string">'__main__'</span><span class="token punctuation">:</span>    runAPI <span class="token operator">=</span> TESTAPI<span class="token punctuation">(</span><span class="token punctuation">)</span>    runAPI<span class="token punctuation">.</span>cardList<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>因为是单接口，HTTP和HTTPS请求就选了ab作为压测工具，考虑到和Jmeter是否会有误差，也顺便对别了一下这两个工具在单个接口情况下，压测结果无差异。ab压测脚本如下：</p><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">#!&#x2F;bin&#x2F;bash# 可传多组totalReqs&#x3D;(10 20)# 可传多组concurrency&#x3D;(3 5)path&#x3D;&quot;https:&#x2F;&#x2F;&#123;domain&#125;&#x2F;server&#x2F;test&#x2F;list?orderid&#x3D;orderid_20060069834&amp;curpage&#x3D;&amp;pagesize&#x3D;10&amp;gen_id&#x3D;gen_20060069834&quot;header&#x3D;&quot;X-Server-Sign:61394770ee4afadfe7dfed29edd0ec466e3b3b5b857fc705dcd31baf518f2719&quot;startTest() &#123;  if [ $3 -eq 0 ];then  # 借助 awk 分析    ab -n $1 -c $2 -H $header  $path 2&gt;&amp;1 | awk &#39;BEGIN &#123;printf &quot;%-10s %-15s %-8s %-8s %-8s %-8s\n&quot;, &quot;Requests&quot;, &quot;Concurrency&quot;, &quot;Min(ms)&quot;, &quot;Max(ms)&quot;, &quot;Mean(ms)&quot;,&quot;QPS(s)&quot;;printf &quot;------------------------------------------------------ \n&quot;&#125; &#x2F;Total:&#x2F; &#123;printf &quot;%-10s %-15s %-8s %-8s %-8s&quot;, &quot;&#39;$1&#39;&quot;, &quot;&#39;$2&#39;&quot;, $2, $6, $3&#125;&#39;  else    ab -n $1 -c $2 $path 2&gt;&amp;1 | awk &#39;&#x2F;Total:&#x2F; &#123;printf &quot;%-10s %-15s %-8s %-8s %-8s\n&quot;, &quot;&#39;$1&#39;&quot;, &quot;&#39;$2&#39;&quot;, $2, $6, $3&#125;&#39;  fi&#125;index&#x3D;0for request in $&#123;totalReqs[@]&#125;do  for con in $&#123;concurrency[@]&#125;  do    startTest $request $con $index    let &#39;index++&#39;  donedone------------------- 输出结果 -------------------------fee@mgb-haproxy01-pressure:~&#x2F;pressureTest&#x2F;test$ sh cardList_ab.shRequests   Concurrency     Min(ms)  Max(ms)  Mean(ms)------------------------------------------------------10         3               7        10       810         5               9        11       1020         3               6        9        820         5               7        14       9<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="3-3-执行压测及数据"><a href="#3-3-执行压测及数据" class="headerlink" title="3.3 执行压测及数据"></a>3.3 执行压测及数据</h4><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">python cardList.py 5 5 # 如果需要持续压，加个循环即可，重定向输出信息。 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>ghz压测数据默认输出如下：</p><p><img src="https://pic4.zhimg.com/80/v2-18aaad76250828dff840d54bcb7960cb_720w.jpg"></p><p>ghz还提供了输出html文件的报告，需要加“-o”、“-O”，两个参数，大家可以尝试一下，看起来很直观。当然像我截图中存在异常请求，可以通过输出Debug日志，添加“-D”参数即可。html文件报告如下:</p><p><img src="https://pic1.zhimg.com/80/v2-9679e692a2e292e2eb4c7058e1787d48_720w.jpg"></p><p>gRPC、HTTP以及HTTPS三种请求方式压测数据对比如下：</p><p><img src="https://pic1.zhimg.com/80/v2-7540effcf42f78ec33f2c0bb3e893738_720w.jpg"></p><h3 id="4-躺过的坑和解决方案"><a href="#4-躺过的坑和解决方案" class="headerlink" title="4  躺过的坑和解决方案"></a><strong>4  躺过的坑和解决方案</strong></h3><h4 id="4-1-域名的使用"><a href="#4-1-域名的使用" class="headerlink" title="4.1 域名的使用"></a>4.1 域名的使用</h4><p> 调用gRPC服务接口一定要加监听端口，使用{domain/ip}:{port}的形式，<strong>不需要加协议前缀和Path</strong>。是因为已经通过协议封装，协议里面有service和interface的信息，序列化了，不需要通过path来分发到具体的接口。</p><p>是通过在代码中带一个参数mehod，如method=”/server/list”，然后程序通过 if method==xxx判断走什么逻辑。具体的接口报错信息如下:</p><pre class="line-numbers language-none"><code class="language-none"># 接口加了HTTP&#x2F;HTTPS协议报错信息rpc error: code &#x3D; Unavailable desc &#x3D; connection error: desc &#x3D; &quot;transport: Error while dialing dial tcp: address http:&#x2F;&#x2F;127.0.0.1:11281: too many colons in address# 没有加port报错信息 rpc error: code &#x3D; Unavailable desc &#x3D; connection error: desc &#x3D; &quot;transport: Error while dialing dial tcp: address xxx.xxx.com: missing port in address&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h4 id="4-2-压测时出现连接数受限"><a href="#4-2-压测时出现连接数受限" class="headerlink" title="4.2 压测时出现连接数受限"></a>4.2 压测时出现连接数受限</h4><p> gRPC压测出现请求连接数到达一定数量之后会出现大量的连接失败的请求，导致大量TPC连接出现TIME_WAIT。</p><pre class="line-numbers language-none"><code class="language-none"># 日志提示&quot;message&quot;:&quot;Received RPC Stats&quot;,&quot;statsID&quot;:0,&quot;code&quot;:&quot;Unavailable&quot;,&quot;error&quot;:&quot;rpc error: code &#x3D; Unavailable desc &#x3D; the connection is draining&quot;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>后来查资料得知是因为keepalive_requests设置比较小，高并发下超过此值后nginx会强制关闭和客户端保持的keepalive长连接，关闭连接后导致Nginx出现TIME_WAIT。</p><p><strong>尝试解决方案：</strong></p><p>1） 程序在AllySDK客户端，添加<a href="https://github.com/grpc/grpc-go/tree/master/examples/features/retry">retry机制</a>，运行服务前在设置环境变量：GRPC_GO_RETRY=on；</p><p>2）Nginx配置调整<a href="http://nginx.org/en/docs/http/ngx_http_upstream_module.html#keepalive_requests">upstream配置</a>，增大fail_timeout和keepalive；</p><p>3）Nginx 版本从 1.14.0 升级到 1.20.0；</p><p>4）在用ghz压测时加入参数： –keepalive=60s；</p><p>5）尝试server模块下设置这些参数：</p><ul><li>large_client_header_buffers，不对</li><li>client_header_timeout，不对</li><li>keepalive_timeout，不对</li><li><a href="https://my.oschina.net/u/4264115/blog/4080138">keepalive_requests</a>，bingo！！！，终于看到了胜利在招手。 需要注意的是，Nginx版本低于1.19.7，这个指令叫：http2_max_requests，默认值1000，<a href="http://nginx.org/en/docs/http/ngx_http_v2_module.html#http2_max_requests">Nginx官网文档</a>有说明。你并发越大，需要设置的值就越大，但线上环境要把该情况同步给SA，评估这个值太大，是否会带来风险。</li><li><img src="https://pic1.zhimg.com/80/v2-19083d11dfd04cfde4560ecfc813637c_720w.jpg"></li></ul><h3 id="5-总结"><a href="#5-总结" class="headerlink" title="5 总结"></a>5 总结</h3><p>本次gRPC的测试经历了一段时间，也是相对较新的技术，在前面测试过程中也记录了一些问题，感兴趣可以翻一下。基于在测试时碰到问题，爬网上也没有很全的分享文章，所以记录了下，也算是对本次测试的复盘。借助此次机会，掌握了<a href="https://www.grpc.io/">gRPC</a>、<a href="https://ghz.sh/docs/intro.html">ghz</a>原理和使用，不是很了解的同学可以通过超链传送学习。</p><p>如果大家对gRPC有更好的测试、压测方法，或者对我本次经验总结有任何建议，欢迎随时骚扰！</p>]]></content>
       
