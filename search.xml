@@ -33,7 +33,7 @@
       <link href="/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/"/>
       <url>/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/</url>
       
-        <content type="html"><![CDATA[<p>[TOC]</p><h2 id="ADAS认识与测试方法总结归纳"><a href="#ADAS认识与测试方法总结归纳" class="headerlink" title="ADAS认识与测试方法总结归纳"></a>ADAS认识与测试方法总结归纳</h2><h4 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h4><p>​    现阶段道路交通事故死亡人数比例一直很高，道路交通安全问题已成为影响我国公众安全感的重要因素之一，要解决这一痛点，意味着汽车智能化已经逐渐渗入人们的生活，人们对汽车安全的要求也会越来越高。</p><p>​    先如今很多企业已经开始研发无人驾驶，甚至已有无人驾驶车辆在路跑。看似科幻的概念已经慢慢进入到我们的生活，事实上无人驾驶技术不是创新，而是在 ADAS 基础上的演进，ADAS 是通往无人驾驶的必经之路。这需在不断累积使用经验与盲点克服后，同时加入更多主动侦测系统，甚至是物联网功能后，才有机会进一步实现的目的，毕竟自动驾驶所需具备的汽车技术层面更高、更复杂。</p><h5 id="1-1-ADAS-的定义"><a href="#1-1-ADAS-的定义" class="headerlink" title="1.1 ADAS 的定义"></a>1.1 ADAS 的定义</h5><p>​    ADAS(Advanced Driver Assistance System) 高级驾驶辅助系统是利用安装在车上的各式各样传感器，在汽车行驶过程中第一时间感应周围的环境，收集数据，通过对静态、动态物体进行辨识、侦测与追踪等技术上的处理，从而预先让驾驶者察觉到可能发生的危险，有效增加汽车驾驶的舒适性和安全性，通过主动安全即降低碰撞风险避免事故和被动式安全系统即安全带及安全气囊等的有效结合降低驾驶风险，并最终实现事故零死亡的目标。</p><h5 id="1-2-ADAS-的组成"><a href="#1-2-ADAS-的组成" class="headerlink" title="1.2 ADAS 的组成"></a>1.2 ADAS 的组成</h5><p>​    全天候 ADAS 设备具有超强夜视、雨雾透视、眩光屏蔽、前车防撞语音预警、车道偏离语音预警、路况预警、<a href="https://link.zhihu.com/?target=http://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=75863942&ss_c=ssc.citiao.link">手机互联</a>等功能，较大地提高了车主的安全防护能力。</p><p>​    目前为止，ADAS 系统组成有很多，一般，汽车高级辅助驾驶系统通常包括：</p><p>​    <strong>车道偏离预警系统（LDWS）、</strong></p><p>​    <strong>车道保持系统（LKS）、</strong></p><p>​    <strong>自适应巡航系统（ACC）、</strong></p><p>​    <strong>前碰撞预防系统（FCW） 、</strong></p><p>​    <strong>自动泊车系统（APA）、</strong></p><p>​    <strong>盲点监测系统（BSD）、</strong></p><p>​    <strong>驾驶员疲劳预警系统（DFM）、</strong></p><p>​    <strong>自适应灯光控制（ALC）、</strong></p><p>​    <strong>自动紧急制动（AEB）、</strong></p><p>​    <strong>夜视系统（NVD）</strong></p><p>除了以上十大功能系统之外，还包括行人保护系统、电子警察系统（ISA）、导航与实时交通系统（TMC）、交通标志识别、下坡控制系统、电动汽车报警系统等等。</p><h6 id="ADAS-的十大功能系统介绍如下："><a href="#ADAS-的十大功能系统介绍如下：" class="headerlink" title="ADAS 的十大功能系统介绍如下："></a>ADAS 的十大功能系统介绍如下：</h6><p>​    1）车道偏离预警系统LDWS‍‍‍‍‍车道偏离预警系统LDWS（ Lane departure warning system）是指行车中未打转向灯突然大幅度偏离车道，不正常偏移时，行车记录仪一旦判定行驶路线有异，便会以行车记录仪的显示屏幕提醒驾驶人，并发出声响警告对司机进行警示。这将使司机可以马上采取行动，回到原行车道上。</p><p>车道偏离预警系统主要由HUD抬头显示器、摄像头、控制器以及传感器组成。当车道偏离预警系统开启时，摄像头（一般安置在车身侧面或后视镜位置）会时刻采集行驶车道的标识线，通过图像处理获得汽车在当前车道中的位置参数。</p><p>当检测到汽车偏离车道时，传感器会及时收集车辆数据和驾驶员的操作状态，之后由控制器发出警报信号，整个过程大约在0.5秒完成，为驾驶者提供更多的反应时间。而如果驾驶者打开转向灯，正常进行变线行驶，那么车道偏离预警系统不会做出任何提示。</p><p>​    2）车道保持系统LKS (Lane Keeping System)</p><p>车道保持辅助系统属于智能驾驶辅助系统中的一种。它可以在车道偏离预警系统（LDWS）的基础上对刹车的控制协调装置进行控制。对车辆行驶时借助一个摄像头识别行驶车道的标识线将车辆保持在车道上提供支持。可检测本车在车道内的位置，并可自动调整转向，使本车保持在车道内行驶。</p><p>如果车辆接近识别到的标记线并可能脱离行驶车道，那么会通过方向盘的振动，或者是声音来提请驾驶员注意，并轻微转动方向盘修正行驶方向，使车辆处于正确的车道上，若方向盘长时间检测到无人主动干预，则发出报警，用来提醒驾驶人员。</p><p>如果车道保持辅助系统识别到本车道两侧的标记线，那么系统处于待命状态。这通过组合仪表盘中的绿色指示灯显示。当系统处于待命状态下，如果在Y过标记线前打了转向灯，警告信号就会被屏蔽，认定驾驶员为有意识的换道。</p><p>该系统主要应用于结构化的道路上，如高速公路和路面条件较好（车道线清晰）的公路上行驶。当车速达到65km/h或以上才开始运行。</p><p><img src="https://pic1.zhimg.com/80/v2-aac8e539b951a52b759ba07221af7a84_1440w.jpg" alt="img"></p><p>​    3自适应巡航系统ACC</p><p>​    自适应巡航系统ACC（Adaptive Cruise Control）是一项舒适性的辅助驾驶功能。如果车辆前方畅通，自适应巡航（ACC）将保持设定的最大巡航速度向前行驶。如果检测到前方有车辆，自适应巡航（ACC） 将根据需要降低车速，与前车保持基于选定时间的距离，直到达到合适的巡航速度。</p><p>​    自适应巡航也可称为<strong>主动巡航</strong>，类似于传统的定速巡航控制，该系统包括雷达传感器、数字信号处理器和控制模块。在自适应巡航系统中，系统利用低功率雷达或红外线光束得到前车的确切位置，如果发现前车减速或监测到新目标，系统就会发送执行信号给发动机或制动系统来降低车速，从而使车辆和前车保持一个安全的行驶距离。</p><p>​    当前方道路障碍清除后又会加速恢复到设定的车速，雷达系统会自动监测下一个目标。主动巡航控制系统代替司机控制车速，避免了频繁取消和设定巡航控制。当与前车之间的距离过小时，ACC控制单元可以通过与制动防抱死系统、发动机控制系统协调动作，使车轮适当制动，并使发动机的输出功率下降，以使车辆与前方车辆始终保持安全距离。自适应巡航系统适合于多种路况，为驾驶者提供了一种更轻松的驾驶方式。</p><p><img src="https://pic4.zhimg.com/80/v2-4bb6740cb6422fdf91550a87357cae5b_1440w.jpg" alt="img"></p><p>​    4）前碰撞预防系统FCW</p><p>​    前碰撞预防系统FCW (Forward Collision Warning)是通过雷达系统来时刻监测前方车辆，判断本车与前车之间的距离、方位及相对速度，当存在潜在碰撞危险时对驾驶者进行警告。FCW系统本身不会采取任何制动措施去避免碰撞或控制车辆。</p><p>​    通过分析传感器获取的前方道路信息对前方车辆进行识别和跟踪，如果有车辆被识别出来，则对前方车距进行测量。同时利用车速估计，根据安全车距预警模型判断追尾可能，一旦存在追尾危险，便根据预警规则及时给予驾驶人主动预警。</p><p><img src="https://pic2.zhimg.com/80/v2-06de21b9582dee843b6650d1c4c1ffa1_1440w.jpg" alt="img"></p><p>​    5）自动泊车系统APA</p><p>​    自动泊车系统APA（Automatic Parking Assist）是利用车载传感器（一般为超声波雷达或摄像头）识别有效的泊车空间，并通过控制单元控制车辆进行泊车。相比于传统的倒车辅助功能，如倒车影像以及倒车雷达，自动泊车的功能智能化程度更高，有效的减轻了驾驶员的倒车困难。</p><p>​    全自动泊车辅助系统APA，通过控制车辆的加减速度和转向角度自动停放车辆。该系统通过AVM（环视）和USS（超声波雷达）感知泊车环境，使用IMU和车轮传感器估计车辆姿态（位置和行驶方向），并根据驾驶员的选择自动或手动设置目标泊车位。然后系统进行自动泊车轨迹计算，并通过精确的车辆定位与车辆控制系统使车辆沿定义的泊车轨迹进行全自动泊车，直至到达最终目标泊车位。</p><p><img src="https://pic1.zhimg.com/80/v2-dbed222dc2885ba8815b6a59c9df3c74_1440w.jpg" alt="img"></p><p>​    6）盲点监测系统BSD</p><p>​    由于汽车后视镜存在视觉盲区，变道之前就看不到盲区的车辆，如果盲区内有超车车辆，此时变道就会发生碰撞事故。在大雨天气、大雾天气、夜间光线昏暗，更加难以看清后方车辆，此时变道就面临更大的危险，盲点监测系统就是为了解决后视镜的盲区而产生的。</p><p>​    盲点监测系统BSD（ Blind Spot Detection)，是汽车上的一款安全类的高科技配置，主要功能是扫除后视镜盲区，依赖于车辆尾部两个雷达时刻监测车辆的侧后面和侧面状态，如果车辆位于该区域内，驾驶员将通过后视镜上盲点警告指示灯和组合仪表获得相关警告提示，避免在车道变换过程中由于后视镜盲区而发生事故。</p><p><img src="https://pic3.zhimg.com/80/v2-598c460991f761d335e594218fe09386_1440w.jpg" alt="img"></p><p>​    7）驾驶员疲劳预警系统DFM</p><p>​    驾驶员疲劳预警系统DFM（Driver Fatigue Monitor System）主要是通过摄像头获取的图像，通过视觉跟踪、目标检测、动作识别等技术对驾驶员的驾驶行为及生理状态进行检测，当驾驶员发生疲劳、分心、打电话、抽烟等危险情况时在系统设定时间内报警以避免事故发生。DFM系统能有效规范驾驶员的驾驶行为、大大降低交通事故发生的几率。</p><p>​    通过分析驾驶员的疲劳特征（如打哈欠、闭眼等），对疲劳行为及时发出疲劳驾驶预警。高精准度的算法甚至能做到不受时间段、光照情况、是否戴墨镜等外界条件影响，始终对驾驶员的疲劳状态进行有效管理。当驾驶人员产生生理疲劳状态时，立即发出预警警告，及时唤醒驾驶员，避免严重事故发生。</p><p><img src="https://pic1.zhimg.com/80/v2-ffa7fdc94c7948c7dff98b579b4d93fc_1440w.jpg" alt="img"></p><p>​    8）自适应灯光控制ALC</p><p>​    自适应灯光控制ALC（Adaptive Light Control）是一种智能灯光调节系统。通过感知驾驶员操作、车辆行驶状态、路面变化以及天气环境等信息，AFS 自动控制前照灯实时进行上下、左右照明角度的调整，为驾驶员提供最佳道路照明效果。自适应前照灯系统共由四部分组成：传感器、ecu、车灯控制系统和前照灯。汽车车速传感器和方向盘转角传感器不断地把检测到的信号传递给ecu，ecu根据传感器检测到的信号进行处理，把处理完后的数据进行判断，输出前照灯转角指令，使前照灯转过相应的角度。</p><p>​    汽车在转弯时，重点是要提前看到所转方向的障碍物，根据现实驾驶的经验，车灯一般只需转过o～15°即可，只需要所转方向侧的那只前照灯实现智能转向就可，另一侧前照灯还是保持原来的方向。虽简化了控制，仍然能够达到预期的效果。它可以通过控制系统能够显著改善各种路况下的照明效果，提高行车安全。</p><p><img src="https://pic3.zhimg.com/80/v2-449d7ffbfc310b14772b0ad6ff997dee_1440w.jpg" alt="img"></p><p>9）自动紧急制动AEB</p><p>​    自动紧急制动AEB（Autonomous Emergency Braking）是一种汽车主动安全技术，主要由 3 大模块构成，其中测距模块的核心包括微波雷达、激光雷达和视频系统等，它可以提供前方道路安全、准确、实时的图像和路况信息。</p><p>​    AEB 系统采用雷达测出与前车或者障碍物的距离，然后利用数据分析模块将测出的距离与警报距离、安全距离进行比较，小于警报距离时就进行警报提示，而小于安全距离时即使在驾驶员没有来得及踩制动踏板的情况下，AEB 系统也会启动，使汽车自动制动，从而为安全出行保驾护航。</p><p><img src="https://pic4.zhimg.com/80/v2-bb8682ea0c489392cc699ddc0c0bd9bb_1440w.jpg" alt="img"></p><p>​    10）夜视系统NVD</p><p>​    夜视系统NVD（Night Vision Device）是一种源自军事用途的汽车驾驶辅助系统。在这个辅助系统的帮助下，驾驶者在夜间或弱光线的驾驶过程中将获得更高的预见能力，它能够针对潜在危险向驾驶者提供更加全面准确的信息或发出早期警告。</p><p>​    夜视系统NVD由安置于车前保险杠的（UFPA）侦测传感器和液晶抬头显示器（HUD）组成，主要是通过主动式红外照射、微光夜视技术以及红外热成像技术，来帮助驾驶者看见以汽车远光灯无法清楚辨识的物体，驾驶者可将虚拟影像当作前方视野的一部分，提升了视线不佳时的行车安全性。<a href="https://pic3.zhimg.com/80/v2-338b2c2a709a8fbc6203166eaddc89b2_1440w.jpg">https://pic3.zhimg.com/80/v2-338b2c2a709a8fbc6203166eaddc89b2_1440w.jpg</a></p><p><img src="http://m.qpic.cn/psc?/V10GgwyU0Zufi7/ZYdA7ngrZ.*9Y7Y7Ouin2AlWiTgqJ1dnS9k9McLw1aPX74m54oRgmJWw7BoCwMTlFvoPNlTLwISuoOOuMINM5*1PqcXz.Pj4SVkBfos7uUw!/b&bo=wgEsAcIBLAEFFzQ!&rf=viewer_4" alt="img"></p><h6 id="以上提到的每一个系统主要包括3个程序："><a href="#以上提到的每一个系统主要包括3个程序：" class="headerlink" title="以上提到的每一个系统主要包括3个程序："></a>以上提到的每一个系统主要包括3个程序：</h6><p>​    1）信息采集。不同系统需使用不同类型传感器掌握外界车况，才能进行后续的警示和反应动作。如毫米波雷达、超声波雷达、影像传感器、轮速传感器。</p><p>​    2）分析和下达指令。电子控制单元(ECU)会针对传感器所收集到的信息进行分析处理，然后再向控制的执行装置下单指令。</p><p>​    3）执行动作。包括油门、刹车、灯光、声响等。会根据ECU输出的信号，执行对应的操作。</p><h5 id="1-3-自动驾驶与ADAS的关系"><a href="#1-3-自动驾驶与ADAS的关系" class="headerlink" title="1.3 自动驾驶与ADAS的关系"></a>1.3 自动驾驶与ADAS的关系</h5><p>​    自动驾驶是ADAS的目标，ADAS属于L2自动驾驶级别。自动驾驶的解决方案是高精度地图与激光雷达的组合。ADAS需要突破的是外界信息采集的精度和数据处理能力,解决方案是专业的车用级处理芯片，如MCU、GPU或GPU+FPGA。</p><h5 id="1-4-ADAS测试面临的挑战"><a href="#1-4-ADAS测试面临的挑战" class="headerlink" title="1.4 ADAS测试面临的挑战"></a>1.4 ADAS测试面临的挑战</h5><p>​    信号种类多，数据量大；ADAS测试需要大量的传感器，且数据量大，普通存储设备无法满足存储要求。多种上位机无法实现同步采集与数据融合，由于传感器安装位置不同导致对同一目标的检测数据存在偏差，且不同的上位机软件难以实现同步，增加实验难度与数据精确度。大量数据存放及查找困难，面对每天高达数T级的数据，需要将数据分类存放以可查找可追溯。</p><h5 id="1-5-发展趋势关键"><a href="#1-5-发展趋势关键" class="headerlink" title="1.5 发展趋势关键"></a>1.5 发展趋势关键</h5><p>​    消费者对车的安全要求越来越高，一些相对较为低端且使用的先进驾驶辅助系统技术，如：胎压检测。消费者对避险类辅助类、视野改善类技术关注度高。一些道路要求较高技术，如变道辅助、车道偏离、ACC等，以及与中国消费者驾驶习惯不符的技术。如车道保持系统、疲劳检测、禁酒闭锁等。</p><h4 id="2-测试方法"><a href="#2-测试方法" class="headerlink" title="2 测试方法"></a>2 测试方法</h4><p>TODO</p>]]></content>
+        <content type="html"><![CDATA[<p>[TOC]</p><h2 id="ADAS认识与测试方法总结归纳"><a href="#ADAS认识与测试方法总结归纳" class="headerlink" title="ADAS认识与测试方法总结归纳"></a>ADAS认识与测试方法总结归纳</h2><h4 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h4><p>​    现阶段道路交通事故死亡人数比例一直很高，道路交通安全问题已成为影响我国公众安全感的重要因素之一，要解决这一痛点，意味着汽车智能化已经逐渐渗入人们的生活，人们对汽车安全的要求也会越来越高。</p><p>​    先如今很多企业已经开始研发无人驾驶，甚至已有无人驾驶车辆在路跑。看似科幻的概念已经慢慢进入到我们的生活，事实上无人驾驶技术不是创新，而是在 ADAS 基础上的演进，ADAS 是通往无人驾驶的必经之路。这需在不断累积使用经验与盲点克服后，同时加入更多主动侦测系统，甚至是物联网功能后，才有机会进一步实现的目的，毕竟自动驾驶所需具备的汽车技术层面更高、更复杂。</p><h5 id="1-1-ADAS-的定义"><a href="#1-1-ADAS-的定义" class="headerlink" title="1.1 ADAS 的定义"></a>1.1 ADAS 的定义</h5><p>​    ADAS(Advanced Driver Assistance System) 高级驾驶辅助系统是利用安装在车上的各式各样传感器，在汽车行驶过程中第一时间感应周围的环境，收集数据，通过对静态、动态物体进行辨识、侦测与追踪等技术上的处理，从而预先让驾驶者察觉到可能发生的危险，有效增加汽车驾驶的舒适性和安全性，通过主动安全即降低碰撞风险避免事故和被动式安全系统即安全带及安全气囊等的有效结合降低驾驶风险，并最终实现事故零死亡的目标。</p><h5 id="1-2-ADAS-的组成"><a href="#1-2-ADAS-的组成" class="headerlink" title="1.2 ADAS 的组成"></a>1.2 ADAS 的组成</h5><p>​    全天候 ADAS 设备具有超强夜视、雨雾透视、眩光屏蔽、前车防撞语音预警、车道偏离语音预警、路况预警、<a href="https://link.zhihu.com/?target=http://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=75863942&ss_c=ssc.citiao.link">手机互联</a>等功能，较大地提高了车主的安全防护能力。</p><p>​    目前为止，ADAS 系统组成有很多，一般，汽车高级辅助驾驶系统通常包括：</p><p>​    <strong>车道偏离预警系统（LDWS）、</strong></p><p>​    <strong>车道保持系统（LKS）、</strong></p><p>​    <strong>自适应巡航系统（ACC）、</strong></p><p>​    <strong>前碰撞预防系统（FCW） 、</strong></p><p>​    <strong>自动泊车系统（APA）、</strong></p><p>​    <strong>盲点监测系统（BSD）、</strong></p><p>​    <strong>驾驶员疲劳预警系统（DFM）、</strong></p><p>​    <strong>自适应灯光控制（ALC）、</strong></p><p>​    <strong>自动紧急制动（AEB）、</strong></p><p>​    <strong>夜视系统（NVD）</strong></p><p>除了以上十大功能系统之外，还包括行人保护系统、电子警察系统（ISA）、导航与实时交通系统（TMC）、交通标志识别、下坡控制系统、电动汽车报警系统等等。</p><h6 id="ADAS-的十大功能系统介绍如下："><a href="#ADAS-的十大功能系统介绍如下：" class="headerlink" title="ADAS 的十大功能系统介绍如下："></a>ADAS 的十大功能系统介绍如下：</h6><p>​    1）车道偏离预警系统LDWS‍‍‍‍‍车道偏离预警系统LDWS（ Lane departure warning system）是指行车中未打转向灯突然大幅度偏离车道，不正常偏移时，行车记录仪一旦判定行驶路线有异，便会以行车记录仪的显示屏幕提醒驾驶人，并发出声响警告对司机进行警示。这将使司机可以马上采取行动，回到原行车道上。</p><p>车道偏离预警系统主要由HUD抬头显示器、摄像头、控制器以及传感器组成。当车道偏离预警系统开启时，摄像头（一般安置在车身侧面或后视镜位置）会时刻采集行驶车道的标识线，通过图像处理获得汽车在当前车道中的位置参数。</p><p>当检测到汽车偏离车道时，传感器会及时收集车辆数据和驾驶员的操作状态，之后由控制器发出警报信号，整个过程大约在0.5秒完成，为驾驶者提供更多的反应时间。而如果驾驶者打开转向灯，正常进行变线行驶，那么车道偏离预警系统不会做出任何提示。</p><p><img src="./img/LDWS.jpeg"></p><p>​    2）车道保持系统LKS (Lane Keeping System)</p><p>车道保持辅助系统属于智能驾驶辅助系统中的一种。它可以在车道偏离预警系统（LDWS）的基础上对刹车的控制协调装置进行控制。对车辆行驶时借助一个摄像头识别行驶车道的标识线将车辆保持在车道上提供支持。可检测本车在车道内的位置，并可自动调整转向，使本车保持在车道内行驶。</p><p>如果车辆接近识别到的标记线并可能脱离行驶车道，那么会通过方向盘的振动，或者是声音来提请驾驶员注意，并轻微转动方向盘修正行驶方向，使车辆处于正确的车道上，若方向盘长时间检测到无人主动干预，则发出报警，用来提醒驾驶人员。</p><p>如果车道保持辅助系统识别到本车道两侧的标记线，那么系统处于待命状态。这通过组合仪表盘中的绿色指示灯显示。当系统处于待命状态下，如果在Y过标记线前打了转向灯，警告信号就会被屏蔽，认定驾驶员为有意识的换道。</p><p>该系统主要应用于结构化的道路上，如高速公路和路面条件较好（车道线清晰）的公路上行驶。当车速达到65km/h或以上才开始运行。</p><p><img src="./img/LKS.jpeg" alt="img"></p><p>​    3）自适应巡航系统ACC</p><p>​    自适应巡航系统ACC（Adaptive Cruise Control）是一项舒适性的辅助驾驶功能。如果车辆前方畅通，自适应巡航（ACC）将保持设定的最大巡航速度向前行驶。如果检测到前方有车辆，自适应巡航（ACC） 将根据需要降低车速，与前车保持基于选定时间的距离，直到达到合适的巡航速度。</p><p>​    自适应巡航也可称为<strong>主动巡航</strong>，类似于传统的定速巡航控制，该系统包括雷达传感器、数字信号处理器和控制模块。在自适应巡航系统中，系统利用低功率雷达或红外线光束得到前车的确切位置，如果发现前车减速或监测到新目标，系统就会发送执行信号给发动机或制动系统来降低车速，从而使车辆和前车保持一个安全的行驶距离。</p><p>​    当前方道路障碍清除后又会加速恢复到设定的车速，雷达系统会自动监测下一个目标。主动巡航控制系统代替司机控制车速，避免了频繁取消和设定巡航控制。当与前车之间的距离过小时，ACC控制单元可以通过与制动防抱死系统、发动机控制系统协调动作，使车轮适当制动，并使发动机的输出功率下降，以使车辆与前方车辆始终保持安全距离。自适应巡航系统适合于多种路况，为驾驶者提供了一种更轻松的驾驶方式。</p><p><img src="./img/ACC.jpeg" alt="img"></p><p>​    4）前碰撞预防系统FCW</p><p>​    前碰撞预防系统FCW (Forward Collision Warning)是通过雷达系统来时刻监测前方车辆，判断本车与前车之间的距离、方位及相对速度，当存在潜在碰撞危险时对驾驶者进行警告。FCW系统本身不会采取任何制动措施去避免碰撞或控制车辆。</p><p>​    通过分析传感器获取的前方道路信息对前方车辆进行识别和跟踪，如果有车辆被识别出来，则对前方车距进行测量。同时利用车速估计，根据安全车距预警模型判断追尾可能，一旦存在追尾危险，便根据预警规则及时给予驾驶人主动预警。</p><p><img src="./img/FCW.jpeg" alt="img"></p><p>​    5）自动泊车系统APA</p><p>​    自动泊车系统APA（Automatic Parking Assist）是利用车载传感器（一般为超声波雷达或摄像头）识别有效的泊车空间，并通过控制单元控制车辆进行泊车。相比于传统的倒车辅助功能，如倒车影像以及倒车雷达，自动泊车的功能智能化程度更高，有效的减轻了驾驶员的倒车困难。</p><p>​    全自动泊车辅助系统APA，通过控制车辆的加减速度和转向角度自动停放车辆。该系统通过AVM（环视）和USS（超声波雷达）感知泊车环境，使用IMU和车轮传感器估计车辆姿态（位置和行驶方向），并根据驾驶员的选择自动或手动设置目标泊车位。然后系统进行自动泊车轨迹计算，并通过精确的车辆定位与车辆控制系统使车辆沿定义的泊车轨迹进行全自动泊车，直至到达最终目标泊车位。</p><p><img src="./img/APA.jpeg" alt="img"></p><p>​    6）盲点监测系统BSD</p><p>​    由于汽车后视镜存在视觉盲区，变道之前就看不到盲区的车辆，如果盲区内有超车车辆，此时变道就会发生碰撞事故。在大雨天气、大雾天气、夜间光线昏暗，更加难以看清后方车辆，此时变道就面临更大的危险，盲点监测系统就是为了解决后视镜的盲区而产生的。</p><p>​    盲点监测系统BSD（ Blind Spot Detection)，是汽车上的一款安全类的高科技配置，主要功能是扫除后视镜盲区，依赖于车辆尾部两个雷达时刻监测车辆的侧后面和侧面状态，如果车辆位于该区域内，驾驶员将通过后视镜上盲点警告指示灯和组合仪表获得相关警告提示，避免在车道变换过程中由于后视镜盲区而发生事故。</p><p><img src="./img/BSD.jpeg" alt="img"></p><p>​    7）驾驶员疲劳预警系统DFM</p><p>​    驾驶员疲劳预警系统DFM（Driver Fatigue Monitor System）主要是通过摄像头获取的图像，通过视觉跟踪、目标检测、动作识别等技术对驾驶员的驾驶行为及生理状态进行检测，当驾驶员发生疲劳、分心、打电话、抽烟等危险情况时在系统设定时间内报警以避免事故发生。DFM系统能有效规范驾驶员的驾驶行为、大大降低交通事故发生的几率。</p><p>​    通过分析驾驶员的疲劳特征（如打哈欠、闭眼等），对疲劳行为及时发出疲劳驾驶预警。高精准度的算法甚至能做到不受时间段、光照情况、是否戴墨镜等外界条件影响，始终对驾驶员的疲劳状态进行有效管理。当驾驶人员产生生理疲劳状态时，立即发出预警警告，及时唤醒驾驶员，避免严重事故发生。</p><p><img src="./img/DFM.jpeg" alt="img"></p><p>​    8）自适应灯光控制ALC</p><p>​    自适应灯光控制ALC（Adaptive Light Control）是一种智能灯光调节系统。通过感知驾驶员操作、车辆行驶状态、路面变化以及天气环境等信息，AFS 自动控制前照灯实时进行上下、左右照明角度的调整，为驾驶员提供最佳道路照明效果。自适应前照灯系统共由四部分组成：传感器、ecu、车灯控制系统和前照灯。汽车车速传感器和方向盘转角传感器不断地把检测到的信号传递给ecu，ecu根据传感器检测到的信号进行处理，把处理完后的数据进行判断，输出前照灯转角指令，使前照灯转过相应的角度。</p><p>​    汽车在转弯时，重点是要提前看到所转方向的障碍物，根据现实驾驶的经验，车灯一般只需转过o～15°即可，只需要所转方向侧的那只前照灯实现智能转向就可，另一侧前照灯还是保持原来的方向。虽简化了控制，仍然能够达到预期的效果。它可以通过控制系统能够显著改善各种路况下的照明效果，提高行车安全。</p><p><img src="./img/ALC.jpeg" alt="img"></p><p>9）自动紧急制动AEB</p><p>​    自动紧急制动AEB（Autonomous Emergency Braking）是一种汽车主动安全技术，主要由 3 大模块构成，其中测距模块的核心包括微波雷达、激光雷达和视频系统等，它可以提供前方道路安全、准确、实时的图像和路况信息。</p><p>​    AEB 系统采用雷达测出与前车或者障碍物的距离，然后利用数据分析模块将测出的距离与警报距离、安全距离进行比较，小于警报距离时就进行警报提示，而小于安全距离时即使在驾驶员没有来得及踩制动踏板的情况下，AEB 系统也会启动，使汽车自动制动，从而为安全出行保驾护航。</p><p><img src="./img/AEB.jpeg" alt="img"></p><p>​    10）夜视系统NVD</p><p>​    夜视系统NVD（Night Vision Device）是一种源自军事用途的汽车驾驶辅助系统。在这个辅助系统的帮助下，驾驶者在夜间或弱光线的驾驶过程中将获得更高的预见能力，它能够针对潜在危险向驾驶者提供更加全面准确的信息或发出早期警告。</p><p>​    夜视系统NVD由安置于车前保险杠的（UFPA）侦测传感器和液晶抬头显示器（HUD）组成，主要是通过主动式红外照射、微光夜视技术以及红外热成像技术，来帮助驾驶者看见以汽车远光灯无法清楚辨识的物体，驾驶者可将虚拟影像当作前方视野的一部分，提升了视线不佳时的行车安全性。</p><p><img src="./img/NVD.jpeg" alt="img"></p><h6 id="以上提到的每一个系统主要包括3个程序："><a href="#以上提到的每一个系统主要包括3个程序：" class="headerlink" title="以上提到的每一个系统主要包括3个程序："></a>以上提到的每一个系统主要包括3个程序：</h6><p>​    1）信息采集。不同系统需使用不同类型传感器掌握外界车况，才能进行后续的警示和反应动作。如毫米波雷达、超声波雷达、影像传感器、轮速传感器。</p><p>​    2）分析和下达指令。电子控制单元(ECU)会针对传感器所收集到的信息进行分析处理，然后再向控制的执行装置下单指令。</p><p>​    3）执行动作。包括油门、刹车、灯光、声响等。会根据ECU输出的信号，执行对应的操作。</p><h5 id="1-3-自动驾驶与ADAS的关系"><a href="#1-3-自动驾驶与ADAS的关系" class="headerlink" title="1.3 自动驾驶与ADAS的关系"></a>1.3 自动驾驶与ADAS的关系</h5><p>​    自动驾驶是ADAS的目标，ADAS属于L2自动驾驶级别。自动驾驶的解决方案是高精度地图与激光雷达的组合。ADAS需要突破的是外界信息采集的精度和数据处理能力,解决方案是专业的车用级处理芯片，如MCU、GPU或GPU+FPGA。</p><h5 id="1-4-ADAS测试面临的挑战"><a href="#1-4-ADAS测试面临的挑战" class="headerlink" title="1.4 ADAS测试面临的挑战"></a>1.4 ADAS测试面临的挑战</h5><p>​    信号种类多，数据量大；ADAS测试需要大量的传感器，且数据量大，普通存储设备无法满足存储要求。多种上位机无法实现同步采集与数据融合，由于传感器安装位置不同导致对同一目标的检测数据存在偏差，且不同的上位机软件难以实现同步，增加实验难度与数据精确度。大量数据存放及查找困难，面对每天高达数T级的数据，需要将数据分类存放以可查找可追溯。</p><h5 id="1-5-发展趋势关键"><a href="#1-5-发展趋势关键" class="headerlink" title="1.5 发展趋势关键"></a>1.5 发展趋势关键</h5><p>​    消费者对车的安全要求越来越高，一些相对较为低端且使用的先进驾驶辅助系统技术，如：胎压检测。消费者对避险类辅助类、视野改善类技术关注度高。一些道路要求较高技术，如变道辅助、车道偏离、ACC等，以及与中国消费者驾驶习惯不符的技术。如车道保持系统、疲劳检测、禁酒闭锁等。</p><h4 id="2-测试方法"><a href="#2-测试方法" class="headerlink" title="2 测试方法"></a>2 测试方法</h4><p>TODO</p>]]></content>
       
       
       <categories>
@@ -129,6 +129,31 @@
     
     
     <entry>
+      <title>单元测试</title>
+      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
+      <url>/object-object/stf/dan-yuan-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>国际软件测试认证委员会（ISTQB）定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行，谁执行"><a href="#什么时候进行，谁执行" class="headerlink" title="什么时候进行，谁执行"></a>什么时候进行，谁执行</h3><p>单元测试通常由在开发功能代码时执行，由开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可复用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动 GUI，提供一些输入，希望能够按下你的代码，并希望你已经设置好了)。如果你有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;你不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠，发展的更快。</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>尽可能使用接近于生产环境的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果你不能正确解决问题，你将能够捕获缺陷。 其次，你的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保你正在使用版本控制系统来跟踪你的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设你有一个由两个单元组成的程序，并且你执行的唯一测试是系统测试。你跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>功能测试</title>
       <link href="/object-object/stf/gong-neng-ce-shi/"/>
       <url>/object-object/stf/gong-neng-ce-shi/</url>
@@ -179,31 +204,6 @@
     
     
     <entry>
-      <title>单元测试</title>
-      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
-      <url>/object-object/stf/dan-yuan-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>国际软件测试认证委员会（ISTQB）定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行，谁执行"><a href="#什么时候进行，谁执行" class="headerlink" title="什么时候进行，谁执行"></a>什么时候进行，谁执行</h3><p>单元测试通常由在开发功能代码时执行，由开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可复用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动 GUI，提供一些输入，希望能够按下你的代码，并希望你已经设置好了)。如果你有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;你不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠，发展的更快。</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>尽可能使用接近于生产环境的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果你不能正确解决问题，你将能够捕获缺陷。 其次，你的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保你正在使用版本控制系统来跟踪你的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设你有一个由两个单元组成的程序，并且你执行的唯一测试是系统测试。你跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>安全测试</title>
       <link href="/object-object/stf/an-quan-ce-shi/"/>
       <url>/object-object/stf/an-quan-ce-shi/</url>
@@ -229,61 +229,11 @@
     
     
     <entry>
-      <title>性能测试</title>
-      <link href="/object-object/stf/xing-neng-ce-shi/"/>
-      <url>/object-object/stf/xing-neng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>敏捷测试</title>
       <link href="/object-object/stf/min-jie-ce-shi/"/>
       <url>/object-object/stf/min-jie-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="敏捷测试基础"><a href="#敏捷测试基础" class="headerlink" title="敏捷测试基础"></a>敏捷测试基础</h2><p>本文介绍敏捷测试假设您已经了解了敏捷软件开发方法（Scrum，极限编程或其他敏捷）。另外，敏捷测试只会在高层讨论这个想法，你是得不到细节的。</p><h3 id="简短的定义"><a href="#简短的定义" class="headerlink" title="简短的定义"></a>简短的定义</h3><p>敏捷测试是一种遵循敏捷软件开发原理的软件测试方法。</p><h3 id="敏捷软件测试宣言"><a href="#敏捷软件测试宣言" class="headerlink" title="敏捷软件测试宣言"></a>敏捷软件测试宣言</h3><pre class="line-numbers language-none"><code class="language-none">我们发现更好的方法测试软件通过它帮助了其他人。通过这项工作，我们得到了这些价值:<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>​    </p><pre class="line-numbers language-none"><code class="language-none">个体和互动高于流程和工具工作的软件高于详尽的文档客户合作高于合同谈判响应变化高于遵循计划<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">也就是说，尽管右项有其价值，我们更重视左项的价值。<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="敏捷测试概念阐述"><a href="#敏捷测试概念阐述" class="headerlink" title="敏捷测试概念阐述"></a>敏捷测试概念阐述</h3><ul><li><p><strong>个体和交互胜过过程和工具：</strong> 这意味着灵活的人和沟通被看重于死板的过程和工具。然而,这并不意味着敏捷测试忽略了流程和工具。 事实上,敏捷测试是建立在非常简单的、强大的、合理的流程进行日常会议的过程或准备每日构建。类似地，敏捷测试试图利用工具，特别是测试自动化，尽可能多。不过， 需要清楚地认识到这一点，驱动这些工具的测试人员和工具的输出依赖于测试人员(而不是相反的)。</p></li><li><p><strong>工作的软件高于详尽的文档:</strong> 这意味着功能和可用的软件综价值高于全面而无用的文档。尽管这更多的是针对预先需求的规范和设计规范，但是对于测试计划和测试用例来说也是如此。我们的主要目标是测试本身，而不是仅仅指向那个目标的任何复杂的文档。但是，最好有必要的文档，这样“图片”就清楚了，如果一个成员离开，“图片”就留在团队里。</p></li><li><p><strong>客户合作高于合同谈判：</strong> 这意味着客户频繁且紧密地与项目的进展进行接触(不是通过复杂的进度报告，而是通过软件的工作片段)这确实给需要定期与团队协作的客户带来了额外的负担(而不是等到合同的最后，希望交付能像承诺的那样)。但是，这种频繁的参与确保了项目正朝着正确的方向前进，而不是在预计鱼类时建设青蛙。</p></li><li><p><strong>响应变化高于遵循计划：</strong> 这意味着接受变化是自然的，并对它们做出反应而不害怕它们。事先有个计划总是好的，但是不管花费多少，即使情况发生了变化，坚持一个计划也不是很好。假设您编写一个测试用例，这是您的计划，假设有一个特定的需求。现在，如果需求发生变化，你不要因为浪费你的时间和精力而感叹。相反，您可以及时调整测试用例以验证已更改的要求。当然，只有一个FOOL会尝试在新软件上运行相同的旧测试用例，并将测试标记为FAIL。</p></li></ul><h3 id="敏捷宣言背后的原则"><a href="#敏捷宣言背后的原则" class="headerlink" title="敏捷宣言背后的原则"></a>敏捷宣言背后的原则</h3><p>在敏捷宣言背后，是一些敏捷实践者不幸未能理解或实现的原则。如果您打算接受敏捷测试，我们鼓励您仔细检查每一个原则并彻底地消化它们。在右边的列中，最初的原则被专门为软件测试人员重新编写。</p><table><thead><tr><th>我们遵循这些原则</th><th>对软件测试人员来说意味着什么：</th></tr></thead><tbody><tr><td>我们的首要任务是通过早期和持续交付有价值的软件来满足客户。</td><td>我们的首要任务是通过早期和持续交付高质量的软件来满足客户。</td></tr><tr><td>欢迎改变需求，即使是在开发后期。敏捷过程利用变更来满足客户的竞争优势。</td><td>欢迎改变需求，即使是在测试后期。敏捷过程利用变更来满足客户的竞争优势。</td></tr></tbody></table><p>|经常交付工作软件，从几个星期到几个月，偏好于较短的时间范围。|频繁地交付高质量的软件，从几个星期到几个月，偏好于较短的时间范围。<br>|业务人员和开发人员必须在整个项目中每天工作。|业务人员、开发人员和测试人员必须在整个项目中每天工作。|<br>|围绕有动机的个人构建项目。给他们提供他们需要的环境和支持，并相信他们能完成工作|围绕有动机的个人构建测试项目。给他们提供他们需要的环境和支持，并相信他们能完成工作。|<br>|在开发团队中传递信息的最有效和有效的方法是面对面的交谈。|在测试团队中传递信息的最有效和有效的方法是面对面的交谈。|<br>|工作软件是进度的主要衡量标准。|工作高质量的软件是进度的主要衡量标准。|<br>|敏捷过程促进可持续发展。发起人、开发人员和用户应该能够无限期地保持恒定的速度。|敏捷过程促进可持续发展和测试。发起人、开发人员、测试人员和用户应该能够始终保持恒定的速度。|<br>|持续关注技术卓越和好的设计提高了敏捷性。|持续关注技术卓越和良好的测试设计可以提高敏捷性。|<br>|简单——最大限度地发挥工作量的艺术——是必不可少的。|简单——最大限度地发挥工作量的艺术——是必不可少的。|<br>|最好的架构、需求和设计来自自己组织的团队。|最好的架构、需求和设计来自自己组织的团队。|<br>|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|每隔一段时间，团队就会反思如何变得更有效率，然后相应地调整自己的行为。|</p><h3 id="一直存在的问题"><a href="#一直存在的问题" class="headerlink" title="一直存在的问题"></a>一直存在的问题</h3><p>那么，所有传统的软件测试方法、类型和工件会怎样呢?我们要扔掉它们吗?</p><h3 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h3><p>Naaah !您仍然需要所有这些软件测试方法、类型和工件(但是在不同程度的优先级和必要性)。然而，你需要完全抛弃传统的态度，接受敏捷的态度。</p><p>Test Script </br><br>Test Case </p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒脚本</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机用例</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>易用性测试</title>
-      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
-      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
       
       
       <categories>
@@ -479,11 +429,11 @@
     
     
     <entry>
-      <title>缺陷重要程度</title>
-      <link href="/object-object/stf/que-xian-yan-chong-cheng-du/"/>
-      <url>/object-object/stf/que-xian-yan-chong-cheng-du/</url>
+      <title>系统测试</title>
+      <link href="/object-object/stf/xi-tong-ce-shi/"/>
+      <url>/object-object/stf/xi-tong-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
       
       
       <categories>
@@ -629,61 +579,11 @@
     
     
     <entry>
-      <title>软件测试博客</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件测试方法</title>
       <link href="/object-object/stf/ruan-jian-ce-shi-fang-fa/"/>
       <url>/object-object/stf/ruan-jian-ce-shi-fang-fa/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试的方法"><a href="#软件测试的方法" class="headerlink" title="软件测试的方法"></a>软件测试的方法</h2><p>以下是软件测试的一些方法/技术:</p><table><thead><tr><th>方法</th><th>概要</th></tr></thead><tbody><tr><td><a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是不知道。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。测试设计技术包括:等价类划分、边界值分析、因果图绘制。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a></td><td>软件测试方法的内部结构/设计/实现项目正在测试的测试人员是了解的。测试设计技术包括:控制流测试、数据流测试、分支测试、路径测试。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a></td><td>一种软件测试方法，是黑盒测试法和白盒测试法的结合。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></td><td>一种遵循敏捷软件开发原则的软件测试方法。</td></tr><tr><td><a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a></td><td>一种没有任何计划和文档的软件测试方法。</td></tr></tbody></table><p>这些软件测试方法可以用于各种<a href="https://veryaime.github.io/object-object/stf/raun-ji-ce-shi-fang-fa/">软件测试级别</a>和<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fen-lei/">软件测试类型</a>。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>集成测试</title>
-      <link href="/object-object/stf/ji-cheng-ce-shi/"/>
-      <url>/object-object/stf/ji-cheng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
       
       
       <categories>
@@ -729,11 +629,11 @@
     
     
     <entry>
-      <title>黑盒测试</title>
-      <link href="/object-object/stf/hei-he-ce-shi/"/>
-      <url>/object-object/stf/hei-he-ce-shi/</url>
+      <title>集成测试</title>
+      <link href="/object-object/stf/ji-cheng-ce-shi/"/>
+      <url>/object-object/stf/ji-cheng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="黑盒测试基础原理"><a href="#黑盒测试基础原理" class="headerlink" title="黑盒测试基础原理"></a>黑盒测试基础原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>黑盒测试</strong> ，也被称为行为测试，是一种软件测试方法，其中测试的项目的内部结构/设计/实现不被测试人员所知。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。</p><p><img src="https://images2015.cnblogs.com/blog/1020866/201704/1020866-20170418154131056-1664321306.png" alt="黑盒测试"></p><p>之所以这样命名，是因为软件程序，在测试人员的眼中，就像一个黑盒子;在里面，谁也看不见。该方法试图在以下类别中找出错误:</p><ul><li>错误和遗漏功能</li><li>界面错误</li><li>数据结构或外部数据库访问中的错误</li><li>行为或性能错误</li><li>初始化和终止错误</li></ul><p>ISTQB定义</p><ul><li><p><strong>黑盒测试：</strong> 测试，无论是功能性的还是非功能性的，都没有涉及到<br>组件或系统的内部结构。</p></li><li><p><strong>黑盒测试设计技术：</strong> 基于an的方法派生和/或选择测试用例的过程<br>对组件或系统的规格、功能或非功能性的分析<br>没有提到它的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>一个测试人员不了解网站的内部结构，使用浏览器测试网页;提供输入(单击、击键)并根据预期的结果验证输出。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>黑盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a></li></ul><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>这个级别越高，盒子越复杂，使用的黑盒测试方法就越多。</p><h3 id="黑盒测试技术"><a href="#黑盒测试技术" class="headerlink" title="黑盒测试技术"></a>黑盒测试技术</h3><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
       
       
       <categories>
@@ -779,11 +679,111 @@
     
     
     <entry>
-      <title>系统测试</title>
-      <link href="/object-object/stf/xi-tong-ce-shi/"/>
-      <url>/object-object/stf/xi-tong-ce-shi/</url>
+      <title>缺陷重要程度</title>
+      <link href="/object-object/stf/que-xian-yan-chong-cheng-du/"/>
+      <url>/object-object/stf/que-xian-yan-chong-cheng-du/</url>
       
-        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>黑盒测试</title>
+      <link href="/object-object/stf/hei-he-ce-shi/"/>
+      <url>/object-object/stf/hei-he-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="黑盒测试基础原理"><a href="#黑盒测试基础原理" class="headerlink" title="黑盒测试基础原理"></a>黑盒测试基础原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>黑盒测试</strong> ，也被称为行为测试，是一种软件测试方法，其中测试的项目的内部结构/设计/实现不被测试人员所知。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。</p><p><img src="https://images2015.cnblogs.com/blog/1020866/201704/1020866-20170418154131056-1664321306.png" alt="黑盒测试"></p><p>之所以这样命名，是因为软件程序，在测试人员的眼中，就像一个黑盒子;在里面，谁也看不见。该方法试图在以下类别中找出错误:</p><ul><li>错误和遗漏功能</li><li>界面错误</li><li>数据结构或外部数据库访问中的错误</li><li>行为或性能错误</li><li>初始化和终止错误</li></ul><p>ISTQB定义</p><ul><li><p><strong>黑盒测试：</strong> 测试，无论是功能性的还是非功能性的，都没有涉及到<br>组件或系统的内部结构。</p></li><li><p><strong>黑盒测试设计技术：</strong> 基于an的方法派生和/或选择测试用例的过程<br>对组件或系统的规格、功能或非功能性的分析<br>没有提到它的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>一个测试人员不了解网站的内部结构，使用浏览器测试网页;提供输入(单击、击键)并根据预期的结果验证输出。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>黑盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a></li></ul><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>这个级别越高，盒子越复杂，使用的黑盒测试方法就越多。</p><h3 id="黑盒测试技术"><a href="#黑盒测试技术" class="headerlink" title="黑盒测试技术"></a>黑盒测试技术</h3><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件测试博客</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
+      
+        <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>易用性测试</title>
+      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
+      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>性能测试</title>
+      <link href="/object-object/stf/xing-neng-ce-shi/"/>
+      <url>/object-object/stf/xing-neng-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
       
       
       <categories>
@@ -892,6 +892,31 @@
     
     
     <entry>
+      <title>gRPC访问服务端失败解决方案</title>
+      <link href="/object-object/text-exp/grpc-fang-wen-fu-wu-duan-bao-cuo/"/>
+      <url>/object-object/text-exp/grpc-fang-wen-fu-wu-duan-bao-cuo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="gRPC客户端访问服务端失败解决方案"><a href="#gRPC客户端访问服务端失败解决方案" class="headerlink" title="gRPC客户端访问服务端失败解决方案"></a>gRPC客户端访问服务端失败解决方案</h1><h3 id="1-具体信息"><a href="#1-具体信息" class="headerlink" title="1 具体信息"></a>1 具体信息</h3><pre class="line-numbers language-none"><code class="language-none">&#123;&quot;file&quot;:&quot;&#x2F;cmd&#x2F;channel&#x2F;xxx&#x2F;prepay.go&quot;,&quot;level&quot;:&quot;error&quot;,&quot;line&quot;:220,&quot;msg&quot;:&quot;xxx.DoPrepayGRPC error: xxx2Client.CreateOrder: rpc error: code &#x3D; Unimplemented desc &#x3D; unknown service xxx_global.xxx2&quot;,&quot;pid&quot;:63405,&quot;requestid&quot;:&quot;2_1615862450_86&quot;,&quot;sdkid&quot;:&quot;xxx_global&quot;,&quot;time&quot;:&quot;2021-03-16T10:40:50+08:00&quot;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-可能原因"><a href="#2-可能原因" class="headerlink" title="2  可能原因"></a>2  可能原因</h3><ul><li>客户端调用的服务和grpc的服务协议不一致。</li><li>proto一致的情况下，但程序生成应用过程中改了proto的包名。</li></ul><h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3 解决方案"></a>3 解决方案</h3><ul><li><p>需要检查客户端使用的proto和服务用的是否一致；</p></li><li><p>核对proto的包名是否有改动。</p></li></ul><p>未碰到其他原因导致这个报错，及供参考同学们~</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试经验 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>golang float 精度掉失问题解决方案</title>
       <link href="/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/"/>
       <url>/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/</url>
@@ -972,31 +997,6 @@
       <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/</url>
       
         <content type="html"><![CDATA[<h1 id="mysql怎么防止误操作？？？"><a href="#mysql怎么防止误操作？？？" class="headerlink" title="mysql怎么防止误操作？？？"></a>mysql怎么防止误操作？？？</h1><h3 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h3><p>打开安全模式之可以避免在 update/delete 操作未加条件时，导致全部数据更改/删除，这个对新人来说是有可能发生的。如果数据没有备份，那就凉了~ ，如果是线上环境，这可能会给团队带来直接损失。测试环境还可以慢慢修，但是也会耗费大量时间。为了避免这种情况发生，给大家分享个人的3点建议。</p><h3 id="2-建议"><a href="#2-建议" class="headerlink" title="2  建议"></a>2  建议</h3><h4 id="2-1-打开安全模式"><a href="#2-1-打开安全模式" class="headerlink" title="2.1 打开安全模式"></a>2.1 打开安全模式</h4><p>在登录 MySQL 时 加 -U，如：<code>mysql -uroot -U</code></p><p>这个比较麻烦的是你可能每次 update/delete 的时候 where 后面都需要跟索引字段，如果没有加 where 条件或者where 后不是索引字段时，必须使用 limit 。或者手动把 mysql 下关闭安全模式：</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=0;或 set sql_safe_updates=off;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>做完自己想做的mysql操作之后切记要再打开</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=1;或 set sql_safe_updates=on;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这种通常使用终端时操作使用，如果想知道当前环境有没有打开安全模式，可以使用查询环境语句查询，不过要注意区分会话级别、全局级别的系统变量。</p><h4 id="2-2-使用-mysql-管理工具操作"><a href="#2-2-使用-mysql-管理工具操作" class="headerlink" title="2.2 使用 mysql 管理工具操作"></a>2.2 使用 mysql 管理工具操作</h4><p>界面上更改数据，不会存在更新/删除所有数据的风险。</p><h4 id="2-3-备份关键数据"><a href="#2-3-备份关键数据" class="headerlink" title="2.3 备份关键数据"></a>2.3 备份关键数据</h4><p>使用 crontab 定时每天备份重要数据，如果不是很占内存，可以保留3天内的备份数据，3天以前的备份数据删除。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试经验 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试经验 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>gRPC访问服务端失败解决方案</title>
-      <link href="/object-object/text-exp/grpc-fang-wen-fu-wu-duan-bao-cuo/"/>
-      <url>/object-object/text-exp/grpc-fang-wen-fu-wu-duan-bao-cuo/</url>
-      
-        <content type="html"><![CDATA[<h1 id="gRPC客户端访问服务端失败解决方案"><a href="#gRPC客户端访问服务端失败解决方案" class="headerlink" title="gRPC客户端访问服务端失败解决方案"></a>gRPC客户端访问服务端失败解决方案</h1><h3 id="1-具体信息"><a href="#1-具体信息" class="headerlink" title="1 具体信息"></a>1 具体信息</h3><pre class="line-numbers language-none"><code class="language-none">&#123;&quot;file&quot;:&quot;&#x2F;cmd&#x2F;channel&#x2F;xxx&#x2F;prepay.go&quot;,&quot;level&quot;:&quot;error&quot;,&quot;line&quot;:220,&quot;msg&quot;:&quot;xxx.DoPrepayGRPC error: xxx2Client.CreateOrder: rpc error: code &#x3D; Unimplemented desc &#x3D; unknown service xxx_global.xxx2&quot;,&quot;pid&quot;:63405,&quot;requestid&quot;:&quot;2_1615862450_86&quot;,&quot;sdkid&quot;:&quot;xxx_global&quot;,&quot;time&quot;:&quot;2021-03-16T10:40:50+08:00&quot;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h3 id="2-可能原因"><a href="#2-可能原因" class="headerlink" title="2  可能原因"></a>2  可能原因</h3><ul><li>客户端调用的服务和grpc的服务协议不一致。</li><li>proto一致的情况下，但程序生成应用过程中改了proto的包名。</li></ul><h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3 解决方案"></a>3 解决方案</h3><ul><li><p>需要检查客户端使用的proto和服务用的是否一致；</p></li><li><p>核对proto的包名是否有改动。</p></li></ul><p>未碰到其他原因导致这个报错，及供参考同学们~</p>]]></content>
       
       
       <categories>
