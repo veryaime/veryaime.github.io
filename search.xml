@@ -38,14 +38,14 @@
       
       <categories>
           
-          <category> ADAS </category>
+          <category> 自动驾驶 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> ADAS </tag>
+            <tag> 自动驾驶 </tag>
             
         </tags>
       
@@ -79,61 +79,11 @@
     
     
     <entry>
-      <title>单元测试</title>
-      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
-      <url>/object-object/stf/dan-yuan-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>国际软件测试认证委员会（ISTQB）定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行，谁执行"><a href="#什么时候进行，谁执行" class="headerlink" title="什么时候进行，谁执行"></a>什么时候进行，谁执行</h3><p>单元测试通常由在开发功能代码时执行，由开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可复用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动 GUI，提供一些输入，希望能够按下你的代码，并希望你已经设置好了)。如果你有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;你不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠，发展的更快。</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>尽可能使用接近于生产环境的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果你不能正确解决问题，你将能够捕获缺陷。 其次，你的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保你正在使用版本控制系统来跟踪你的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设你有一个由两个单元组成的程序，并且你执行的唯一测试是系统测试。你跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>软件测试基础</title>
       <link href="/object-object/stf/index/"/>
       <url>/object-object/stf/index/</url>
       
         <content type="html"><![CDATA[<h2 id="软件测试基础"><a href="#软件测试基础" class="headerlink" title="软件测试基础"></a>软件测试基础</h2><p>你希望掌握软件测试的基本知识吗?如果是的,…</p><p>Welcome to Software Testing Fundamentals (STF) !</p><p>STF 是一个分享软件测试基础知识的平台。如果我们要“陈腔滥调”，那么测试人员、测试人员和测试人员就会发现这个站点。我们的目标是在质量上建立一个有质量内容的资源库。</p><p>是的，你找到了它:对软件测试爱好者来说，这个不太彻底的全面的网站。由于我们的大部分文章都是基于各种资源、参考资料和经验，我们不主张任何原创或真实性。根据自己的情况浏览网站。</p><p>通过软件测试基础，如质量保证、质量控制、软件开发生命周期和软件测试生命周期。并且，通过了解软件测试级别，如单元测试、集成测试、系统测试和验收测试等。然后，检查各种软件测试类型，如烟雾测试、功能测试、可用性测试、安全性测试、性能测试、回归测试和符合性测试。另外，了解软件测试工件、缺陷和软件测试指标。最后，欣赏我们收集的软件测试资源，如笑话、引用、工作、练习、杂志、博客和证书。</p><h3 id="Basics（基础）"><a href="#Basics（基础）" class="headerlink" title="Basics（基础）"></a>Basics（基础）</h3><ul><li>Software Quality（软件质量）</li><li>Dimensions of Quality（质量范围）</li><li>Software Quality Assurance（软件质量保证）</li><li>Software Quality Control（软件质量控制）</li><li>Verification vs Validation（确认与验证）</li><li>SDLC</li><li>STLC</li><li>Definition of test（定义测试）</li><li>Software Testing Myths（软件测试神话）</li></ul><h3 id="Levels（阶段）"><a href="#Levels（阶段）" class="headerlink" title="Levels（阶段）"></a>Levels（阶段）</h3><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">Unit Testing</a>（单元测试）</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">Integration Testing</a>（集成测试）</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">System testing</a>（系统测试）</li><li><a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">Acceptance testing</a>（验收测试）</li></ul><h3 id="Methods-（方法）"><a href="#Methods-（方法）" class="headerlink" title="Methods （方法）"></a><a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">Methods</a> （方法）</h3><ul><li><a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">Black Box Testing</a>（黑盒测试）</li><li><a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">White Box Testing</a>（白盒测试）</li><li><a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">Gray Box Testing</a> （灰盒测试）</li><li><a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">Agile Testing</a>（敏捷测试）</li><li><a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">Ad hoc Testing</a>（随机测试）</li></ul><h3 id="Types（类型）"><a href="#Types（类型）" class="headerlink" title="Types（类型）"></a><a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fen-lei/">Types</a>（类型）</h3><ul><li><a href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/">Smoke Testing</a>（冒烟测试）</li><li><a href="https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/">Function Testing</a>（功能测试）</li><li><a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">Usability Testing</a>（易用性测试）</li><li><a href="https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">Security Testing</a> （安全测试）</li><li><a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">Performance testing</a> （性能测试）</li><li><a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">Regression Testing</a>  (回归测试)</li><li><a href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/">Compliance Testing</a>（符合性测试）</li></ul><h3 id="Artifacts（测试产品）"><a href="#Artifacts（测试产品）" class="headerlink" title="Artifacts（测试产品）"></a>Artifacts（测试产品）</h3><ul><li><a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">Test Plan</a> （测试计划） </li><li><a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">Test Case</a> （测试用例）</li><li><a href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/">Test Script</a> （测试脚本）</li></ul><h3 id="Defects（缺陷）"><a href="#Defects（缺陷）" class="headerlink" title="Defects（缺陷）"></a>Defects（缺陷）</h3><ul><li>Defect （缺陷）</li><li>Defect Severity（缺陷严重程度）</li><li>Defect Probability（缺陷概率）</li><li>Defect Priority（缺陷优先级别）</li><li>Defect Life Cycle（缺陷生命周期）</li><li>Defect Report（缺陷报告）</li></ul><h3 id="Metrics（指标）"><a href="#Metrics（指标）" class="headerlink" title="Metrics（指标）"></a>Metrics（指标）</h3><ul><li>Defect Age </li><li>Defect Density （缺陷密度）</li><li>Defect Detection Efficiency （缺陷检测效率）</li></ul><h3 id="Resources（资源）"><a href="#Resources（资源）" class="headerlink" title="Resources（资源）"></a>Resources（资源）</h3><ul><li>Software Testing Jokes（软件测试笑话）</li><li>Software Testing Quotes（软件测试报价）</li><li>Software Testing Jobs（软件测试工作）</li><li>Software Testing Exercises（软件测试练习）</li><li>Software Testing Magazines（软件测试杂志）</li><li><a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-bo-ke/">Software Testing Blogs</a>（软件测试博客）</li><li>Software Testing Certifications（软件测试证书）</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>安全测试</title>
-      <link href="/object-object/stf/an-quan-ce-shi/"/>
-      <url>/object-object/stf/an-quan-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，指在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。涉及到安全测试的同学一定要看看<a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">测试指南</a>以及OWASP每年的<a href="https://owasp.org/www-project-top-ten/">十大安全威胁</a>。</p><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
       
       
       <categories>
@@ -179,56 +129,6 @@
     
     
     <entry>
-      <title>性能测试</title>
-      <link href="/object-object/stf/xing-neng-ce-shi/"/>
-      <url>/object-object/stf/xing-neng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>易用性测试</title>
-      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
-      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>回归测试</title>
       <link href="/object-object/stf/hui-gui-ce-shi/"/>
       <url>/object-object/stf/hui-gui-ce-shi/</url>
@@ -254,36 +154,11 @@
     
     
     <entry>
-      <title>测试计划</title>
-      <link href="/object-object/stf/ce-shi-ji-hua/"/>
-      <url>/object-object/stf/ce-shi-ji-hua/</url>
+      <title>功能测试</title>
+      <link href="/object-object/stf/gong-neng-ce-shi/"/>
+      <url>/object-object/stf/gong-neng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="测试计划基本原理"><a href="#测试计划基本原理" class="headerlink" title="测试计划基本原理"></a>测试计划基本原理</h2><h3 id="测试计划定义"><a href="#测试计划定义" class="headerlink" title="测试计划定义"></a>测试计划定义</h3><p>软件测试计划是描述测试范围和活动的文档。它是在一个项目中正式测试任何软件/产品的基础。</p><p><u>国际软件测试资质认证委员会（ISTQB） 定义</u></p><ul><li><p><strong>测试计划：</strong> 一个描述预期测试活动的范围、方法、资源和时间表的文档。它确定了其他测试项目，测试的特性，测试任务，谁将完成每个任务，测试环境的独立性，测试环境，测试设计技术和进入和退出标准，以及他们选择的基本原理，以及任何需要应急计划的风险。它是测试规划过程的记录。</p></li><li><p><strong>主测试计划：</strong> 一个典型地处理多个测试级别的测试计划。</p></li><li><p><strong>阶段测试计划：</strong> 典型地解决一个测试阶段的测试计划。</p></li></ul><p><img src="https://img1.baidu.com/it/u=1948609987,2185059504&fm=26&fmt=auto" alt="测试计划书"></p><h3 id="测试计划类型"><a href="#测试计划类型" class="headerlink" title="测试计划类型"></a>测试计划类型</h3><p>你可以有以下几种测试计划:</p><ul><li><p><strong>主测试计划：</strong> 统一所有其他测试计划的项目/产品的单个高级测试计划。</p></li><li><p><strong>测试级别的测试计划:</strong> 每个测试级别的计划。</p><ul><li>单元测试计划书</li><li>系统集成测试计划书</li><li>系统测试计划书</li><li>验收测试计划书</li></ul></li><li><p><strong>测试类型特定的测试计划：</strong> 计划主要类型的测试，如性能测试计划和安全测试计划。</p></li></ul><h3 id="测试计划样板"><a href="#测试计划样板" class="headerlink" title="测试计划样板"></a>测试计划样板</h3><p>软件测试计划的格式和内容取决于正在执行的过程、标准和测试管理工具。不过，下面的格式是基于IEEE软件测试文档的标准，它提供了一个测试计划应该包含什么内容的摘要。</p><h3 id="测试计划标识符："><a href="#测试计划标识符：" class="headerlink" title="测试计划标识符："></a>测试计划标识符：</h3><ul><li>为文档提供唯一标识符。(如果你有配置管理系统的话，请遵守。)</li></ul><h3 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h3><ul><li>提供测试计划的概述。</li><li>指定目标/宗旨。</li><li>指定任何约束。</li></ul><h3 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h3><p>列出相关的文件，如果有链接的话，包括以下内容:</p><ul><li>项目规划</li><li>配置管理规划</li></ul><h3 id="测试项目："><a href="#测试项目：" class="headerlink" title="测试项目："></a>测试项目：</h3><ul><li>列出测试项目(软件/产品)及其版本。</li></ul><h3 id="功能测试："><a href="#功能测试：" class="headerlink" title="功能测试："></a>功能测试：</h3><ul><li>列出要测试的软件/产品的特性。</li><li>提供对需要测试的特性的要求和/或设计规范的引用</li></ul><h3 id="特性不被测试："><a href="#特性不被测试：" class="headerlink" title="特性不被测试："></a>特性不被测试：</h3><ul><li>列出不需要测试的软件/产品的特性。</li><li>指定这些特性不需要测试的原因。</li></ul><h3 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h3><ul><li>提到测试的总体方法。</li><li>指定测试级别[如果是主测试计划]，测试类型和测试方法[手动/自动化; 白盒/黑盒/灰盒]</li></ul><h3 id="项目通过-失败标准"><a href="#项目通过-失败标准" class="headerlink" title="项目通过/失败标准:"></a>项目通过/失败标准:</h3><ul><li>指定用于确定每个测试项目(软件/产品)已通过或失败测试的标准。</li></ul><h3 id="暂停标准和恢复要求："><a href="#暂停标准和恢复要求：" class="headerlink" title="暂停标准和恢复要求："></a>暂停标准和恢复要求：</h3><ul><li>指定用于挂起测试活动的标准。</li><li>指定测试活动，在恢复测试时必须重新执行。</li></ul><h3 id="测试可交付成果"><a href="#测试可交付成果" class="headerlink" title="测试可交付成果:"></a>测试可交付成果:</h3><ul><li>列出测试可交付成果，并与他们联系，包括以下内容:<ul><li>测试计划书（本文的本身）</li><li>测试用例</li><li>测试脚本</li><li>缺陷/处理日志</li><li>测试报告</li></ul></li></ul><h3 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h3><ul><li>指定测试环境的属性:硬件、软件、网络等。</li><li>列出任何测试或相关工具。</li></ul><h3 id="评估："><a href="#评估：" class="headerlink" title="评估："></a>评估：</h3><p>提供一个测试评估的摘要(成本或努力)和/或提供一个链接到详细的评估。</p><h3 id="时间表："><a href="#时间表：" class="headerlink" title="时间表："></a>时间表：</h3><p>提供时间表的摘要，指定关键的测试里程碑，并/或提供一个链接到详细的时间表。</p><h3 id="人员配备和培训需求"><a href="#人员配备和培训需求" class="headerlink" title="人员配备和培训需求:"></a>人员配备和培训需求:</h3><ul><li>根据角色和所需技能指定人员需求。</li><li>提供相应的技术培训。</li></ul><h3 id="职责："><a href="#职责：" class="headerlink" title="职责："></a>职责：</h3><ul><li>列出每个团队/角色/个人的职责。</li></ul><h3 id="风险："><a href="#风险：" class="headerlink" title="风险："></a>风险：</h3><ul><li>列出已确定的风险。</li><li>为每个风险指定缓解计划和应急计划。</li></ul><h3 id="假设和依赖关系"><a href="#假设和依赖关系" class="headerlink" title="假设和依赖关系:"></a>假设和依赖关系:</h3><ul><li>列出在准备这个计划时所做的假设。</li><li>依赖项列表。</li></ul><h3 id="审批："><a href="#审批：" class="headerlink" title="审批："></a>审批：</h3><ul><li>确认所有必须批准该计划的人的姓名和角色。</li><li>为签名和日期提供空间。(如果要打印文件的话。)</li></ul><h3 id="测试计划指南："><a href="#测试计划指南：" class="headerlink" title="测试计划指南："></a>测试计划指南：</h3><ul><li><p>使计划简洁。 避免冗余和多余。 如果你认为你不需要上述模板中提到的部分，请继续删除测试计划中的该部分。</p></li><li><p>请明确点。 例如，当你将操作系统指定为测试环境的属性时，请提及操作系统版本/版本，而不仅仅是操作系统名称。</p></li><li><p>尽可能使用列表和表。 避免冗长的段落。</p></li><li><p>在基础测试之前先进行测试计划的审查，或者将其发送给审批人员。 你的测试计划的质量会说明你或你的团队将要执行的测试质量。</p></li><li><p>必要时更新计划。 一个过时的和未使用的发臭文件，比没有文件的首先更糟糕。</p></li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/">符合性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>白盒测试</title>
-      <link href="/object-object/stf/bai-he-ce-shi/"/>
-      <url>/object-object/stf/bai-he-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="(https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/)">软件测试方法</a>，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子。</p><p>国际软件测试资质认证委员会（ISTQB）定义</p><ul><li><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</li><li><strong>白盒测试技巧：</strong> 选择测试用例的过程分析某一部件或系统的内部结构。</li></ul><p><img src="https://pics6.baidu.com/feed/203fb80e7bec54e75a8d10f72e8ca5564ec26a34.jpeg?token=0b64ce09c736a08b194bdc3d6f1d7b56&s=59843C720F427C49485C14CE0000E0B1"></p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p><img src="https://pics7.baidu.com/feed/96dda144ad3459826ebe6e089a400fabcaef84ab.jpeg?token=e68322a8169dbf01c9107e5508788572&s=1C205E324D3272031974DDCB020060B1"></p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/">冒烟测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a> </p>]]></content>
       
       
       <categories>
@@ -304,36 +179,11 @@
     
     
     <entry>
-      <title>测试用例</title>
-      <link href="/object-object/stf/ce-shi-yong-li/"/>
-      <url>/object-object/stf/ce-shi-yong-li/</url>
+      <title>单元测试</title>
+      <link href="/object-object/stf/dan-yuan-ce-shi/"/>
+      <url>/object-object/stf/dan-yuan-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th>项目</th><th>描述</th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； <br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；<br>2.在数量字段中输入硬币数量；<br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；<br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;<br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。<br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>veryAIme</td></tr><tr><td>创建日期</td><td>07/28/2021</td></tr><tr><td>执行者</td><td>veryAIme</td></tr><tr><td>执行日期</td><td>07/28/2021</td></tr><tr><td>测试环境</td><td>1.OS：Windows 10 sp1 X64;Linux<br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使你的测试用例“原子”。</p></li><li><p>确保所有的正确场景和异常场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试脚本</title>
-      <link href="/object-object/stf/ce-shi-jiao-ben/"/>
-      <url>/object-object/stf/ce-shi-jiao-ben/</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试脚本基本原理"><a href="#测试脚本基本原理" class="headerlink" title="测试脚本基本原理"></a>测试脚本基本原理</h2><p><strong>测试脚本</strong> 是一组指令(使用脚本/编程语言编写)，这些指令是在测试系统上执行的，以验证系统是否按照预期执行。测试脚本用于自动化测试。</p><p>有时，在手工测试中使用的一组指令(以人类语言编写的)也被称为测试脚本，但更好的术语是<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</p><p>自动化测试中使用的一些脚本语言是:</p><ul><li>Shell</li><li>Python</li><li>JavaScript</li><li>Perl</li><li>Ruby</li><li>等等</li></ul><p>还有许多测试自动化工具/框架为你生成测试脚本;不需要实际的编码。这些工具都有自己的脚本语言(其中一些是基于核心脚本语言的)。一个测试脚本可以像下面这样简单:</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">sample_test_script</span> <span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token builtin">type</span> <span class="token punctuation">(</span><span class="token string">"TextA"</span><span class="token punctuation">)</span>click <span class="token punctuation">(</span>ImageButtonA<span class="token punctuation">)</span>assertExist <span class="token punctuation">(</span>ImageResultA<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>测试执行引擎和测试脚本库(连同测试数据)统称为测试工具。</p><h4 id="TODO：-软件测试生命周期"><a href="#TODO：-软件测试生命周期" class="headerlink" title="TODO： 软件测试生命周期"></a>TODO： 软件测试生命周期</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-sheng-ming-zhou-qi/">软件测试生命周期</a>  | <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="单元测试基础"><a href="#单元测试基础" class="headerlink" title="单元测试基础"></a>单元测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>单元测试</strong>是软件测试的一个级别，其中软件的单个单元/组件被测试。 目的是验证软件的每个单元是否按照设计执行。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>一个单元是软件中最小的可测试部分。 它通常有一个或几个输入，通常是单个输出。 在程序编程中，单元可以是单独的程序，功能，程序等。在面向对象编程中，最小单元是一种可以属于基类/超类，抽象类或派生/子类的方法。 （有些将应用程序的模块视为一个单元，这是不鼓励的，因为该模块中可能会有许多单独的单元。）</p><p>单元测试框架，驱动程序，存根和模拟/假对象用于协助进行单元测试。</p><p>国际软件测试认证委员会（ISTQB）定义</p><ul><li><strong>单元测试：</strong> 测试看到的组件</li><li><strong>组件测试：</strong> 对单个软件组件的测试</li></ul><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>单元测试采用<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法进行。</p><h3 id="什么时候进行，谁执行"><a href="#什么时候进行，谁执行" class="headerlink" title="什么时候进行，谁执行"></a>什么时候进行，谁执行</h3><p>单元测试通常由在开发功能代码时执行，由开发人员自己或他们的同行执行。在极少数情况下，它也可能由独立软件测试人员执行。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>单元测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>单元测试<ul><li>执行</li></ul></li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li><p>单元测试增加了对更改/维护代码的信心。如果编写了良好的单元测试，并且在每次修改代码时都运行，我们将及时发现由于变更而引起的任何缺陷。此外，如果代码已不再相互依赖，以使单元测试成为可能，对任何代码的更改会产生意想不到的影响。</p></li><li><p>代码可复用。 为了使单元测试成为可能，代码需要模块化。 这意味着代码更容易重用。</p></li><li><p>发展得更快。为何?如果没有单元测试，就编写代码并执行模糊的“开发测试”(设置一些断点，启动 GUI，提供一些输入，希望能够按下你的代码，并希望你已经设置好了)。如果你有单元测试，则编写测试、编写代码并运行测试。编写测试需要时间，但是时间得到了运行测试所需的时间的补偿;你不需要启动GUI并提供所有这些输入。当然，单元测试比“开发人员测试”更可靠，发展的更快。</p></li><li><p>与在较高级别检测到的缺陷相比，固定在单元测试期间检测到的缺陷的成本较低。 比较在验收测试期间或软件生存时检测到的缺陷的成本（时间，努力，破坏，羞辱）。</p></li><li><p>调试很简单。测试失败时，只需要调试最新的更改。 在更高层次的测试中，需要扫描数天/周/月的范围内的变化。</p></li><li><p>代码更可靠。为什么?我认为没有必要向一个理智的人解释这个。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>为你的语言找一个框架/工具</li><li>不要为所有事情创建测试用例。相反，关注影响系统行为的测试。</li><li>从测试环境隔离开发环境。</li><li>尽可能使用接近于生产环境的测试数据。</li><li>在修复缺陷之前，请先写出一个暴露缺陷的测试。 为什么？ 首先，如果你不能正确解决问题，你将能够捕获缺陷。 其次，你的测试套件现在更全面。 第三，在修复缺陷之后，你最有可能太懒了，写出测试。</li><li>目标是覆盖整个单位的所有路径。特别注意循环条件。</li><li>确保你正在使用版本控制系统来跟踪你的测试脚本。</li><li>除了编写案例来验证行为外，还要编写案例以确保代码的性能。</li><li>持续频繁地执行单元测试。</li></ul><h3 id="还有一个原因"><a href="#还有一个原因" class="headerlink" title="还有一个原因"></a>还有一个原因</h3><p>假设你有一个由两个单元组成的程序，并且你执行的唯一测试是系统测试。你跳过单元测试和集成测试。在测试过程中，你会发现一个错误。现在，你如何确定问题的原因?</p><ul><li>错误是由于单元1中的错误引起的？</li><li>错误是由于单元2中的错误引起的？</li><li>错误是由于两个单元中的错误造成的吗?</li><li>这个bug是由于单元之间接口中的错误造成的吗?</li><li>是由于测试或测试用例中的错误引起的错误？</li></ul><p>单元测试常常被忽略，但实际上，它是最重要的测试级别。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> </p>]]></content>
       
       
       <categories>
@@ -354,11 +204,11 @@
     
     
     <entry>
-      <title>符合性测试</title>
-      <link href="/object-object/stf/fu-he-xing-ce-shi/"/>
-      <url>/object-object/stf/fu-he-xing-ce-shi/</url>
+      <title>安全测试</title>
+      <link href="/object-object/stf/an-quan-ce-shi/"/>
+      <url>/object-object/stf/an-quan-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://img-blog.csdnimg.cn/wm/178c8fb206ac6ef795fe1e73e36af403.jpg?x-oss-process=image/resize,h_236,w_382" alt="符合性测试"></p><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>内部标准可以是公司自身定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成，这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，指在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。涉及到安全测试的同学一定要看看<a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">测试指南</a>以及OWASP每年的<a href="https://owasp.org/www-project-top-ten/">十大安全威胁</a>。</p><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
       
       
       <categories>
@@ -379,11 +229,11 @@
     
     
     <entry>
-      <title>灰盒测试</title>
-      <link href="/object-object/stf/hui-he-ce-shi/"/>
-      <url>/object-object/stf/hui-he-ce-shi/</url>
+      <title>性能测试</title>
+      <link href="/object-object/stf/xing-neng-ce-shi/"/>
+      <url>/object-object/stf/xing-neng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
       
       
       <categories>
@@ -429,11 +279,161 @@
     
     
     <entry>
-      <title>系统测试</title>
-      <link href="/object-object/stf/xi-tong-ce-shi/"/>
-      <url>/object-object/stf/xi-tong-ce-shi/</url>
+      <title>易用性测试</title>
+      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
+      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试用例</title>
+      <link href="/object-object/stf/ce-shi-yong-li/"/>
+      <url>/object-object/stf/ce-shi-yong-li/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th>项目</th><th>描述</th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； <br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；<br>2.在数量字段中输入硬币数量；<br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；<br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;<br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。<br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>veryAIme</td></tr><tr><td>创建日期</td><td>07/28/2021</td></tr><tr><td>执行者</td><td>veryAIme</td></tr><tr><td>执行日期</td><td>07/28/2021</td></tr><tr><td>测试环境</td><td>1.OS：Windows 10 sp1 X64;Linux<br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使你的测试用例“原子”。</p></li><li><p>确保所有的正确场景和异常场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试计划</title>
+      <link href="/object-object/stf/ce-shi-ji-hua/"/>
+      <url>/object-object/stf/ce-shi-ji-hua/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试计划基本原理"><a href="#测试计划基本原理" class="headerlink" title="测试计划基本原理"></a>测试计划基本原理</h2><h3 id="测试计划定义"><a href="#测试计划定义" class="headerlink" title="测试计划定义"></a>测试计划定义</h3><p>软件测试计划是描述测试范围和活动的文档。它是在一个项目中正式测试任何软件/产品的基础。</p><p><u>国际软件测试资质认证委员会（ISTQB） 定义</u></p><ul><li><p><strong>测试计划：</strong> 一个描述预期测试活动的范围、方法、资源和时间表的文档。它确定了其他测试项目，测试的特性，测试任务，谁将完成每个任务，测试环境的独立性，测试环境，测试设计技术和进入和退出标准，以及他们选择的基本原理，以及任何需要应急计划的风险。它是测试规划过程的记录。</p></li><li><p><strong>主测试计划：</strong> 一个典型地处理多个测试级别的测试计划。</p></li><li><p><strong>阶段测试计划：</strong> 典型地解决一个测试阶段的测试计划。</p></li></ul><p><img src="https://img1.baidu.com/it/u=1948609987,2185059504&fm=26&fmt=auto" alt="测试计划书"></p><h3 id="测试计划类型"><a href="#测试计划类型" class="headerlink" title="测试计划类型"></a>测试计划类型</h3><p>你可以有以下几种测试计划:</p><ul><li><p><strong>主测试计划：</strong> 统一所有其他测试计划的项目/产品的单个高级测试计划。</p></li><li><p><strong>测试级别的测试计划:</strong> 每个测试级别的计划。</p><ul><li>单元测试计划书</li><li>系统集成测试计划书</li><li>系统测试计划书</li><li>验收测试计划书</li></ul></li><li><p><strong>测试类型特定的测试计划：</strong> 计划主要类型的测试，如性能测试计划和安全测试计划。</p></li></ul><h3 id="测试计划样板"><a href="#测试计划样板" class="headerlink" title="测试计划样板"></a>测试计划样板</h3><p>软件测试计划的格式和内容取决于正在执行的过程、标准和测试管理工具。不过，下面的格式是基于IEEE软件测试文档的标准，它提供了一个测试计划应该包含什么内容的摘要。</p><h3 id="测试计划标识符："><a href="#测试计划标识符：" class="headerlink" title="测试计划标识符："></a>测试计划标识符：</h3><ul><li>为文档提供唯一标识符。(如果你有配置管理系统的话，请遵守。)</li></ul><h3 id="简介："><a href="#简介：" class="headerlink" title="简介："></a>简介：</h3><ul><li>提供测试计划的概述。</li><li>指定目标/宗旨。</li><li>指定任何约束。</li></ul><h3 id="参考文献："><a href="#参考文献：" class="headerlink" title="参考文献："></a>参考文献：</h3><p>列出相关的文件，如果有链接的话，包括以下内容:</p><ul><li>项目规划</li><li>配置管理规划</li></ul><h3 id="测试项目："><a href="#测试项目：" class="headerlink" title="测试项目："></a>测试项目：</h3><ul><li>列出测试项目(软件/产品)及其版本。</li></ul><h3 id="功能测试："><a href="#功能测试：" class="headerlink" title="功能测试："></a>功能测试：</h3><ul><li>列出要测试的软件/产品的特性。</li><li>提供对需要测试的特性的要求和/或设计规范的引用</li></ul><h3 id="特性不被测试："><a href="#特性不被测试：" class="headerlink" title="特性不被测试："></a>特性不被测试：</h3><ul><li>列出不需要测试的软件/产品的特性。</li><li>指定这些特性不需要测试的原因。</li></ul><h3 id="方法："><a href="#方法：" class="headerlink" title="方法："></a>方法：</h3><ul><li>提到测试的总体方法。</li><li>指定测试级别[如果是主测试计划]，测试类型和测试方法[手动/自动化; 白盒/黑盒/灰盒]</li></ul><h3 id="项目通过-失败标准"><a href="#项目通过-失败标准" class="headerlink" title="项目通过/失败标准:"></a>项目通过/失败标准:</h3><ul><li>指定用于确定每个测试项目(软件/产品)已通过或失败测试的标准。</li></ul><h3 id="暂停标准和恢复要求："><a href="#暂停标准和恢复要求：" class="headerlink" title="暂停标准和恢复要求："></a>暂停标准和恢复要求：</h3><ul><li>指定用于挂起测试活动的标准。</li><li>指定测试活动，在恢复测试时必须重新执行。</li></ul><h3 id="测试可交付成果"><a href="#测试可交付成果" class="headerlink" title="测试可交付成果:"></a>测试可交付成果:</h3><ul><li>列出测试可交付成果，并与他们联系，包括以下内容:<ul><li>测试计划书（本文的本身）</li><li>测试用例</li><li>测试脚本</li><li>缺陷/处理日志</li><li>测试报告</li></ul></li></ul><h3 id="测试环境："><a href="#测试环境：" class="headerlink" title="测试环境："></a>测试环境：</h3><ul><li>指定测试环境的属性:硬件、软件、网络等。</li><li>列出任何测试或相关工具。</li></ul><h3 id="评估："><a href="#评估：" class="headerlink" title="评估："></a>评估：</h3><p>提供一个测试评估的摘要(成本或努力)和/或提供一个链接到详细的评估。</p><h3 id="时间表："><a href="#时间表：" class="headerlink" title="时间表："></a>时间表：</h3><p>提供时间表的摘要，指定关键的测试里程碑，并/或提供一个链接到详细的时间表。</p><h3 id="人员配备和培训需求"><a href="#人员配备和培训需求" class="headerlink" title="人员配备和培训需求:"></a>人员配备和培训需求:</h3><ul><li>根据角色和所需技能指定人员需求。</li><li>提供相应的技术培训。</li></ul><h3 id="职责："><a href="#职责：" class="headerlink" title="职责："></a>职责：</h3><ul><li>列出每个团队/角色/个人的职责。</li></ul><h3 id="风险："><a href="#风险：" class="headerlink" title="风险："></a>风险：</h3><ul><li>列出已确定的风险。</li><li>为每个风险指定缓解计划和应急计划。</li></ul><h3 id="假设和依赖关系"><a href="#假设和依赖关系" class="headerlink" title="假设和依赖关系:"></a>假设和依赖关系:</h3><ul><li>列出在准备这个计划时所做的假设。</li><li>依赖项列表。</li></ul><h3 id="审批："><a href="#审批：" class="headerlink" title="审批："></a>审批：</h3><ul><li>确认所有必须批准该计划的人的姓名和角色。</li><li>为签名和日期提供空间。(如果要打印文件的话。)</li></ul><h3 id="测试计划指南："><a href="#测试计划指南：" class="headerlink" title="测试计划指南："></a>测试计划指南：</h3><ul><li><p>使计划简洁。 避免冗余和多余。 如果你认为你不需要上述模板中提到的部分，请继续删除测试计划中的该部分。</p></li><li><p>请明确点。 例如，当你将操作系统指定为测试环境的属性时，请提及操作系统版本/版本，而不仅仅是操作系统名称。</p></li><li><p>尽可能使用列表和表。 避免冗长的段落。</p></li><li><p>在基础测试之前先进行测试计划的审查，或者将其发送给审批人员。 你的测试计划的质量会说明你或你的团队将要执行的测试质量。</p></li><li><p>必要时更新计划。 一个过时的和未使用的发臭文件，比没有文件的首先更糟糕。</p></li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/">符合性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试脚本</title>
+      <link href="/object-object/stf/ce-shi-jiao-ben/"/>
+      <url>/object-object/stf/ce-shi-jiao-ben/</url>
+      
+        <content type="html"><![CDATA[<h2 id="测试脚本基本原理"><a href="#测试脚本基本原理" class="headerlink" title="测试脚本基本原理"></a>测试脚本基本原理</h2><p><strong>测试脚本</strong> 是一组指令(使用脚本/编程语言编写)，这些指令是在测试系统上执行的，以验证系统是否按照预期执行。测试脚本用于自动化测试。</p><p>有时，在手工测试中使用的一组指令(以人类语言编写的)也被称为测试脚本，但更好的术语是<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</p><p>自动化测试中使用的一些脚本语言是:</p><ul><li>Shell</li><li>Python</li><li>JavaScript</li><li>Perl</li><li>Ruby</li><li>等等</li></ul><p>还有许多测试自动化工具/框架为你生成测试脚本;不需要实际的编码。这些工具都有自己的脚本语言(其中一些是基于核心脚本语言的)。一个测试脚本可以像下面这样简单:</p><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">sample_test_script</span> <span class="token punctuation">(</span>self<span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token builtin">type</span> <span class="token punctuation">(</span><span class="token string">"TextA"</span><span class="token punctuation">)</span>click <span class="token punctuation">(</span>ImageButtonA<span class="token punctuation">)</span>assertExist <span class="token punctuation">(</span>ImageResultA<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>测试执行引擎和测试脚本库(连同测试数据)统称为测试工具。</p><h4 id="TODO：-软件测试生命周期"><a href="#TODO：-软件测试生命周期" class="headerlink" title="TODO： 软件测试生命周期"></a>TODO： 软件测试生命周期</h4><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-sheng-ming-zhou-qi/">软件测试生命周期</a>  | <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>白盒测试</title>
+      <link href="/object-object/stf/bai-he-ce-shi/"/>
+      <url>/object-object/stf/bai-he-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="(https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/)">软件测试方法</a>，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子。</p><p>国际软件测试资质认证委员会（ISTQB）定义</p><ul><li><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</li><li><strong>白盒测试技巧：</strong> 选择测试用例的过程分析某一部件或系统的内部结构。</li></ul><p><img src="https://pics6.baidu.com/feed/203fb80e7bec54e75a8d10f72e8ca5564ec26a34.jpeg?token=0b64ce09c736a08b194bdc3d6f1d7b56&s=59843C720F427C49485C14CE0000E0B1"></p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p><img src="https://pics7.baidu.com/feed/96dda144ad3459826ebe6e089a400fabcaef84ab.jpeg?token=e68322a8169dbf01c9107e5508788572&s=1C205E324D3272031974DDCB020060B1"></p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>灰盒测试</title>
+      <link href="/object-object/stf/hui-he-ce-shi/"/>
+      <url>/object-object/stf/hui-he-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>符合性测试</title>
+      <link href="/object-object/stf/fu-he-xing-ce-shi/"/>
+      <url>/object-object/stf/fu-he-xing-ce-shi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="符合性测试基本原理"><a href="#符合性测试基本原理" class="headerlink" title="符合性测试基本原理"></a>符合性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>符合性测试</strong> (也称为一致性测试，标准测试)是一种测试，以确定系统内部或外部标准的遵从性。</p><p><img src="https://img-blog.csdnimg.cn/wm/178c8fb206ac6ef795fe1e73e36af403.jpg?x-oss-process=image/resize,h_236,w_382" alt="符合性测试"></p><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>内部标准可以是公司自身定的标准。例如，一个web应用程序开发公司可能会设置所有web页面必须响应的标准。</p><p>外部标准可以是公司以外的标准。例如，健康保险可移植性和责任法案(HIPAA)为医疗行业制定了规定。</p><p>遵从性测试也可以由外部组织来完成，这通常会导致某种类型的符合性认证。</p><p>在符合性测试过程中进行测试的方法和类型取决于所评估的具体规则/标准。</p><p>遵从性测试的深度可以从抽样的高级审核到对每个指定标准的详细审查。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a> </p>]]></content>
       
       
       <categories>
@@ -479,61 +479,11 @@
     
     
     <entry>
-      <title>缺陷概率</title>
-      <link href="/object-object/stf/que-xian-gai-lu/"/>
-      <url>/object-object/stf/que-xian-gai-lu/</url>
+      <title>系统测试</title>
+      <link href="/object-object/stf/xi-tong-ce-shi/"/>
+      <url>/object-object/stf/xi-tong-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>缺陷报告</title>
-      <link href="/object-object/stf/que-xian-bao-gao/"/>
-      <url>/object-object/stf/que-xian-bao-gao/</url>
-      
-        <content type="html"><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>软件测试博客</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="系统测试基础"><a href="#系统测试基础" class="headerlink" title="系统测试基础"></a>系统测试基础</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>系统测试</strong>是软件测试的一个级别，完整和集成的测试了软件。</p><p>本测试的目的是评估系统是否符合指定的要求。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="测试级别"></p><p>ISTQB定义</p><ul><li><strong>系统测试：</strong> 测试集成系统以验证其满足指定的过程要求。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，分开制造盖，主体，尾部，墨盒和圆珠笔，并单独进行单元测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 整个笔完整的系统测试。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>通常使用<a href="%E9%BB%91%E7%9B%92%E6%B5%8B%E8%AF%95.md">黑盒测试</a>方法。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>系统测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>系统测试<ul><li>执行<h3 id="什么时候进行系统测试"><a href="#什么时候进行系统测试" class="headerlink" title="什么时候进行系统测试?"></a>什么时候进行系统测试?</h3></li></ul></li></ul><p>系统测试执行在<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>之后在<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>之前。</p><h3 id="谁执行系统测试"><a href="#谁执行系统测试" class="headerlink" title="谁执行系统测试?"></a>谁执行系统测试?</h3><p>通常，独立测试人员执行系统测试。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a> </p>]]></content>
       
       
       <categories>
@@ -579,11 +529,136 @@
     
     
     <entry>
-      <title>功能测试</title>
-      <link href="/object-object/stf/gong-neng-ce-shi/"/>
-      <url>/object-object/stf/gong-neng-ce-shi/</url>
+      <title>缺陷优先级</title>
+      <link href="/object-object/stf/que-xian-you-xian-ji/"/>
+      <url>/object-object/stf/que-xian-you-xian-ji/</url>
       
-        <content type="html"><![CDATA[<h2 id="功能测试基本原理"><a href="#功能测试基本原理" class="headerlink" title="功能测试基本原理"></a>功能测试基本原理</h2><p>功能测试定义，阐述，优点，缺点：</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>功能测试是软件测试的一种,是对系统的功能需求/规格的测试。</p><h3 id="阐述"><a href="#阐述" class="headerlink" title="阐述"></a>阐述</h3><p>功能(或特性)通过输入和检查输出来测试。功能测试确保应用程序对需求进行适当的满足。这种类型的测试不关心处理如何发生，而是处理过程的结果。</p><p>在功能测试中，使用<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>技术，测试的系统的内部逻辑不被测试者知道。</p><p>功能测试通常在<a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a>和<a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>的级别进行。</p><p>通常，功能测试包括以下步骤:</p><ul><li>识别软件要执行的功能。</li><li>根据功能的规范创建输入数据。</li><li>根据功能的规格确定输出。</li><li>执行<a href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/">测试用例</a>。</li><li>比较实际和预期的输出。</li></ul><h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul><li>它模拟了实际的系统使用情况。</li><li>它没有做出任何系统结构假设。</li></ul><h3 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h3><ul><li>它有可能在软件中丢失逻辑错误。</li><li>它有很高的冗余测试的可能性。</li></ul><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>当测试条件直接从用户/业务需求创建时，功能测试更有效。当测试条件从系统文档(系统需求/设计文档)中创建时，该文档中的缺陷将无法通过测试检测出来，这可能是最终用户使用该软件时引起的愤怒的原因。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/">冒烟测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>缺陷报告</title>
+      <link href="/object-object/stf/que-xian-bao-gao/"/>
+      <url>/object-object/stf/que-xian-bao-gao/</url>
+      
+        <content type="html"><![CDATA[<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>缺陷概率</title>
+      <link href="/object-object/stf/que-xian-gai-lu/"/>
+      <url>/object-object/stf/que-xian-gai-lu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>质量维度</title>
+      <link href="/object-object/stf/zhi-liang-wei-du/"/>
+      <url>/object-object/stf/zhi-liang-wei-du/</url>
+      
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件测试博客</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-bo-ke/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-bo-ke/</url>
+      
+        <content type="html"><![CDATA[<h2 id="软件测试博客"><a href="#软件测试博客" class="headerlink" title="软件测试博客"></a>软件测试博客</h2><p>这里按照字母排序，列出推荐/顶级/最佳 <strong>软件测试博客</strong> 列表。</p><p>我们选择博客的标准如下:</p><ul><li>该博客的主要重点是软件测试。</li><li>这个博客经常更新。</li><li>博客的内容是高质量的。</li><li>博客不属于任何公司(除非博客拥有该公司)</li><li>博客是一个非博客网站，如门户、论坛、群组等。</li></ul><table><thead><tr><th>博主</th><th>博客名</th><th>博客地址</th></tr></thead><tbody><tr><td>Alan Richardson</td><td>The Evil Tester</td><td><a href="http://www.eviltester.com/">http://www.eviltester.com/</a></td></tr><tr><td>Andy Glover</td><td>Cartoon Tester</td><td><a href="http://cartoontester.blogspot.com/">http://cartoontester.blogspot.com/</a></td></tr><tr><td>Anne-Marie Charrett</td><td>Maverick Tester</td><td><a href="http://mavericktester.com/">http://mavericktester.com/</a></td></tr><tr><td>Anuj</td><td>Creative Tester</td><td><a href="http://anujmagazine.blogspot.com/">http://anujmagazine.blogspot.com/</a></td></tr><tr><td>Bj Rollison</td><td>I.M.Testy</td><td><a href="http://www.testingmentor.com/imtesty/">http://www.testingmentor.com/imtesty/</a></td></tr><tr><td>Brian Osman</td><td>The Tao of Software Testing</td><td><a href="http://bjosman.wordpress.com/">http://bjosman.wordpress.com/</a></td></tr><tr><td>Cem Kaner</td><td>Software Engineering Professor and Consumer Advocate</td><td><a href="http://kaner.com/?page_id=85">http://kaner.com/?page_id=85</a></td></tr><tr><td>Dawn Cannan</td><td>Confessions of a Passionate Tester</td><td><a href="http://www.passionatetester.com/">http://www.passionatetester.com/</a></td></tr><tr><td>Dhanasekhar S</td><td>Testing Ideas</td><td><a href="http://testingideas.wordpress.com/">http://testingideas.wordpress.com/</a></td></tr><tr><td>Elisabeth Hendrickson</td><td>Thoughts on Agile, Testing, and Agile Testing</td><td><a href="http://testobsessed.com/">http://testobsessed.com/</a></td></tr><tr><td>James Bach</td><td>The Consulting Software Tester</td><td><a href="http://www.satisfice.com/blog/">http://www.satisfice.com/blog/</a></td></tr><tr><td>Jeff Fry</td><td>Thoughts on the craft of software testing</td><td><a href="http://testingjeff.wordpress.com/">http://testingjeff.wordpress.com/</a></td></tr><tr><td>Jeroen Rosink</td><td>World of Software Testing</td><td><a href="http://testconsultant.blogspot.com/">http://testconsultant.blogspot.com/</a></td></tr><tr><td>Joe Strazzere</td><td>All things Quality</td><td><a href="http://strazzere.blogspot.com/">http://strazzere.blogspot.com/</a></td></tr><tr><td>Joel Montvelisky</td><td>QA Intelligence</td><td><a href="http://qablog.practitest.com/">http://qablog.practitest.com/</a></td></tr><tr><td>Jon Bach</td><td>Highlighting the humanity in software testing</td><td><a href="http://jonbox.wordpress.com/">http://jonbox.wordpress.com/</a></td></tr><tr><td>Jonathan Kohl</td><td>Consultant specializing in software testing</td><td><a href="http://www.kohl.ca/blog/">http://www.kohl.ca/blog/</a></td></tr><tr><td>Keith</td><td>Random thoughts about Software Testing.</td><td><a href="http://testmuse.wordpress.com/">http://testmuse.wordpress.com/</a></td></tr><tr><td>Lanette Creamer</td><td>Testy Redhead</td><td><a href="http://blog.testyredhead.com/">http://blog.testyredhead.com/</a></td></tr><tr><td>Lisa Crispin</td><td>Providing Practical Agile Testing Guidance</td><td><a href="http://lisacrispin.com/wordpress/">http://lisacrispin.com/wordpress/</a></td></tr><tr><td>Marisa, Daniel, Josh</td><td>The Testing Blog</td><td><a href="http://thetestingblog.com/">http://thetestingblog.com/</a></td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Various</td><td>Short Software Testing Tips</td><td><a href="http://www.quicktestingtips.com/tips/">http://www.quicktestingtips.com/tips/</a></td></tr><tr><td>Various</td><td>Software Testing Fundamentals</td><td><a href="http://softwaretestingfundamentals.com/">http://softwaretestingfundamentals.com/</a></td></tr><tr><td>Various</td><td>The Test Eye</td><td><a href="http://thetesteye.com/blog/">http://thetesteye.com/blog/</a></td></tr></tbody></table><p>根据我们的研究和你的反馈，我们经常更新软件测试博客列表。请告诉我们，如果你想要更新任何一个列出的博客的细节，或者你想要其他的博客。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>软件测试分类</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
+      
+        <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
       
       
       <categories>
@@ -654,11 +729,11 @@
     
     
     <entry>
-      <title>缺陷优先级</title>
-      <link href="/object-object/stf/que-xian-you-xian-ji/"/>
-      <url>/object-object/stf/que-xian-you-xian-ji/</url>
+      <title>集成测试</title>
+      <link href="/object-object/stf/ji-cheng-ce-shi/"/>
+      <url>/object-object/stf/ji-cheng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="缺陷优先级"><a href="#缺陷优先级" class="headerlink" title="缺陷优先级"></a>缺陷优先级</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
       
       
       <categories>
@@ -704,86 +779,11 @@
     
     
     <entry>
-      <title>软件测试分类</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
-      
-        <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>质量维度</title>
-      <link href="/object-object/stf/zhi-liang-wei-du/"/>
-      <url>/object-object/stf/zhi-liang-wei-du/</url>
-      
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>黑盒测试</title>
       <link href="/object-object/stf/hei-he-ce-shi/"/>
       <url>/object-object/stf/hei-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="黑盒测试基础原理"><a href="#黑盒测试基础原理" class="headerlink" title="黑盒测试基础原理"></a>黑盒测试基础原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>黑盒测试</strong> ，也被称为行为测试，是一种软件测试方法，其中测试的项目的内部结构/设计/实现不被测试人员所知。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。</p><p><img src="https://images2015.cnblogs.com/blog/1020866/201704/1020866-20170418154131056-1664321306.png" alt="黑盒测试"></p><p>之所以这样命名，是因为软件程序，在测试人员的眼中，就像一个黑盒子;在里面，谁也看不见。该方法试图在以下类别中找出错误:</p><ul><li>错误和遗漏功能</li><li>界面错误</li><li>数据结构或外部数据库访问中的错误</li><li>行为或性能错误</li><li>初始化和终止错误</li></ul><p>ISTQB定义</p><ul><li><p><strong>黑盒测试：</strong> 测试，无论是功能性的还是非功能性的，都没有涉及到<br>组件或系统的内部结构。</p></li><li><p><strong>黑盒测试设计技术：</strong> 基于an的方法派生和/或选择测试用例的过程<br>对组件或系统的规格、功能或非功能性的分析<br>没有提到它的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>一个测试人员不了解网站的内部结构，使用浏览器测试网页;提供输入(单击、击键)并根据预期的结果验证输出。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>黑盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a></li></ul><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>这个级别越高，盒子越复杂，使用的黑盒测试方法就越多。</p><h3 id="黑盒测试技术"><a href="#黑盒测试技术" class="headerlink" title="黑盒测试技术"></a>黑盒测试技术</h3><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>集成测试</title>
-      <link href="/object-object/stf/ji-cheng-ce-shi/"/>
-      <url>/object-object/stf/ji-cheng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
       
       
       <categories>
@@ -917,31 +917,6 @@
     
     
     <entry>
-      <title>gRPC 访问服务端接口失败解决方案</title>
-      <link href="/object-object/text-exp/grpc-diao-yong-fu-wu-duan-jie-kou-bao-cuo/"/>
-      <url>/object-object/text-exp/grpc-diao-yong-fu-wu-duan-jie-kou-bao-cuo/</url>
-      
-        <content type="html"><![CDATA[<h1 id="gRPC客户端访问服务端失败解决方案"><a href="#gRPC客户端访问服务端失败解决方案" class="headerlink" title="gRPC客户端访问服务端失败解决方案"></a>gRPC客户端访问服务端失败解决方案</h1><h3 id="1-报错信息"><a href="#1-报错信息" class="headerlink" title="1 报错信息"></a>1 报错信息</h3><pre class="line-numbers language-none"><code class="language-none">&#123;&quot;file&quot;:&quot;&#x2F;cmd&#x2F;channel&#x2F;xxx&#x2F;prepay.go&quot;,&quot;level&quot;:&quot;error&quot;,&quot;line&quot;:220,&quot;msg&quot;:&quot;xxx.DoPrepayGRPC error: xxx2Client.CreateOrder: rpc error: code &#x3D; Unavailable desc &#x3D; connection error: desc &#x3D; \&quot;transport: Error while dialing dial tcp: address http:&#x2F;&#x2F;127.0.0.1:11281: too many colons in address\&quot;&quot;,&quot;pid&quot;:60118,&quot;requestid&quot;:&quot;2_1615862181_5&quot;,&quot;sdkid&quot;:&quot;xxx_global&quot;,&quot;time&quot;:&quot;2021-03-16T10:36:21+08:00&quot;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>错误关键字：too many colons in address</strong></p><h3 id="2-原因"><a href="#2-原因" class="headerlink" title="2  原因"></a>2  原因</h3><p>我碰到的原因是因为grpc客户端用的接口要使用服务器ip或域名，不是URL,不需要加协议前缀。</p><p>同时也不需要path，是因为已经通过协议封装，协议里面有service和interface的信息，序列化了，不需要通过path来分发到具体的接口，但是通过在代码中带一个参数mehod，如method=”/server/add”，然后程序通过 if method==xxx判断走什么逻辑。</p><h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3 解决方案"></a>3 解决方案</h3><p>需要把”http://“去掉。 直接是127.0.0.1:11281</p><p>如果你在其他地方碰到同一个报错也可以尝试这个方法是否有效。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 测试经验 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试经验 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>golang float 精度掉失问题解决方案</title>
       <link href="/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/"/>
       <url>/object-object/text-exp/golang-jing-du-diao-shi-wen-ti/</url>
@@ -967,11 +942,11 @@
     
     
     <entry>
-      <title>mysql怎么防止误操作？？</title>
-      <link href="/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/"/>
-      <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/</url>
+      <title>gRPC 访问服务端接口失败解决方案</title>
+      <link href="/object-object/text-exp/grpc-diao-yong-fu-wu-duan-jie-kou-bao-cuo/"/>
+      <url>/object-object/text-exp/grpc-diao-yong-fu-wu-duan-jie-kou-bao-cuo/</url>
       
-        <content type="html"><![CDATA[<h1 id="mysql怎么防止误操作？？？"><a href="#mysql怎么防止误操作？？？" class="headerlink" title="mysql怎么防止误操作？？？"></a>mysql怎么防止误操作？？？</h1><h3 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h3><p>打开安全模式之可以避免在 update/delete 操作未加条件时，导致全部数据更改/删除，这个对新人来说是有可能发生的。如果数据没有备份，那就凉了~ ，如果是线上环境，这可能会给团队带来直接损失。测试环境还可以慢慢修，但是也会耗费大量时间。为了避免这种情况发生，给大家分享个人的3点建议。</p><h3 id="2-建议"><a href="#2-建议" class="headerlink" title="2  建议"></a>2  建议</h3><h4 id="2-1-打开安全模式"><a href="#2-1-打开安全模式" class="headerlink" title="2.1 打开安全模式"></a>2.1 打开安全模式</h4><p>在登录 MySQL 时 加 -U，如：<code>mysql -uroot -U</code></p><p>这个比较麻烦的是你可能每次 update/delete 的时候 where 后面都需要跟索引字段，如果没有加 where 条件或者where 后不是索引字段时，必须使用 limit 。或者手动把 mysql 下关闭安全模式：</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=0;或 set sql_safe_updates=off;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>做完自己想做的mysql操作之后切记要再打开</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=1;或 set sql_safe_updates=on;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这种通常使用终端时操作使用，如果想知道当前环境有没有打开安全模式，可以使用查询环境语句查询，不过要注意区分会话级别、全局级别的系统变量。</p><h4 id="2-2-使用-mysql-管理工具操作"><a href="#2-2-使用-mysql-管理工具操作" class="headerlink" title="2.2 使用 mysql 管理工具操作"></a>2.2 使用 mysql 管理工具操作</h4><p>界面上更改数据，不会存在更新/删除所有数据的风险。</p><h4 id="2-3-备份关键数据"><a href="#2-3-备份关键数据" class="headerlink" title="2.3 备份关键数据"></a>2.3 备份关键数据</h4><p>使用 crontab 定时每天备份重要数据，如果不是很占内存，可以保留3天内的备份数据，3天以前的备份数据删除。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="gRPC客户端访问服务端失败解决方案"><a href="#gRPC客户端访问服务端失败解决方案" class="headerlink" title="gRPC客户端访问服务端失败解决方案"></a>gRPC客户端访问服务端失败解决方案</h1><h3 id="1-报错信息"><a href="#1-报错信息" class="headerlink" title="1 报错信息"></a>1 报错信息</h3><pre class="line-numbers language-none"><code class="language-none">&#123;&quot;file&quot;:&quot;&#x2F;cmd&#x2F;channel&#x2F;xxx&#x2F;prepay.go&quot;,&quot;level&quot;:&quot;error&quot;,&quot;line&quot;:220,&quot;msg&quot;:&quot;xxx.DoPrepayGRPC error: xxx2Client.CreateOrder: rpc error: code &#x3D; Unavailable desc &#x3D; connection error: desc &#x3D; \&quot;transport: Error while dialing dial tcp: address http:&#x2F;&#x2F;127.0.0.1:11281: too many colons in address\&quot;&quot;,&quot;pid&quot;:60118,&quot;requestid&quot;:&quot;2_1615862181_5&quot;,&quot;sdkid&quot;:&quot;xxx_global&quot;,&quot;time&quot;:&quot;2021-03-16T10:36:21+08:00&quot;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p><strong>错误关键字：too many colons in address</strong></p><h3 id="2-原因"><a href="#2-原因" class="headerlink" title="2  原因"></a>2  原因</h3><p>我碰到的原因是因为grpc客户端用的接口要使用服务器ip或域名，不是URL,不需要加协议前缀。</p><p>同时也不需要path，是因为已经通过协议封装，协议里面有service和interface的信息，序列化了，不需要通过path来分发到具体的接口，但是通过在代码中带一个参数mehod，如method=”/server/add”，然后程序通过 if method==xxx判断走什么逻辑。</p><h3 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3 解决方案"></a>3 解决方案</h3><p>需要把”http://“去掉。 直接是127.0.0.1:11281</p><p>如果你在其他地方碰到同一个报错也可以尝试这个方法是否有效。</p>]]></content>
       
       
       <categories>
@@ -995,6 +970,31 @@
       <title>mysql怎么防止误操作？？copy</title>
       <link href="/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo-copy/"/>
       <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo-copy/</url>
+      
+        <content type="html"><![CDATA[<h1 id="mysql怎么防止误操作？？？"><a href="#mysql怎么防止误操作？？？" class="headerlink" title="mysql怎么防止误操作？？？"></a>mysql怎么防止误操作？？？</h1><h3 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h3><p>打开安全模式之可以避免在 update/delete 操作未加条件时，导致全部数据更改/删除，这个对新人来说是有可能发生的。如果数据没有备份，那就凉了~ ，如果是线上环境，这可能会给团队带来直接损失。测试环境还可以慢慢修，但是也会耗费大量时间。为了避免这种情况发生，给大家分享个人的3点建议。</p><h3 id="2-建议"><a href="#2-建议" class="headerlink" title="2  建议"></a>2  建议</h3><h4 id="2-1-打开安全模式"><a href="#2-1-打开安全模式" class="headerlink" title="2.1 打开安全模式"></a>2.1 打开安全模式</h4><p>在登录 MySQL 时 加 -U，如：<code>mysql -uroot -U</code></p><p>这个比较麻烦的是你可能每次 update/delete 的时候 where 后面都需要跟索引字段，如果没有加 where 条件或者where 后不是索引字段时，必须使用 limit 。或者手动把 mysql 下关闭安全模式：</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=0;或 set sql_safe_updates=off;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>做完自己想做的mysql操作之后切记要再打开</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=1;或 set sql_safe_updates=on;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这种通常使用终端时操作使用，如果想知道当前环境有没有打开安全模式，可以使用查询环境语句查询，不过要注意区分会话级别、全局级别的系统变量。</p><h4 id="2-2-使用-mysql-管理工具操作"><a href="#2-2-使用-mysql-管理工具操作" class="headerlink" title="2.2 使用 mysql 管理工具操作"></a>2.2 使用 mysql 管理工具操作</h4><p>界面上更改数据，不会存在更新/删除所有数据的风险。</p><h4 id="2-3-备份关键数据"><a href="#2-3-备份关键数据" class="headerlink" title="2.3 备份关键数据"></a>2.3 备份关键数据</h4><p>使用 crontab 定时每天备份重要数据，如果不是很占内存，可以保留3天内的备份数据，3天以前的备份数据删除。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试经验 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql怎么防止误操作？？</title>
+      <link href="/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/"/>
+      <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/</url>
       
         <content type="html"><![CDATA[<h1 id="mysql怎么防止误操作？？？"><a href="#mysql怎么防止误操作？？？" class="headerlink" title="mysql怎么防止误操作？？？"></a>mysql怎么防止误操作？？？</h1><h3 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h3><p>打开安全模式之可以避免在 update/delete 操作未加条件时，导致全部数据更改/删除，这个对新人来说是有可能发生的。如果数据没有备份，那就凉了~ ，如果是线上环境，这可能会给团队带来直接损失。测试环境还可以慢慢修，但是也会耗费大量时间。为了避免这种情况发生，给大家分享个人的3点建议。</p><h3 id="2-建议"><a href="#2-建议" class="headerlink" title="2  建议"></a>2  建议</h3><h4 id="2-1-打开安全模式"><a href="#2-1-打开安全模式" class="headerlink" title="2.1 打开安全模式"></a>2.1 打开安全模式</h4><p>在登录 MySQL 时 加 -U，如：<code>mysql -uroot -U</code></p><p>这个比较麻烦的是你可能每次 update/delete 的时候 where 后面都需要跟索引字段，如果没有加 where 条件或者where 后不是索引字段时，必须使用 limit 。或者手动把 mysql 下关闭安全模式：</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=0;或 set sql_safe_updates=off;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>做完自己想做的mysql操作之后切记要再打开</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=1;或 set sql_safe_updates=on;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这种通常使用终端时操作使用，如果想知道当前环境有没有打开安全模式，可以使用查询环境语句查询，不过要注意区分会话级别、全局级别的系统变量。</p><h4 id="2-2-使用-mysql-管理工具操作"><a href="#2-2-使用-mysql-管理工具操作" class="headerlink" title="2.2 使用 mysql 管理工具操作"></a>2.2 使用 mysql 管理工具操作</h4><p>界面上更改数据，不会存在更新/删除所有数据的风险。</p><h4 id="2-3-备份关键数据"><a href="#2-3-备份关键数据" class="headerlink" title="2.3 备份关键数据"></a>2.3 备份关键数据</h4><p>使用 crontab 定时每天备份重要数据，如果不是很占内存，可以保留3天内的备份数据，3天以前的备份数据删除。</p>]]></content>
       
