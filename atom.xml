@@ -46,7 +46,7 @@
     <link href="https://veryaime.github.io/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/"/>
     <id>https://veryaime.github.io/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/</id>
     <published>2021-12-11T16:00:00.000Z</published>
-    <updated>2022-02-13T08:58:45.337Z</updated>
+    <updated>2022-02-13T11:19:39.953Z</updated>
     
     
       
@@ -144,31 +144,6 @@
   </entry>
   
   <entry>
-    <title>回归测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:10:44.191Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;回归测试基本原理&quot;&gt;&lt;a href=&quot;#回归测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;回归测试基本原理&quot;&gt;&lt;/a&gt;回归测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>功能测试</title>
     <link href="https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/</id>
@@ -182,6 +157,31 @@
         
     <summary type="html">&lt;h2 id=&quot;功能测试基本原理&quot;&gt;&lt;a href=&quot;#功能测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;功能测试基本原理&quot;&gt;&lt;/a&gt;功能测试基本原理&lt;/h2&gt;&lt;p&gt;功能测试定义，阐述，优点，缺点：&lt;/p&gt;
 &lt;h3 id=&quot;定义&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>回归测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-22T05:10:44.191Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;回归测试基本原理&quot;&gt;&lt;a href=&quot;#回归测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;回归测试基本原理&quot;&gt;&lt;/a&gt;回归测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -347,31 +347,6 @@
   </entry>
   
   <entry>
-    <title>测试计划</title>
-    <link href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/"/>
-    <id>https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:11:23.064Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;测试计划基本原理&quot;&gt;&lt;a href=&quot;#测试计划基本原理&quot; class=&quot;headerlink&quot; title=&quot;测试计划基本原理&quot;&gt;&lt;/a&gt;测试计划基本原理&lt;/h2&gt;&lt;h3 id=&quot;测试计划定义&quot;&gt;&lt;a href=&quot;#测试计划定义&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>测试脚本</title>
     <link href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/"/>
     <id>https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/</id>
@@ -397,18 +372,18 @@
   </entry>
   
   <entry>
-    <title>白盒测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</id>
+    <title>测试计划</title>
+    <link href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/"/>
+    <id>https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:11:27.753Z</updated>
+    <updated>2021-12-22T05:11:23.064Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;白盒测试基本原理&quot;&gt;&lt;a href=&quot;#白盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;白盒测试基本原理&quot;&gt;&lt;/a&gt;白盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;测试计划基本原理&quot;&gt;&lt;a href=&quot;#测试计划基本原理&quot; class=&quot;headerlink&quot; title=&quot;测试计划基本原理&quot;&gt;&lt;/a&gt;测试计划基本原理&lt;/h2&gt;&lt;h3 id=&quot;测试计划定义&quot;&gt;&lt;a href=&quot;#测试计划定义&quot;</summary>
         
       
     
@@ -434,6 +409,31 @@
         
         
     <summary type="html">&lt;h2 id=&quot;灰盒测试基本原理&quot;&gt;&lt;a href=&quot;#灰盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;灰盒测试基本原理&quot;&gt;&lt;/a&gt;灰盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>白盒测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/bai-he-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-22T05:11:27.753Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;白盒测试基本原理&quot;&gt;&lt;a href=&quot;#白盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;白盒测试基本原理&quot;&gt;&lt;/a&gt;白盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -498,18 +498,18 @@
   </entry>
   
   <entry>
-    <title>系统测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/</id>
+    <title>缺陷重要程度</title>
+    <link href="https://veryaime.github.io/object-object/stf/que-xian-yan-chong-cheng-du/"/>
+    <id>https://veryaime.github.io/object-object/stf/que-xian-yan-chong-cheng-du/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:12:56.891Z</updated>
+    <updated>2021-12-22T05:12:20.804Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;系统测试基础&quot;&gt;&lt;a href=&quot;#系统测试基础&quot; class=&quot;headerlink&quot; title=&quot;系统测试基础&quot;&gt;&lt;/a&gt;系统测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot;</summary>
         
       
     
