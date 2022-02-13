@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>ADAS 认识与测试方法总结归纳</title>
-      <link href="/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/"/>
-      <url>/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/</url>
-      
-        <content type="html"><![CDATA[<p>[TOC]</p><h2 id="ADAS认识与测试方法总结归纳"><a href="#ADAS认识与测试方法总结归纳" class="headerlink" title="ADAS认识与测试方法总结归纳"></a>ADAS认识与测试方法总结归纳</h2><h4 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h4><p>​    现阶段道路交通事故死亡人数比例一直很高，道路交通安全问题已成为影响我国公众安全感的重要因素之一，要解决这一痛点，意味着汽车智能化已经逐渐渗入人们的生活，人们对汽车安全的要求也会越来越高。</p><p>​    先如今很多企业已经开始研发无人驾驶，甚至已有无人驾驶车辆在路跑。看似科幻的概念已经慢慢进入到我们的生活，事实上无人驾驶技术不是创新，而是在 ADAS 基础上的演进，ADAS 是通往无人驾驶的必经之路。这需在不断累积使用经验与盲点克服后，同时加入更多主动侦测系统，甚至是物联网功能后，才有机会进一步实现的目的，毕竟自动驾驶所需具备的汽车技术层面更高、更复杂。</p><h5 id="1-1-ADAS-的定义"><a href="#1-1-ADAS-的定义" class="headerlink" title="1.1 ADAS 的定义"></a>1.1 ADAS 的定义</h5><p>​    ADAS(Advanced Driver Assistance System) 高级驾驶辅助系统是利用安装在车上的各式各样传感器，在汽车行驶过程中第一时间感应周围的环境，收集数据，通过对静态、动态物体进行辨识、侦测与追踪等技术上的处理，从而预先让驾驶者察觉到可能发生的危险，有效增加汽车驾驶的舒适性和安全性，通过主动安全即降低碰撞风险避免事故和被动式安全系统即安全带及安全气囊等的有效结合降低驾驶风险，并最终实现事故零死亡的目标。</p><h5 id="1-2-ADAS-的组成"><a href="#1-2-ADAS-的组成" class="headerlink" title="1.2 ADAS 的组成"></a>1.2 ADAS 的组成</h5><p>​    全天候 ADAS 设备具有超强夜视、雨雾透视、眩光屏蔽、前车防撞语音预警、车道偏离语音预警、路况预警、<a href="https://link.zhihu.com/?target=http://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=75863942&ss_c=ssc.citiao.link">手机互联</a>等功能，较大地提高了车主的安全防护能力。</p><p>​    目前为止，ADAS 系统组成有很多，一般，汽车高级辅助驾驶系统通常包括：</p><p>​    <strong>车道偏离预警系统（LDWS）、</strong></p><p>​    <strong>车道保持系统（LKS）、</strong></p><p>​    <strong>自适应巡航系统（ACC）、</strong></p><p>​    <strong>前碰撞预防系统（FCW） 、</strong></p><p>​    <strong>自动泊车系统（APA）、</strong></p><p>​    <strong>盲点监测系统（BSD）、</strong></p><p>​    <strong>驾驶员疲劳预警系统（DFM）、</strong></p><p>​    <strong>自适应灯光控制（ALC）、</strong></p><p>​    <strong>自动紧急制动（AEB）、</strong></p><p>​    <strong>夜视系统（NVD）</strong></p><p>除了以上十大功能系统之外，还包括行人保护系统、电子警察系统（ISA）、导航与实时交通系统（TMC）、交通标志识别、下坡控制系统、电动汽车报警系统等等。</p><h6 id="ADAS-的十大功能系统介绍如下："><a href="#ADAS-的十大功能系统介绍如下：" class="headerlink" title="ADAS 的十大功能系统介绍如下："></a>ADAS 的十大功能系统介绍如下：</h6><p>​    1）车道偏离预警系统LDWS‍‍‍‍‍车道偏离预警系统LDWS（ Lane departure warning system）是指行车中未打转向灯突然大幅度偏离车道，不正常偏移时，行车记录仪一旦判定行驶路线有异，便会以行车记录仪的显示屏幕提醒驾驶人，并发出声响警告对司机进行警示。这将使司机可以马上采取行动，回到原行车道上。</p><p>车道偏离预警系统主要由HUD抬头显示器、摄像头、控制器以及传感器组成。当车道偏离预警系统开启时，摄像头（一般安置在车身侧面或后视镜位置）会时刻采集行驶车道的标识线，通过图像处理获得汽车在当前车道中的位置参数。</p><p>当检测到汽车偏离车道时，传感器会及时收集车辆数据和驾驶员的操作状态，之后由控制器发出警报信号，整个过程大约在0.5秒完成，为驾驶者提供更多的反应时间。而如果驾驶者打开转向灯，正常进行变线行驶，那么车道偏离预警系统不会做出任何提示。</p><p><img src="./img/LDWS.png"></p><p>​    2）车道保持系统LKS (Lane Keeping System)</p><p>车道保持辅助系统属于智能驾驶辅助系统中的一种。它可以在车道偏离预警系统（LDWS）的基础上对刹车的控制协调装置进行控制。对车辆行驶时借助一个摄像头识别行驶车道的标识线将车辆保持在车道上提供支持。可检测本车在车道内的位置，并可自动调整转向，使本车保持在车道内行驶。</p><p>如果车辆接近识别到的标记线并可能脱离行驶车道，那么会通过方向盘的振动，或者是声音来提请驾驶员注意，并轻微转动方向盘修正行驶方向，使车辆处于正确的车道上，若方向盘长时间检测到无人主动干预，则发出报警，用来提醒驾驶人员。</p><p>如果车道保持辅助系统识别到本车道两侧的标记线，那么系统处于待命状态。这通过组合仪表盘中的绿色指示灯显示。当系统处于待命状态下，如果在Y过标记线前打了转向灯，警告信号就会被屏蔽，认定驾驶员为有意识的换道。</p><p>该系统主要应用于结构化的道路上，如高速公路和路面条件较好（车道线清晰）的公路上行驶。当车速达到65km/h或以上才开始运行。</p><p><img src="./img/LKS.png" alt="img"></p><p>​    3）自适应巡航系统ACC</p><p>​    自适应巡航系统ACC（Adaptive Cruise Control）是一项舒适性的辅助驾驶功能。如果车辆前方畅通，自适应巡航（ACC）将保持设定的最大巡航速度向前行驶。如果检测到前方有车辆，自适应巡航（ACC） 将根据需要降低车速，与前车保持基于选定时间的距离，直到达到合适的巡航速度。</p><p>​    自适应巡航也可称为<strong>主动巡航</strong>，类似于传统的定速巡航控制，该系统包括雷达传感器、数字信号处理器和控制模块。在自适应巡航系统中，系统利用低功率雷达或红外线光束得到前车的确切位置，如果发现前车减速或监测到新目标，系统就会发送执行信号给发动机或制动系统来降低车速，从而使车辆和前车保持一个安全的行驶距离。</p><p>​    当前方道路障碍清除后又会加速恢复到设定的车速，雷达系统会自动监测下一个目标。主动巡航控制系统代替司机控制车速，避免了频繁取消和设定巡航控制。当与前车之间的距离过小时，ACC控制单元可以通过与制动防抱死系统、发动机控制系统协调动作，使车轮适当制动，并使发动机的输出功率下降，以使车辆与前方车辆始终保持安全距离。自适应巡航系统适合于多种路况，为驾驶者提供了一种更轻松的驾驶方式。</p><p><img src="./img/ACC.png" alt="img"></p><p>​    4）前碰撞预防系统FCW</p><p>​    前碰撞预防系统FCW (Forward Collision Warning)是通过雷达系统来时刻监测前方车辆，判断本车与前车之间的距离、方位及相对速度，当存在潜在碰撞危险时对驾驶者进行警告。FCW系统本身不会采取任何制动措施去避免碰撞或控制车辆。</p><p>​    通过分析传感器获取的前方道路信息对前方车辆进行识别和跟踪，如果有车辆被识别出来，则对前方车距进行测量。同时利用车速估计，根据安全车距预警模型判断追尾可能，一旦存在追尾危险，便根据预警规则及时给予驾驶人主动预警。</p><p><img src="./img/FCW.png" alt="img"></p><p>​    5）自动泊车系统APA</p><p>​    自动泊车系统APA（Automatic Parking Assist）是利用车载传感器（一般为超声波雷达或摄像头）识别有效的泊车空间，并通过控制单元控制车辆进行泊车。相比于传统的倒车辅助功能，如倒车影像以及倒车雷达，自动泊车的功能智能化程度更高，有效的减轻了驾驶员的倒车困难。</p><p>​    全自动泊车辅助系统APA，通过控制车辆的加减速度和转向角度自动停放车辆。该系统通过AVM（环视）和USS（超声波雷达）感知泊车环境，使用IMU和车轮传感器估计车辆姿态（位置和行驶方向），并根据驾驶员的选择自动或手动设置目标泊车位。然后系统进行自动泊车轨迹计算，并通过精确的车辆定位与车辆控制系统使车辆沿定义的泊车轨迹进行全自动泊车，直至到达最终目标泊车位。</p><p><img src="./img/APA.png" alt="img"></p><p>​    6）盲点监测系统BSD</p><p>​    由于汽车后视镜存在视觉盲区，变道之前就看不到盲区的车辆，如果盲区内有超车车辆，此时变道就会发生碰撞事故。在大雨天气、大雾天气、夜间光线昏暗，更加难以看清后方车辆，此时变道就面临更大的危险，盲点监测系统就是为了解决后视镜的盲区而产生的。</p><p>​    盲点监测系统BSD（ Blind Spot Detection)，是汽车上的一款安全类的高科技配置，主要功能是扫除后视镜盲区，依赖于车辆尾部两个雷达时刻监测车辆的侧后面和侧面状态，如果车辆位于该区域内，驾驶员将通过后视镜上盲点警告指示灯和组合仪表获得相关警告提示，避免在车道变换过程中由于后视镜盲区而发生事故。</p><p><img src="./img/BSD.png" alt="img"></p><p>​    7）驾驶员疲劳预警系统DFM</p><p>​    驾驶员疲劳预警系统DFM（Driver Fatigue Monitor System）主要是通过摄像头获取的图像，通过视觉跟踪、目标检测、动作识别等技术对驾驶员的驾驶行为及生理状态进行检测，当驾驶员发生疲劳、分心、打电话、抽烟等危险情况时在系统设定时间内报警以避免事故发生。DFM系统能有效规范驾驶员的驾驶行为、大大降低交通事故发生的几率。</p><p>​    通过分析驾驶员的疲劳特征（如打哈欠、闭眼等），对疲劳行为及时发出疲劳驾驶预警。高精准度的算法甚至能做到不受时间段、光照情况、是否戴墨镜等外界条件影响，始终对驾驶员的疲劳状态进行有效管理。当驾驶人员产生生理疲劳状态时，立即发出预警警告，及时唤醒驾驶员，避免严重事故发生。</p><p><img src="./img/DFM.png" alt="img"></p><p>​    8）自适应灯光控制ALC</p><p>​    自适应灯光控制ALC（Adaptive Light Control）是一种智能灯光调节系统。通过感知驾驶员操作、车辆行驶状态、路面变化以及天气环境等信息，AFS 自动控制前照灯实时进行上下、左右照明角度的调整，为驾驶员提供最佳道路照明效果。自适应前照灯系统共由四部分组成：传感器、ecu、车灯控制系统和前照灯。汽车车速传感器和方向盘转角传感器不断地把检测到的信号传递给ecu，ecu根据传感器检测到的信号进行处理，把处理完后的数据进行判断，输出前照灯转角指令，使前照灯转过相应的角度。</p><p>​    汽车在转弯时，重点是要提前看到所转方向的障碍物，根据现实驾驶的经验，车灯一般只需转过o～15°即可，只需要所转方向侧的那只前照灯实现智能转向就可，另一侧前照灯还是保持原来的方向。虽简化了控制，仍然能够达到预期的效果。它可以通过控制系统能够显著改善各种路况下的照明效果，提高行车安全。</p><p><img src="./img/ALC.png" alt="img"></p><p>9）自动紧急制动AEB</p><p>​    自动紧急制动AEB（Autonomous Emergency Braking）是一种汽车主动安全技术，主要由 3 大模块构成，其中测距模块的核心包括微波雷达、激光雷达和视频系统等，它可以提供前方道路安全、准确、实时的图像和路况信息。</p><p>​    AEB 系统采用雷达测出与前车或者障碍物的距离，然后利用数据分析模块将测出的距离与警报距离、安全距离进行比较，小于警报距离时就进行警报提示，而小于安全距离时即使在驾驶员没有来得及踩制动踏板的情况下，AEB 系统也会启动，使汽车自动制动，从而为安全出行保驾护航。</p><p><img src="./img/AEB.png" alt="img"></p><p>​    10）夜视系统NVD</p><p>​    夜视系统NVD（Night Vision Device）是一种源自军事用途的汽车驾驶辅助系统。在这个辅助系统的帮助下，驾驶者在夜间或弱光线的驾驶过程中将获得更高的预见能力，它能够针对潜在危险向驾驶者提供更加全面准确的信息或发出早期警告。</p><p>​    夜视系统NVD由安置于车前保险杠的（UFPA）侦测传感器和液晶抬头显示器（HUD）组成，主要是通过主动式红外照射、微光夜视技术以及红外热成像技术，来帮助驾驶者看见以汽车远光灯无法清楚辨识的物体，驾驶者可将虚拟影像当作前方视野的一部分，提升了视线不佳时的行车安全性。</p><p><img src="./img/NVD.png" alt="img"></p><h6 id="以上提到的每一个系统主要包括3个程序："><a href="#以上提到的每一个系统主要包括3个程序：" class="headerlink" title="以上提到的每一个系统主要包括3个程序："></a>以上提到的每一个系统主要包括3个程序：</h6><p>​    1）信息采集。不同系统需使用不同类型传感器掌握外界车况，才能进行后续的警示和反应动作。如毫米波雷达、超声波雷达、影像传感器、轮速传感器。</p><p>​    2）分析和下达指令。电子控制单元(ECU)会针对传感器所收集到的信息进行分析处理，然后再向控制的执行装置下单指令。</p><p>​    3）执行动作。包括油门、刹车、灯光、声响等。会根据ECU输出的信号，执行对应的操作。</p><h5 id="1-3-自动驾驶与ADAS的关系"><a href="#1-3-自动驾驶与ADAS的关系" class="headerlink" title="1.3 自动驾驶与ADAS的关系"></a>1.3 自动驾驶与ADAS的关系</h5><p>​    自动驾驶是ADAS的目标，ADAS属于L2自动驾驶级别。自动驾驶的解决方案是高精度地图与激光雷达的组合。ADAS需要突破的是外界信息采集的精度和数据处理能力,解决方案是专业的车用级处理芯片，如MCU、GPU或GPU+FPGA。</p><h5 id="1-4-ADAS测试面临的挑战"><a href="#1-4-ADAS测试面临的挑战" class="headerlink" title="1.4 ADAS测试面临的挑战"></a>1.4 ADAS测试面临的挑战</h5><p>​    信号种类多，数据量大；ADAS测试需要大量的传感器，且数据量大，普通存储设备无法满足存储要求。多种上位机无法实现同步采集与数据融合，由于传感器安装位置不同导致对同一目标的检测数据存在偏差，且不同的上位机软件难以实现同步，增加实验难度与数据精确度。大量数据存放及查找困难，面对每天高达数T级的数据，需要将数据分类存放以可查找可追溯。</p><h5 id="1-5-发展趋势关键"><a href="#1-5-发展趋势关键" class="headerlink" title="1.5 发展趋势关键"></a>1.5 发展趋势关键</h5><p>​    消费者对车的安全要求越来越高，一些相对较为低端且使用的先进驾驶辅助系统技术，如：胎压检测。消费者对避险类辅助类、视野改善类技术关注度高。一些道路要求较高技术，如变道辅助、车道偏离、ACC等，以及与中国消费者驾驶习惯不符的技术。如车道保持系统、疲劳检测、禁酒闭锁等。</p><h4 id="2-测试方法"><a href="#2-测试方法" class="headerlink" title="2 测试方法"></a>2 测试方法</h4><p>TODO</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 自动驾驶 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 自动驾驶 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>《Google软件测试之道》阅读归纳</title>
       <link href="/object-object/read/google-ce-shi-zhi-dao/"/>
       <url>/object-object/read/google-ce-shi-zhi-dao/</url>
@@ -204,11 +179,11 @@
     
     
     <entry>
-      <title>性能测试</title>
-      <link href="/object-object/stf/xing-neng-ce-shi/"/>
-      <url>/object-object/stf/xing-neng-ce-shi/</url>
+      <title>安全测试</title>
+      <link href="/object-object/stf/an-quan-ce-shi/"/>
+      <url>/object-object/stf/an-quan-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，指在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。涉及到安全测试的同学一定要看看<a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">测试指南</a>以及OWASP每年的<a href="https://owasp.org/www-project-top-ten/">十大安全威胁</a>。</p><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
       
       
       <categories>
@@ -229,11 +204,11 @@
     
     
     <entry>
-      <title>安全测试</title>
-      <link href="/object-object/stf/an-quan-ce-shi/"/>
-      <url>/object-object/stf/an-quan-ce-shi/</url>
+      <title>性能测试</title>
+      <link href="/object-object/stf/xing-neng-ce-shi/"/>
+      <url>/object-object/stf/xing-neng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="安全测试基本原理"><a href="#安全测试基本原理" class="headerlink" title="安全测试基本原理"></a>安全测试基本原理</h2><p>安全性测试的定义,重点领域、示例等,…</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>安全性测试是一种软件测试类型，指在发现系统的漏洞，并确定其数据和资源受到保护，不受可能的入侵者的影响。</p><p><img src="https://img0.baidu.com/it/u=3993281690,1243748945&fm=26&fmt=auto" alt="安全测试"></p><h3 id="关注领域"><a href="#关注领域" class="headerlink" title="关注领域"></a>关注领域</h3><p>在安全测试中有四个主要的关注领域(特别是对于web站点/应用程序):</p><ul><li><p><strong>网络安全：</strong> 这涉及到在网络基础设施(资源和策略)中寻找漏洞。</p></li><li><p><strong>系统软件安全：</strong> 这包括评估应用程序依赖的各种软件(操作系统、数据库系统和其他软件)的弱点。</p></li><li><p><strong>客户端应用程序安全性：</strong>  这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li><li><p><strong>服务器端应用程序安全性：</strong> 这涉及到确保客户机(浏览器或任何此类工具)不能被操纵。</p></li></ul><h3 id="一个基本的安全测试的例子"><a href="#一个基本的安全测试的例子" class="headerlink" title="一个基本的安全测试的例子"></a>一个基本的安全测试的例子</h3><p>这是一个非常基本的安全测试，任何人都可以在网站/应用程序上执行:</p><ul><li>登录到web应用程序。</li><li>退出到web应用程序。</li><li>单击浏览器的后退按钮(检查是否需要再次登录，或者是否提供了登录应用程序)。</li></ul><p>大多数类型的安全性测试都涉及复杂的步骤和开箱即用的想法，但是，有时候，像上面的这样简单的测试有助于暴露最严重的安全风险。</p><h3 id="安全计划"><a href="#安全计划" class="headerlink" title="安全计划"></a>安全计划</h3><p>开放Web应用程序安全项目(OWASP)是软件安全专业人员的一个重要资源。涉及到安全测试的同学一定要看看<a href="https://www.owasp.org/index.php/Category:OWASP_Testing_Project">测试指南</a>以及OWASP每年的<a href="https://owasp.org/www-project-top-ten/">十大安全威胁</a>。</p><h3 id="建立信任"><a href="#建立信任" class="headerlink" title="建立信任"></a>建立信任</h3><p>有很多方法可以破坏应用程序。而且，安全性测试本身并不是衡量应用程序安全性的唯一方法(或最好的方法)。但是，我们强烈建议将安全测试作为标准软件开发过程的一部分。毕竟，世界上充斥着黑客/恶作剧者，每个人都希望能够信任一个生产或使用的系统/软件。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/">易用性测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="性能测试基本原理"><a href="#性能测试基本原理" class="headerlink" title="性能测试基本原理"></a>性能测试基本原理</h2><p>性能测试定义、类型和技巧:</p><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>性能测试是一种软件测试，旨在确定系统在一定负载下的响应性和稳定性。</p><p><img src="https://upload-images.jianshu.io/upload_images/12979420-79fb5c9908848faf.png"></p><p>基本上有四种性能测试:</p><h3 id="类型"><a href="#类型" class="headerlink" title="类型"></a>类型</h3><ul><li><strong>负载测试</strong> 是一种性能测试，用于评估系统在增加工作负载时的行为。</li><li><strong>压力测试</strong> 一种性能测试，用于评估一个系统在其预期工作负载范围之外的行为。</li><li><strong>耐力测试</strong> 是一种性能测试的一种，它是用来评估一个系统的行为，当一个重要的工作负荷持续被给予的时候。</li><li><strong>冲击测试</strong> 是一种性能测试，用于评估系统在突然和大幅度增加时的行为。</li></ul><h3 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h3><ul><li>建立尽可能接近生产环境的测试环境。</li><li>即使在QA或UAT环境中隔离测试环境。</li><li>尽管没有完美的工具来测试性能测试，研究并决定最适合你的工具。</li><li>不要依赖于一次测试的结果。进行多次测试以达到平均数字。从一个测试到另一个测试环境对测试环境的任何更改都要小心。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="%E5%AE%89https://veryaime.github.io/object-object/stf/an-quan-ce-shi/">安全测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/">回归测试</a> </p>]]></content>
       
       
       <categories>
@@ -279,11 +254,11 @@
     
     
     <entry>
-      <title>测试用例</title>
-      <link href="/object-object/stf/ce-shi-yong-li/"/>
-      <url>/object-object/stf/ce-shi-yong-li/</url>
+      <title>易用性测试</title>
+      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
+      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th>项目</th><th>描述</th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； <br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；<br>2.在数量字段中输入硬币数量；<br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；<br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;<br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。<br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>veryAIme</td></tr><tr><td>创建日期</td><td>07/28/2021</td></tr><tr><td>执行者</td><td>veryAIme</td></tr><tr><td>执行日期</td><td>07/28/2021</td></tr><tr><td>测试环境</td><td>1.OS：Windows 10 sp1 X64;Linux<br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使你的测试用例“原子”。</p></li><li><p>确保所有的正确场景和异常场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
       
       
       <categories>
@@ -304,11 +279,11 @@
     
     
     <entry>
-      <title>易用性测试</title>
-      <link href="/object-object/stf/yi-yong-xing-ce-shi/"/>
-      <url>/object-object/stf/yi-yong-xing-ce-shi/</url>
+      <title>测试用例</title>
+      <link href="/object-object/stf/ce-shi-yong-li/"/>
+      <url>/object-object/stf/ce-shi-yong-li/</url>
       
-        <content type="html"><![CDATA[<h2 id="易用性测试基本原理"><a href="#易用性测试基本原理" class="headerlink" title="易用性测试基本原理"></a>易用性测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>&nbsp;&nbsp;&nbsp;<br><strong>易用性测试</strong>是一种从终端用户角度进行的测试，以确定系统是否易于使用。<br><img src="https://pic1.zhimg.com/v2-539eee872b93390aaabb4aafc9f0fce0_1440w.jpg?source=172ae18b" alt="易用性"></p><p>Merriam-Webster’s Definition （韦氏词典定义）</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>能用的</strong></p><p>&nbsp;&nbsp;&nbsp;&nbsp;——能够被使用</p><p>&nbsp;&nbsp;&nbsp;&nbsp;——方便和实用</p><p><strong>ISTQB’sDefinition</strong>(ISTQB【 (International Software Testing Qualifications Board) 国际软件测试资质认证委员会】定义)</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 测试已确定软件产品易于理解程度，易学习，易操作并且对用户有一定的吸引力。</p><p>软件测试认证定义</p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong>可用性测试：</strong> 此事件的目的是与应用程序的用户一起审阅应用程序用户界面和应用程序的其他人为因素。 这是为了确保设计<br>（布局和顺序等）使业务功能尽可能简单直观地执行。</p><h3 id="详细阐述"><a href="#详细阐述" class="headerlink" title="详细阐述"></a>详细阐述</h3><p>系统可按规格100%建造。然而，当它落在最终用户手中时，它们可能“无法使用”。例如，假设用户需要每30分钟打印一份财务更新报告，他/她必须经过以下步骤:</p><ol><li><p>登录系统</p></li><li><p>点击报告</p></li><li><p>从报告组中选择财务报表</p></li><li><p>从财务报告的列表中，选择财务更新报告</p></li><li><p>指定以下参数</p><ol><li>日期范围</li><li>时区</li><li>部门<br>4.单位</li></ol></li><li><p>点击生成报告</p></li><li><p>点击打印</p></li><li><p>选择格式</p><ol><li>打印PDF</li><li>开始打印</li></ol></li></ol><p>如果是这样，系统可能实际上是无法使用的(尽管它的功能非常好)。如果报告经常被打印出来，如果用户可以在几次点击中完成任务，而不必经过上面列出的许多步骤，<br>那岂不是很方便?如果有一个特性来保存经常生成的报告作为模板，如果保存的报告可以从主页上打印出来，那该怎么办呢?</p><p>这么认为，你很聪明！！！</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>可用性测试通常在系统测试和验收测试阶段进行。</p><h3 id="可用性测试技巧"><a href="#可用性测试技巧" class="headerlink" title="可用性测试技巧"></a>可用性测试技巧</h3><ul><li>了解系统的用户是谁</li><li>了解用户的需求是什么</li><li>试着模仿他们的行为。</li><li>你擅长角色扮演吗?如果不是,实践。Hodor !</li></ul><p>可用性测试不与用户验收测试或用户界面/外观和感觉测试相混淆。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="">检验测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/sui-ji-ce-shi/">随机测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="测试用例基本原理"><a href="#测试用例基本原理" class="headerlink" title="测试用例基本原理"></a>测试用例基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>测试用例是一组条件或变量，测试人员将确定测试的系统是否满足需求或正确工作。</p><p>开发测试用例，可以帮助发现应用程序需求或设计存在的问题。</p><h3 id="测试用例模板"><a href="#测试用例模板" class="headerlink" title="测试用例模板"></a>测试用例模板</h3><p>一个测试用例可以有以下的元素。但是请注意，通常一个测试管理工具是由公司使用的，而格式是由使用的工具决定的。</p><table><thead><tr><th>项目</th><th>描述</th></tr></thead><tbody><tr><td>测试套件ID</td><td>这个测试用例所属的测试套件的ID。</td></tr><tr><td>测试用例ID</td><td>测试用例的ID号</td></tr><tr><td>测试用例的总结</td><td>测试用例的摘要/目标。</td></tr><tr><td>需求关系</td><td>测试用例的需求ID与/跟踪有关。</td></tr><tr><td>前提条件</td><td>在执行测试之前必须满足的任何先决条件或先决条件。</td></tr><tr><td>测试步骤</td><td>逐步执行测试的过程。</td></tr><tr><td>测试数据</td><td>测试数据，或测试数据的链接，在进行测试时使用。</td></tr><tr><td>预期结果</td><td>测试的预期结果</td></tr><tr><td>测试结果</td><td>测试的实际结果;在执行测试后填充。</td></tr><tr><td>状态</td><td>过或失败。 如果没有执行测试，其状态可以是“不执行”，如果测试被阻止，则“被阻止”。</td></tr><tr><td>备注</td><td>对测试用例或测试执行的任何注释。</td></tr><tr><td>创建者</td><td>测试用例的作者的名字。</td></tr><tr><td>创建日期</td><td>创建测试用例的日期</td></tr><tr><td>执行者</td><td>执行测试的人的名字。</td></tr><tr><td>执行日期</td><td>测试的执行日期。</td></tr><tr><td>测试环境</td><td>执行测试环境(硬件/软件/网络)。</td></tr></tbody></table><p><strong>测试用例示例 / 测试案例样本</strong></p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>测试套件ID</td><td>TS001</td></tr><tr><td>测试用例ID</td><td>TC001</td></tr><tr><td>测试用例总结</td><td>验证点击生成币按钮可以产生硬币。</td></tr><tr><td>相关需求</td><td>RS001</td></tr><tr><td>前提条件</td><td>1.用户被授权； <br>2.硬币余额可用</td></tr><tr><td>测试步骤</td><td>1.在面值领域选择硬币面值；<br>2.在数量字段中输入硬币数量；<br>3.点击生成硬币。</td></tr><tr><td>测试数据</td><td>1.面值：0.05,0.10,0.25,0.50,1,2,5；<br>2.数量：0，1，5，10，20</td></tr><tr><td>预期结果</td><td>1.如果指定数量有效(1,5)，则应产生指定面额的硬币;<br>2.如果指定的数量无效，则应显示“请输入1到10之间的有效数量”。</td></tr><tr><td>实际结果</td><td>1.如果指定的数量是有效的，结果就如预期的那样。<br>2.如果指定的数量无效，则不会发生任何事情;预期的消息不会显示</td></tr><tr><td>状态</td><td>失败</td></tr><tr><td>备注</td><td>这是一个示例测试用例。</td></tr><tr><td>创建者</td><td>veryAIme</td></tr><tr><td>创建日期</td><td>07/28/2021</td></tr><tr><td>执行者</td><td>veryAIme</td></tr><tr><td>执行日期</td><td>07/28/2021</td></tr><tr><td>测试环境</td><td>1.OS：Windows 10 sp1 X64;Linux<br>2.浏览器：Chrome，Firefox</td></tr></tbody></table><h3 id="编写好的测试用例"><a href="#编写好的测试用例" class="headerlink" title="编写好的测试用例"></a>编写好的测试用例</h3><ul><li><p>尽可能地用这种方式编写测试用例，每次只测试一件事情。不要重叠或使测试用例复杂化。尝试使你的测试用例“原子”。</p></li><li><p>确保所有的正确场景和异常场景都被覆盖。</p></li></ul><ul><li>语言：<ul><li>用简单易懂的语言书写。</li><li>用主动语态:做这个，做那个。</li><li>使用准确和一致的名称(表单、字段等)。</li></ul></li><li>一个好的测试案例的特点:<ul><li>准确:需要的目的。</li><li>经济:没有不必要的步骤或词。</li><li>可追溯性:能够追踪到需求。</li><li>可重复:可以被用来执行测试一遍又一遍。</li><li>可重用:如果需要，可以重用。</li></ul></li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-ji-hua/">测试计划</a>  |  <a href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/">测试脚本</a></p>]]></content>
       
       
       <categories>
@@ -379,11 +354,11 @@
     
     
     <entry>
-      <title>白盒测试</title>
-      <link href="/object-object/stf/bai-he-ce-shi/"/>
-      <url>/object-object/stf/bai-he-ce-shi/</url>
+      <title>灰盒测试</title>
+      <link href="/object-object/stf/hui-he-ce-shi/"/>
+      <url>/object-object/stf/hui-he-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="(https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/)">软件测试方法</a>，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子。</p><p>国际软件测试资质认证委员会（ISTQB）定义</p><ul><li><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</li><li><strong>白盒测试技巧：</strong> 选择测试用例的过程分析某一部件或系统的内部结构。</li></ul><p><img src="https://pics6.baidu.com/feed/203fb80e7bec54e75a8d10f72e8ca5564ec26a34.jpeg?token=0b64ce09c736a08b194bdc3d6f1d7b56&s=59843C720F427C49485C14CE0000E0B1"></p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p><img src="https://pics7.baidu.com/feed/96dda144ad3459826ebe6e089a400fabcaef84ab.jpeg?token=e68322a8169dbf01c9107e5508788572&s=1C205E324D3272031974DDCB020060B1"></p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
       
       
       <categories>
@@ -404,11 +379,11 @@
     
     
     <entry>
-      <title>灰盒测试</title>
-      <link href="/object-object/stf/hui-he-ce-shi/"/>
-      <url>/object-object/stf/hui-he-ce-shi/</url>
+      <title>白盒测试</title>
+      <link href="/object-object/stf/bai-he-ce-shi/"/>
+      <url>/object-object/stf/bai-he-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="灰盒测试基本原理"><a href="#灰盒测试基本原理" class="headerlink" title="灰盒测试基本原理"></a>灰盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>灰盒测试是一种<a href="https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/">软件测试方法</a>，是<a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>方法和<a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>方法的结合。黑盒测试中，测试者不知道项目的内部结构。白盒测试者已经了解项目的内部结构。灰盒测试，这涉及为了设计测试用例，而在用户或黑盒级别进行测试，可以访问内部数据结构和算法。</p><p>灰盒测试之所以命名是因为软件程序，在测试者眼中就像一个灰色/半透明的盒子;在里面可以部分看到。</p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>灰盒测试的一个例子是，在设计测试用例时，研究两个单元/模块的代码(白盒测试方法)，并使用暴露的接口(黑盒测试方法)进行实际测试。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>虽然灰盒测试方法可以用于其他测试级别，但它主要用于<a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a>。</p><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>注意，灰色也被拼成灰色。因此灰盒测试和灰盒测试的意思是一样的</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/min-jie-ce-shi/">敏捷测试</a> </p>]]></content>
+        <content type="html"><![CDATA[<h2 id="白盒测试基本原理"><a href="#白盒测试基本原理" class="headerlink" title="白盒测试基本原理"></a>白盒测试基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>白盒测试</strong>(也称为透明盒测试，开箱测试，玻璃盒测试，透明盒测试、基于代码测试和结构测试）是一种<a href="(https://veryaime.github.io/object-object/stf/ruan-jian-ce-shi-fang-fa/)">软件测试方法</a>，其中测试的项目的内部结构/设计/实现被测试人员知道。测试者选择输入以通过代码覆盖路径并确定适当的输出。编程知识和安装启动知识至关重要。 白盒测试正在超越用户界面进行测试，并深入到系统内部。</p><p>这个方法之所以这样命名是因为软件程序，在测试人员的眼中，就像一个白色的/透明的盒子。</p><p>国际软件测试资质认证委员会（ISTQB）定义</p><ul><li><strong>白盒测试：</strong> 测试基于对组件内部结构的分析系统。</li><li><strong>白盒测试技巧：</strong> 选择测试用例的过程分析某一部件或系统的内部结构。</li></ul><p><img src="https://pics6.baidu.com/feed/203fb80e7bec54e75a8d10f72e8ca5564ec26a34.jpeg?token=0b64ce09c736a08b194bdc3d6f1d7b56&s=59843C720F427C49485C14CE0000E0B1"></p><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>测试人员通常也是开发人员，研究页面上某个字段的实现代码，确定所有合法的(有效的和无效的)和非法输入，并根据预期的结果验证输出，这也是通过研究实现代码来确定的。</p><p>白盒测试就像机械师检查引擎，看汽车为什么不动一样。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>白盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a> : 单元测试</li><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a> : 用于单元间的测试路径。</li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> : 用于子系统间的测试路径。</li></ul><p>然而，它主要应用于单元测试。</p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><p><img src="https://pics7.baidu.com/feed/96dda144ad3459826ebe6e089a400fabcaef84ab.jpeg?token=e68322a8169dbf01c9107e5508788572&s=1C205E324D3272031974DDCB020060B1"></p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/hei-he-ce-shi/">黑盒测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/">灰盒测试</a> </p>]]></content>
       
       
       <categories>
@@ -579,6 +554,31 @@
     
     
     <entry>
+      <title>缺陷概率</title>
+      <link href="/object-object/stf/que-xian-gai-lu/"/>
+      <url>/object-object/stf/que-xian-gai-lu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件测试基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件测试基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>质量维度</title>
       <link href="/object-object/stf/zhi-liang-wei-du/"/>
       <url>/object-object/stf/zhi-liang-wei-du/</url>
@@ -604,11 +604,11 @@
     
     
     <entry>
-      <title>缺陷概率</title>
-      <link href="/object-object/stf/que-xian-gai-lu/"/>
-      <url>/object-object/stf/que-xian-gai-lu/</url>
+      <title>软件测试分类</title>
+      <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
+      <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
       
-        <content type="html"><![CDATA[<h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
       
       
       <categories>
@@ -679,11 +679,11 @@
     
     
     <entry>
-      <title>软件测试分类</title>
-      <link href="/object-object/stf/ruan-jian-ce-shi-fen-lei/"/>
-      <url>/object-object/stf/ruan-jian-ce-shi-fen-lei/</url>
+      <title>随机测试</title>
+      <link href="/object-object/stf/sui-ji-ce-shi/"/>
+      <url>/object-object/stf/sui-ji-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="软件测试分类列表"><a href="#软件测试分类列表" class="headerlink" title="软件测试分类列表"></a>软件测试分类列表</h2><h3 id="软件测试种类："><a href="#软件测试种类：" class="headerlink" title="软件测试种类："></a>软件测试种类：</h3><ul><li><p>手工测试</p></li><li><p>自动化测试</p></li><li><p>静态测试</p></li></ul><h3 id="软件测试方法"><a href="#软件测试方法" class="headerlink" title="软件测试方法"></a>软件测试方法</h3><ul><li><p>黑盒测试</p></li><li><p>白盒测试</p></li><li><p>灰盒测试</p></li><li><p>敏捷测试</p></li><li><p>随机测试</p></li></ul><h3 id="软件测试类型"><a href="#软件测试类型" class="headerlink" title="软件测试类型"></a>软件测试类型</h3><ul><li><p>功能测试</p></li><li><p>性能测试</p></li><li><p>可靠性测试</p></li><li><p>安全测试</p></li><li><p>配置测试</p></li><li><p>GUI测试</p></li><li><p>备份测试</p></li><li><p>文档测试</p></li><li><p>在线帮助测试</p></li><li><p>易用性测试</p></li><li><p>等等</p></li></ul><h3 id="软件测试阶段"><a href="#软件测试阶段" class="headerlink" title="软件测试阶段"></a>软件测试阶段</h3><ul><li><p>单元测试</p></li><li><p>集成测试</p></li><li><p>系统测试</p></li><li><p>Alpha测试</p></li><li><p>Beta测试</p></li><li><p>验收测试</p></li><li><p>回归测试</p></li></ul><h3 id="分层自动化测试"><a href="#分层自动化测试" class="headerlink" title="分层自动化测试"></a>分层自动化测试</h3><p><img src="https://images2017.cnblogs.com/blog/1004003/201802/1004003-20180207152948232-266175713.png" alt="测试金字塔"></p><ul><li><p>单元自动化测试</p></li><li><p>接口自动化测试</p></li><li><p>UI自动化测试</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
       
       
       <categories>
@@ -704,11 +704,11 @@
     
     
     <entry>
-      <title>随机测试</title>
-      <link href="/object-object/stf/sui-ji-ce-shi/"/>
-      <url>/object-object/stf/sui-ji-ce-shi/</url>
+      <title>集成测试</title>
+      <link href="/object-object/stf/ji-cheng-ce-shi/"/>
+      <url>/object-object/stf/ji-cheng-ce-shi/</url>
       
-        <content type="html"><![CDATA[<h2 id="随机测试基础"><a href="#随机测试基础" class="headerlink" title="随机测试基础"></a>随机测试基础</h2><p><strong>随机测试</strong> 也被称为随机测试或者猴子测试，是一种没有任何计划和文档的软件测试方法。这些测试是在非正式和随机的情况下进行的，没有任何正式的预期结果。</p><p><img src="https://pics6.baidu.com/feed/ac345982b2b7d0a2304a6fbf21c69a0f4a369ac5.jpeg?token=3e47fe34bb66f41097f750838530eebc" alt="猴子舞"></p><p>测试人员会即兴执行这些步骤，并随意地执行它们(就像猴子跳舞一样)。尽管使用这种方法发现的缺陷更难于重现(因为没有编写测试用例)，<br>但有时会发现一些非常有趣的缺陷，这些缺陷都不是按照测试文档发现的，不这样做的话，这些缺陷是永远不会被发现的。</p><p>随机测试的成功取决于测试人员的创造力和韧度(当然还有运气)。</p><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |   <a href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/">性能测试</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
       
       
       <categories>
@@ -759,31 +759,6 @@
       <url>/object-object/stf/hei-he-ce-shi/</url>
       
         <content type="html"><![CDATA[<h2 id="黑盒测试基础原理"><a href="#黑盒测试基础原理" class="headerlink" title="黑盒测试基础原理"></a>黑盒测试基础原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>黑盒测试</strong> ，也被称为行为测试，是一种软件测试方法，其中测试的项目的内部结构/设计/实现不被测试人员所知。这些测试可以是功能性的，也可以是非功能性的，尽管通常是功能性的。</p><p><img src="https://images2015.cnblogs.com/blog/1020866/201704/1020866-20170418154131056-1664321306.png" alt="黑盒测试"></p><p>之所以这样命名，是因为软件程序，在测试人员的眼中，就像一个黑盒子;在里面，谁也看不见。该方法试图在以下类别中找出错误:</p><ul><li>错误和遗漏功能</li><li>界面错误</li><li>数据结构或外部数据库访问中的错误</li><li>行为或性能错误</li><li>初始化和终止错误</li></ul><p>ISTQB定义</p><ul><li><p><strong>黑盒测试：</strong> 测试，无论是功能性的还是非功能性的，都没有涉及到<br>组件或系统的内部结构。</p></li><li><p><strong>黑盒测试设计技术：</strong> 基于an的方法派生和/或选择测试用例的过程<br>对组件或系统的规格、功能或非功能性的分析<br>没有提到它的内部结构。</p></li></ul><h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><p>一个测试人员不了解网站的内部结构，使用浏览器测试网页;提供输入(单击、击键)并根据预期的结果验证输出。</p><h3 id="适用级别"><a href="#适用级别" class="headerlink" title="适用级别"></a>适用级别</h3><p>黑盒测试方法适用于以下级别的软件测试:</p><ul><li><a href="https://veryaime.github.io/object-object/stf/ji-cheng-ce-shi/">集成测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a></li><li><a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a></li></ul><h3 id="拼写"><a href="#拼写" class="headerlink" title="拼写"></a>拼写</h3><p>这个级别越高，盒子越复杂，使用的黑盒测试方法就越多。</p><h3 id="黑盒测试技术"><a href="#黑盒测试技术" class="headerlink" title="黑盒测试技术"></a>黑盒测试技术</h3><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/yan-shou-ce-shi/">验收测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/bai-he-ce-shi/">白盒测试</a> </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 软件测试基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 软件测试基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>集成测试</title>
-      <link href="/object-object/stf/ji-cheng-ce-shi/"/>
-      <url>/object-object/stf/ji-cheng-ce-shi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="集成测基本原理"><a href="#集成测基本原理" class="headerlink" title="集成测基本原理"></a>集成测基本原理</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p><strong>集成测试</strong>是一个软件测试的阶段，其中单个单元被组合并作为一个组测试。</p><p><img src="https://www.freesion.com/images/178/9745d4bb3b6415280c5bbcbe0c590f02.JPEG" alt="集成测试"></p><p>这个阶段的测试的目的是揭露集成单元之间的交互中的故障。 测试驱动程序和测试存根用于协助集成测试。</p><p><u>ISTQB定义</u></p><ul><li><strong>集成测试：</strong> 执行测试以暴露接口中的缺陷以及集成组件或系统之间的交互。另见组件集成测试，系统集成测试。</li><li><strong>组件集成测试：</strong> 执行测试以暴露接口中的缺陷和集成组件之间的交互。</li><li><strong>系统集成测试：</strong> 测试系统和软件包的集成;测试<br>与外部组织的接口（例如电子数据交换，互联网）。</li></ul><h3 id="类比"><a href="#类比" class="headerlink" title="类比"></a>类比</h3><p>在制造圆珠笔的过程中，帽子，身体，尾巴和夹子，墨盒和圆珠笔分别生产并单独测试。 当两个或多个单元准备就绪时，它们被组装，并且执行集成测试。 例如，帽子是否适合身体。</p><h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>可以使用任何黑盒测试，白盒测试和灰盒测试方法。 通常，该方法取决于您对“单位”的定义。</p><h3 id="工作任务"><a href="#工作任务" class="headerlink" title="工作任务"></a>工作任务</h3><ul><li>集成测试计划<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试案例/脚本<ul><li>准备</li><li>讨论</li><li>修订</li><li>基准</li></ul></li><li>集成测试<ul><li>执行</li></ul></li></ul><h3 id="什么时候进行集成测试"><a href="#什么时候进行集成测试" class="headerlink" title="什么时候进行集成测试?"></a>什么时候进行集成测试?</h3><p>集成测试在单元测试和系统测试中间进行。</p><h3 id="谁执行集成测试"><a href="#谁执行集成测试" class="headerlink" title="谁执行集成测试?"></a>谁执行集成测试?</h3><p>要么开发人员自己，要么独立测试人员执行集成测试。</p><h3 id="办法"><a href="#办法" class="headerlink" title="办法"></a>办法</h3><ul><li><p>大爆炸是集成测试的一种方法，其中所有或大多数单元组合在一起，并一次测试。 当测试团队收集整个软件时，采取这种方法。 那么大爆炸一体化测试与系统测试有什么区别？ 那么，前者仅测试单元之间的相互作用，而后者测试整个系统。</p></li><li><p>Top Down是一种集成测试的方法，首先测试顶级单元，然后逐级测试较低级别的单元。 当采用自上而下的开发方法时，采用这种方法。 需要测试桩来模拟在初始阶段可能不可用的较低级别的单位。</p></li><li><p>Bottom Up是一种集成测试的方法，其中底层单元首先被测试，并在此之后逐步测试上级单元。 当采用自下而上的开发方式时，采取这种方法。 需要测试驱动程序来模拟在初始阶段可能不可用的较高级别的单元。</p></li><li><p>三明治/混合是集成测试的一种方法，它是从上到下从下到上的方法的组合。</p></li></ul><h3 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h3><ul><li>确保您具有适当的详细设计文档，其中明确了每个单元之间的交互。 实际上，如果没有此信息，您将无法执行集成测试。</li><li>确保您具有健壮的软件配置管理系统。 否则，您将难以追踪每个单位的正确版本，特别是如果要整合的单位数量巨大。</li><li>在开始集成测试之前，确保每个单元都是第一个单元测试。</li><li>尽可能自动化您的测试，特别是当您使用自顶向下或向下的方法时，由于回归测试在每次整合单元时都很重要，而手动回归测试可能无效。</li></ul><p><a href="https://veryaime.github.io/object-object/stf/index/">首页</a>  |  <a href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/">单元测试</a>  |  <a href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/">系统测试</a> </p>]]></content>
       
       
       <categories>
@@ -967,6 +942,31 @@
     
     
     <entry>
+      <title>mysql怎么防止误操作？？copy</title>
+      <link href="/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo-copy/"/>
+      <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo-copy/</url>
+      
+        <content type="html"><![CDATA[<h1 id="mysql怎么防止误操作？？？"><a href="#mysql怎么防止误操作？？？" class="headerlink" title="mysql怎么防止误操作？？？"></a>mysql怎么防止误操作？？？</h1><h3 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h3><p>打开安全模式之可以避免在 update/delete 操作未加条件时，导致全部数据更改/删除，这个对新人来说是有可能发生的。如果数据没有备份，那就凉了~ ，如果是线上环境，这可能会给团队带来直接损失。测试环境还可以慢慢修，但是也会耗费大量时间。为了避免这种情况发生，给大家分享个人的3点建议。</p><h3 id="2-建议"><a href="#2-建议" class="headerlink" title="2  建议"></a>2  建议</h3><h4 id="2-1-打开安全模式"><a href="#2-1-打开安全模式" class="headerlink" title="2.1 打开安全模式"></a>2.1 打开安全模式</h4><p>在登录 MySQL 时 加 -U，如：<code>mysql -uroot -U</code></p><p>这个比较麻烦的是你可能每次 update/delete 的时候 where 后面都需要跟索引字段，如果没有加 where 条件或者where 后不是索引字段时，必须使用 limit 。或者手动把 mysql 下关闭安全模式：</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=0;或 set sql_safe_updates=off;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>做完自己想做的mysql操作之后切记要再打开</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=1;或 set sql_safe_updates=on;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这种通常使用终端时操作使用，如果想知道当前环境有没有打开安全模式，可以使用查询环境语句查询，不过要注意区分会话级别、全局级别的系统变量。</p><h4 id="2-2-使用-mysql-管理工具操作"><a href="#2-2-使用-mysql-管理工具操作" class="headerlink" title="2.2 使用 mysql 管理工具操作"></a>2.2 使用 mysql 管理工具操作</h4><p>界面上更改数据，不会存在更新/删除所有数据的风险。</p><h4 id="2-3-备份关键数据"><a href="#2-3-备份关键数据" class="headerlink" title="2.3 备份关键数据"></a>2.3 备份关键数据</h4><p>使用 crontab 定时每天备份重要数据，如果不是很占内存，可以保留3天内的备份数据，3天以前的备份数据删除。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试经验 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>mysql怎么防止误操作？？</title>
       <link href="/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/"/>
       <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo/</url>
@@ -992,23 +992,48 @@
     
     
     <entry>
-      <title>mysql怎么防止误操作？？copy</title>
-      <link href="/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo-copy/"/>
-      <url>/object-object/text-exp/fang-zhi-mysql-wu-cao-zuo-copy/</url>
+      <title>ADAS 认识与测试方法总结归纳</title>
+      <link href="/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/"/>
+      <url>/object-object/autopilot/adas-ren-shi-yu-ce-shi-fang-fa/</url>
       
-        <content type="html"><![CDATA[<h1 id="mysql怎么防止误操作？？？"><a href="#mysql怎么防止误操作？？？" class="headerlink" title="mysql怎么防止误操作？？？"></a>mysql怎么防止误操作？？？</h1><h3 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1 介绍"></a>1 介绍</h3><p>打开安全模式之可以避免在 update/delete 操作未加条件时，导致全部数据更改/删除，这个对新人来说是有可能发生的。如果数据没有备份，那就凉了~ ，如果是线上环境，这可能会给团队带来直接损失。测试环境还可以慢慢修，但是也会耗费大量时间。为了避免这种情况发生，给大家分享个人的3点建议。</p><h3 id="2-建议"><a href="#2-建议" class="headerlink" title="2  建议"></a>2  建议</h3><h4 id="2-1-打开安全模式"><a href="#2-1-打开安全模式" class="headerlink" title="2.1 打开安全模式"></a>2.1 打开安全模式</h4><p>在登录 MySQL 时 加 -U，如：<code>mysql -uroot -U</code></p><p>这个比较麻烦的是你可能每次 update/delete 的时候 where 后面都需要跟索引字段，如果没有加 where 条件或者where 后不是索引字段时，必须使用 limit 。或者手动把 mysql 下关闭安全模式：</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=0;或 set sql_safe_updates=off;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>做完自己想做的mysql操作之后切记要再打开</p><pre class="line-numbers language-text" data-language="text"><code class="language-text">set sql_safe_updates=1;或 set sql_safe_updates=on;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>这种通常使用终端时操作使用，如果想知道当前环境有没有打开安全模式，可以使用查询环境语句查询，不过要注意区分会话级别、全局级别的系统变量。</p><h4 id="2-2-使用-mysql-管理工具操作"><a href="#2-2-使用-mysql-管理工具操作" class="headerlink" title="2.2 使用 mysql 管理工具操作"></a>2.2 使用 mysql 管理工具操作</h4><p>界面上更改数据，不会存在更新/删除所有数据的风险。</p><h4 id="2-3-备份关键数据"><a href="#2-3-备份关键数据" class="headerlink" title="2.3 备份关键数据"></a>2.3 备份关键数据</h4><p>使用 crontab 定时每天备份重要数据，如果不是很占内存，可以保留3天内的备份数据，3天以前的备份数据删除。</p>]]></content>
+        <content type="html"><![CDATA[<p>[TOC]</p><h2 id="ADAS认识与测试方法总结归纳"><a href="#ADAS认识与测试方法总结归纳" class="headerlink" title="ADAS认识与测试方法总结归纳"></a>ADAS认识与测试方法总结归纳</h2><h4 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h4><p>​    现阶段道路交通事故死亡人数比例一直很高，道路交通安全问题已成为影响我国公众安全感的重要因素之一，要解决这一痛点，意味着汽车智能化已经逐渐渗入人们的生活，人们对汽车安全的要求也会越来越高。</p><p>​    先如今很多企业已经开始研发无人驾驶，甚至已有无人驾驶车辆在路跑。看似科幻的概念已经慢慢进入到我们的生活，事实上无人驾驶技术不是创新，而是在 ADAS 基础上的演进，ADAS 是通往无人驾驶的必经之路。这需在不断累积使用经验与盲点克服后，同时加入更多主动侦测系统，甚至是物联网功能后，才有机会进一步实现的目的，毕竟自动驾驶所需具备的汽车技术层面更高、更复杂。</p><h5 id="1-1-ADAS-的定义"><a href="#1-1-ADAS-的定义" class="headerlink" title="1.1 ADAS 的定义"></a>1.1 ADAS 的定义</h5><p>​    ADAS(Advanced Driver Assistance System) 高级驾驶辅助系统是利用安装在车上的各式各样传感器，在汽车行驶过程中第一时间感应周围的环境，收集数据，通过对静态、动态物体进行辨识、侦测与追踪等技术上的处理，从而预先让驾驶者察觉到可能发生的危险，有效增加汽车驾驶的舒适性和安全性，通过主动安全即降低碰撞风险避免事故和被动式安全系统即安全带及安全气囊等的有效结合降低驾驶风险，并最终实现事故零死亡的目标。</p><h5 id="1-2-ADAS-的组成"><a href="#1-2-ADAS-的组成" class="headerlink" title="1.2 ADAS 的组成"></a>1.2 ADAS 的组成</h5><p>​    全天候 ADAS 设备具有超强夜视、雨雾透视、眩光屏蔽、前车防撞语音预警、车道偏离语音预警、路况预警、<a href="https://link.zhihu.com/?target=http://baike.sogou.com/lemma/ShowInnerLink.htm?lemmaId=75863942&ss_c=ssc.citiao.link">手机互联</a>等功能，较大地提高了车主的安全防护能力。</p><p>​    目前为止，ADAS 系统组成有很多，一般，汽车高级辅助驾驶系统通常包括：</p><p>​    <strong>车道偏离预警系统（LDWS）、</strong></p><p>​    <strong>车道保持系统（LKS）、</strong></p><p>​    <strong>自适应巡航系统（ACC）、</strong></p><p>​    <strong>前碰撞预防系统（FCW） 、</strong></p><p>​    <strong>自动泊车系统（APA）、</strong></p><p>​    <strong>盲点监测系统（BSD）、</strong></p><p>​    <strong>驾驶员疲劳预警系统（DFM）、</strong></p><p>​    <strong>自适应灯光控制（ALC）、</strong></p><p>​    <strong>自动紧急制动（AEB）、</strong></p><p>​    <strong>夜视系统（NVD）</strong></p><p>除了以上十大功能系统之外，还包括行人保护系统、电子警察系统（ISA）、导航与实时交通系统（TMC）、交通标志识别、下坡控制系统、电动汽车报警系统等等。</p><h6 id="ADAS-的十大功能系统介绍如下："><a href="#ADAS-的十大功能系统介绍如下：" class="headerlink" title="ADAS 的十大功能系统介绍如下："></a>ADAS 的十大功能系统介绍如下：</h6><p>​    1）车道偏离预警系统LDWS‍‍‍‍‍车道偏离预警系统LDWS（ Lane departure warning system）是指行车中未打转向灯突然大幅度偏离车道，不正常偏移时，行车记录仪一旦判定行驶路线有异，便会以行车记录仪的显示屏幕提醒驾驶人，并发出声响警告对司机进行警示。这将使司机可以马上采取行动，回到原行车道上。</p><p>车道偏离预警系统主要由HUD抬头显示器、摄像头、控制器以及传感器组成。当车道偏离预警系统开启时，摄像头（一般安置在车身侧面或后视镜位置）会时刻采集行驶车道的标识线，通过图像处理获得汽车在当前车道中的位置参数。</p><p>当检测到汽车偏离车道时，传感器会及时收集车辆数据和驾驶员的操作状态，之后由控制器发出警报信号，整个过程大约在0.5秒完成，为驾驶者提供更多的反应时间。而如果驾驶者打开转向灯，正常进行变线行驶，那么车道偏离预警系统不会做出任何提示。</p><p><img src="./img/LDWS.png"></p><p>​    2）车道保持系统LKS (Lane Keeping System)</p><p>车道保持辅助系统属于智能驾驶辅助系统中的一种。它可以在车道偏离预警系统（LDWS）的基础上对刹车的控制协调装置进行控制。对车辆行驶时借助一个摄像头识别行驶车道的标识线将车辆保持在车道上提供支持。可检测本车在车道内的位置，并可自动调整转向，使本车保持在车道内行驶。</p><p>如果车辆接近识别到的标记线并可能脱离行驶车道，那么会通过方向盘的振动，或者是声音来提请驾驶员注意，并轻微转动方向盘修正行驶方向，使车辆处于正确的车道上，若方向盘长时间检测到无人主动干预，则发出报警，用来提醒驾驶人员。</p><p>如果车道保持辅助系统识别到本车道两侧的标记线，那么系统处于待命状态。这通过组合仪表盘中的绿色指示灯显示。当系统处于待命状态下，如果在Y过标记线前打了转向灯，警告信号就会被屏蔽，认定驾驶员为有意识的换道。</p><p>该系统主要应用于结构化的道路上，如高速公路和路面条件较好（车道线清晰）的公路上行驶。当车速达到65km/h或以上才开始运行。</p><p><img src="./img/LKS.png" alt="img"></p><p>​    3）自适应巡航系统ACC</p><p>​    自适应巡航系统ACC（Adaptive Cruise Control）是一项舒适性的辅助驾驶功能。如果车辆前方畅通，自适应巡航（ACC）将保持设定的最大巡航速度向前行驶。如果检测到前方有车辆，自适应巡航（ACC） 将根据需要降低车速，与前车保持基于选定时间的距离，直到达到合适的巡航速度。</p><p>​    自适应巡航也可称为<strong>主动巡航</strong>，类似于传统的定速巡航控制，该系统包括雷达传感器、数字信号处理器和控制模块。在自适应巡航系统中，系统利用低功率雷达或红外线光束得到前车的确切位置，如果发现前车减速或监测到新目标，系统就会发送执行信号给发动机或制动系统来降低车速，从而使车辆和前车保持一个安全的行驶距离。</p><p>​    当前方道路障碍清除后又会加速恢复到设定的车速，雷达系统会自动监测下一个目标。主动巡航控制系统代替司机控制车速，避免了频繁取消和设定巡航控制。当与前车之间的距离过小时，ACC控制单元可以通过与制动防抱死系统、发动机控制系统协调动作，使车轮适当制动，并使发动机的输出功率下降，以使车辆与前方车辆始终保持安全距离。自适应巡航系统适合于多种路况，为驾驶者提供了一种更轻松的驾驶方式。</p><p><img src="./img/ACC.png" alt="img"></p><p>​    4）前碰撞预防系统FCW</p><p>​    前碰撞预防系统FCW (Forward Collision Warning)是通过雷达系统来时刻监测前方车辆，判断本车与前车之间的距离、方位及相对速度，当存在潜在碰撞危险时对驾驶者进行警告。FCW系统本身不会采取任何制动措施去避免碰撞或控制车辆。</p><p>​    通过分析传感器获取的前方道路信息对前方车辆进行识别和跟踪，如果有车辆被识别出来，则对前方车距进行测量。同时利用车速估计，根据安全车距预警模型判断追尾可能，一旦存在追尾危险，便根据预警规则及时给予驾驶人主动预警。</p><p><img src="./img/FCW.png" alt="img"></p><p>​    5）自动泊车系统APA</p><p>​    自动泊车系统APA（Automatic Parking Assist）是利用车载传感器（一般为超声波雷达或摄像头）识别有效的泊车空间，并通过控制单元控制车辆进行泊车。相比于传统的倒车辅助功能，如倒车影像以及倒车雷达，自动泊车的功能智能化程度更高，有效的减轻了驾驶员的倒车困难。</p><p>​    全自动泊车辅助系统APA，通过控制车辆的加减速度和转向角度自动停放车辆。该系统通过AVM（环视）和USS（超声波雷达）感知泊车环境，使用IMU和车轮传感器估计车辆姿态（位置和行驶方向），并根据驾驶员的选择自动或手动设置目标泊车位。然后系统进行自动泊车轨迹计算，并通过精确的车辆定位与车辆控制系统使车辆沿定义的泊车轨迹进行全自动泊车，直至到达最终目标泊车位。</p><p><img src="./img/APA.png" alt="img"></p><p>​    6）盲点监测系统BSD</p><p>​    由于汽车后视镜存在视觉盲区，变道之前就看不到盲区的车辆，如果盲区内有超车车辆，此时变道就会发生碰撞事故。在大雨天气、大雾天气、夜间光线昏暗，更加难以看清后方车辆，此时变道就面临更大的危险，盲点监测系统就是为了解决后视镜的盲区而产生的。</p><p>​    盲点监测系统BSD（ Blind Spot Detection)，是汽车上的一款安全类的高科技配置，主要功能是扫除后视镜盲区，依赖于车辆尾部两个雷达时刻监测车辆的侧后面和侧面状态，如果车辆位于该区域内，驾驶员将通过后视镜上盲点警告指示灯和组合仪表获得相关警告提示，避免在车道变换过程中由于后视镜盲区而发生事故。</p><p><img src="./img/BSD.png" alt="img"></p><p>​    7）驾驶员疲劳预警系统DFM</p><p>​    驾驶员疲劳预警系统DFM（Driver Fatigue Monitor System）主要是通过摄像头获取的图像，通过视觉跟踪、目标检测、动作识别等技术对驾驶员的驾驶行为及生理状态进行检测，当驾驶员发生疲劳、分心、打电话、抽烟等危险情况时在系统设定时间内报警以避免事故发生。DFM系统能有效规范驾驶员的驾驶行为、大大降低交通事故发生的几率。</p><p>​    通过分析驾驶员的疲劳特征（如打哈欠、闭眼等），对疲劳行为及时发出疲劳驾驶预警。高精准度的算法甚至能做到不受时间段、光照情况、是否戴墨镜等外界条件影响，始终对驾驶员的疲劳状态进行有效管理。当驾驶人员产生生理疲劳状态时，立即发出预警警告，及时唤醒驾驶员，避免严重事故发生。</p><p><img src="./img/DFM.png" alt="img"></p><p>​    8）自适应灯光控制ALC</p><p>​    自适应灯光控制ALC（Adaptive Light Control）是一种智能灯光调节系统。通过感知驾驶员操作、车辆行驶状态、路面变化以及天气环境等信息，AFS 自动控制前照灯实时进行上下、左右照明角度的调整，为驾驶员提供最佳道路照明效果。自适应前照灯系统共由四部分组成：传感器、ecu、车灯控制系统和前照灯。汽车车速传感器和方向盘转角传感器不断地把检测到的信号传递给ecu，ecu根据传感器检测到的信号进行处理，把处理完后的数据进行判断，输出前照灯转角指令，使前照灯转过相应的角度。</p><p>​    汽车在转弯时，重点是要提前看到所转方向的障碍物，根据现实驾驶的经验，车灯一般只需转过o～15°即可，只需要所转方向侧的那只前照灯实现智能转向就可，另一侧前照灯还是保持原来的方向。虽简化了控制，仍然能够达到预期的效果。它可以通过控制系统能够显著改善各种路况下的照明效果，提高行车安全。</p><p><img src="./img/ALC.png" alt="img"></p><p>9）自动紧急制动AEB</p><p>​    自动紧急制动AEB（Autonomous Emergency Braking）是一种汽车主动安全技术，主要由 3 大模块构成，其中测距模块的核心包括微波雷达、激光雷达和视频系统等，它可以提供前方道路安全、准确、实时的图像和路况信息。</p><p>​    AEB 系统采用雷达测出与前车或者障碍物的距离，然后利用数据分析模块将测出的距离与警报距离、安全距离进行比较，小于警报距离时就进行警报提示，而小于安全距离时即使在驾驶员没有来得及踩制动踏板的情况下，AEB 系统也会启动，使汽车自动制动，从而为安全出行保驾护航。</p><p><img src="./img/AEB.png" alt="img"></p><p>​    10）夜视系统NVD</p><p>​    夜视系统NVD（Night Vision Device）是一种源自军事用途的汽车驾驶辅助系统。在这个辅助系统的帮助下，驾驶者在夜间或弱光线的驾驶过程中将获得更高的预见能力，它能够针对潜在危险向驾驶者提供更加全面准确的信息或发出早期警告。</p><p>​    夜视系统NVD由安置于车前保险杠的（UFPA）侦测传感器和液晶抬头显示器（HUD）组成，主要是通过主动式红外照射、微光夜视技术以及红外热成像技术，来帮助驾驶者看见以汽车远光灯无法清楚辨识的物体，驾驶者可将虚拟影像当作前方视野的一部分，提升了视线不佳时的行车安全性。</p><p><img src="./img/NVD.png" alt="img"></p><h6 id="以上提到的每一个系统主要包括3个程序："><a href="#以上提到的每一个系统主要包括3个程序：" class="headerlink" title="以上提到的每一个系统主要包括3个程序："></a>以上提到的每一个系统主要包括3个程序：</h6><p>​    1）信息采集。不同系统需使用不同类型传感器掌握外界车况，才能进行后续的警示和反应动作。如毫米波雷达、超声波雷达、影像传感器、轮速传感器。</p><p>​    2）分析和下达指令。电子控制单元(ECU)会针对传感器所收集到的信息进行分析处理，然后再向控制的执行装置下单指令。</p><p>​    3）执行动作。包括油门、刹车、灯光、声响等。会根据ECU输出的信号，执行对应的操作。</p><h5 id="1-3-自动驾驶与ADAS的关系"><a href="#1-3-自动驾驶与ADAS的关系" class="headerlink" title="1.3 自动驾驶与ADAS的关系"></a>1.3 自动驾驶与ADAS的关系</h5><p>​    自动驾驶是ADAS的目标，ADAS属于L2自动驾驶级别。自动驾驶的解决方案是高精度地图与激光雷达的组合。ADAS需要突破的是外界信息采集的精度和数据处理能力,解决方案是专业的车用级处理芯片，如MCU、GPU或GPU+FPGA。</p><h5 id="1-4-ADAS测试面临的挑战"><a href="#1-4-ADAS测试面临的挑战" class="headerlink" title="1.4 ADAS测试面临的挑战"></a>1.4 ADAS测试面临的挑战</h5><p>​    信号种类多，数据量大；ADAS测试需要大量的传感器，且数据量大，普通存储设备无法满足存储要求。多种上位机无法实现同步采集与数据融合，由于传感器安装位置不同导致对同一目标的检测数据存在偏差，且不同的上位机软件难以实现同步，增加实验难度与数据精确度。大量数据存放及查找困难，面对每天高达数T级的数据，需要将数据分类存放以可查找可追溯。</p><h5 id="1-5-发展趋势关键"><a href="#1-5-发展趋势关键" class="headerlink" title="1.5 发展趋势关键"></a>1.5 发展趋势关键</h5><p>​    消费者对车的安全要求越来越高，一些相对较为低端且使用的先进驾驶辅助系统技术，如：胎压检测。消费者对避险类辅助类、视野改善类技术关注度高。一些道路要求较高技术，如变道辅助、车道偏离、ACC等，以及与中国消费者驾驶习惯不符的技术。如车道保持系统、疲劳检测、禁酒闭锁等。</p><h4 id="2-测试方法"><a href="#2-测试方法" class="headerlink" title="2 测试方法"></a>2 测试方法</h4><p>TODO</p>]]></content>
       
       
       <categories>
           
-          <category> 测试经验 </category>
+          <category> 自动驾驶 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 测试经验 </tag>
+            <tag> 自动驾驶 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自动驾驶模拟器</title>
+      <link href="/object-object/autopilot/zi-dong-jia-shi-mo-ni-qi/"/>
+      <url>/object-object/autopilot/zi-dong-jia-shi-mo-ni-qi/</url>
+      
+        <content type="html"><![CDATA[<p>[TOC]</p><h2 id="自动驾驶模拟器"><a href="#自动驾驶模拟器" class="headerlink" title="自动驾驶模拟器"></a>自动驾驶模拟器</h2><h4 id="1-概述"><a href="#1-概述" class="headerlink" title="1. 概述"></a>1. 概述</h4><h5 id="1-1-概念理解"><a href="#1-1-概念理解" class="headerlink" title="1.1 概念理解"></a>1.1 概念理解</h5><p>模拟器（Simulation）: 将世界信息感知系统和自车行为规划控制系统放在集成平台进行测试仿真。</p><h5 id="1-2-介绍"><a href="#1-2-介绍" class="headerlink" title="1.2 介绍"></a>1.2 介绍</h5><p>自动驾驶模拟器可以理解成是后勤保障。是为了提高迭代效率，保证算法的质量和效率，包含了从感知到规划到控制的闭环仿真，尤其针对规划算法的迭代具备更好的验证效果。</p><p>所谓闭环，是指：路测-累计路测数据-优化算法-优化后造场景数据-路测。</p><p><strong>模拟器的主要3个难点包括：</strong></p><p>1） 需要整个架构的配合；</p><p>2） 大数据的存储和强大的计算能力；</p><p>3） 将模拟器的指标纳入到研发、测试和流程管理中。</p><p><strong>模拟器的两种经典模式：</strong></p><p>1）WorldSim：基于配置或者逻辑来“造”环境数据</p><p>2）LogSig：基于采集的真实环境数据</p><p><strong>模拟器的优势:</strong></p><ol><li> 极大地提高开发效率</li></ol><p>2）测试和验证极端场景</p><p>3）最大化发挥沉淀数据的作用</p><p>4）孵化人工智能和场景驱动的重要先决条件</p><h5 id="1-3-模拟器系统的要求"><a href="#1-3-模拟器系统的要求" class="headerlink" title="1.3 模拟器系统的要求"></a>1.3 模拟器系统的要求</h5><p>1）与后期云端大规模模拟兼容</p><p>2）组成部分</p><ul><li>模块调度：调度引擎根据输入数据时序，调用各个软件模块，生成输出的数据</li><li>打分系统：根据数据包，自动判断各模块是否正确处理了该输入场景</li><li>智能引擎：模拟器通过接收配置文件，自动生成场景元素，可以采用人工智能的解决方案，灵活改造和生成场景</li><li>完美控制：采用完美控制车辆的方式，剔除车辆控制方面的误差</li></ul><p>3）完整数据闭环仿真：实车测试 – 积累LogSim场景库 – 算法迭代 – WorldSim 和 LogSig 场景库仿真验证 – 实车测试</p><h5 id="1-4-模拟器的意义"><a href="#1-4-模拟器的意义" class="headerlink" title="1.4 模拟器的意义"></a>1.4 模拟器的意义</h5><p>提高迭代效率，保证算法的稳定性和高质量。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 自动驾驶 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动驾驶 </tag>
             
         </tags>
       
