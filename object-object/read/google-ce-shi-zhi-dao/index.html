@@ -514,16 +514,105 @@
 <ul>
 <li>测试和测试之间相互独立</li>
 <li>测试不做任何数据持久化方面的工作。保证测试环境在测试结束后和开始前环境一致。</li>
-<li></li>
-<li></li>
+<li>等等</li>
 </ul>
-<p>等等<br>维护好测试系统，创建一系列文档，形成“测试百科全书”。</p>
+<p>维护好测试系统，创建一系列文档，形成“测试百科全书”。</p>
 <h4 id="2-2-测试认证"><a href="#2-2-测试认证" class="headerlink" title="2.2 测试认证"></a>2.2 测试认证</h4><p>通过完成一些列测试任务，给团队评级，共有5个级别。对5个测试认证级别摘要做了介绍和公司评级的推进。</p>
 <h5 id="2-2-1-与测试认证计划创始人的谈话"><a href="#2-2-1-与测试认证计划创始人的谈话" class="headerlink" title="2.2.1 与测试认证计划创始人的谈话"></a>2.2.1 与测试认证计划创始人的谈话</h5><p>略…</p>
 <h4 id="2-3-SET-的招聘"><a href="#2-3-SET-的招聘" class="headerlink" title="2.3 SET 的招聘"></a>2.3 SET 的招聘</h4><p>SET 面试的重点在于考察候选人如何思索问题的解决方案，而不是解决方案本身的实现上有多么高雅。一个优秀的 SET 应主动考虑什么时候要去测试代码。介绍了普通的候选人和优秀的候选人碰到问题会如何处理。</p>
 <h4 id="2-4-与工具开发工程师-Ted-Mao-的访谈"><a href="#2-4-与工具开发工程师-Ted-Mao-的访谈" class="headerlink" title="2.4 与工具开发工程师 Ted Mao 的访谈"></a>2.4 与工具开发工程师 Ted Mao 的访谈</h4><p>略…</p>
 <h4 id="2-5-与-Web-Driver-的创建者-Simon-Stewart-的对话"><a href="#2-5-与-Web-Driver-的创建者-Simon-Stewart-的对话" class="headerlink" title="2.5 与 Web Driver 的创建者 Simon Stewart 的对话"></a>2.5 与 Web Driver 的创建者 Simon Stewart 的对话</h4><p>略…</p>
-<h3 id="3-测试工程师"><a href="#3-测试工程师" class="headerlink" title="3 测试工程师"></a>3 测试工程师</h3><h4 id="TODO…"><a href="#TODO…" class="headerlink" title="TODO…"></a>TODO…</h4>
+<h3 id="3-测试工程师"><a href="#3-测试工程师" class="headerlink" title="3 测试工程师"></a>3 测试工程师</h3><p>TE 重点在于评估对用户的影响以及软件产品整体目标上的风险。</p>
+<h4 id="3-1-一种面向用户的测试角色"><a href="#3-1-一种面向用户的测试角色" class="headerlink" title="3.1 一种面向用户的测试角色"></a>3.1 一种面向用户的测试角色</h4><p>TE 综合了开发者仰慕的技术能力和以用户为中心检查软件质量而对开发者产生一定制约的能力。TE 的工作难描述，因为指责范围广不好确定。都希望 TE 完成所有成果研发过程中的质量，所以往往 TE 都是从事一些基础技术层的。</p>
+<h4 id="3-2-测试工程师的工作"><a href="#3-2-测试工程师的工作" class="headerlink" title="3.2 测试工程师的工作"></a>3.2 测试工程师的工作</h4><p>在开发的前期阶段，TE 通常没有太多的工作可做，因为很多功能可能会存在变化，甚至可能会改需求。TE 介入产品的时候，不需要从零开始。SWE 和 SET 已经在测试技术和质量方面做了大量的工作，可以作为 TE 的起点。TE 介入产品时需要注意一下一些问题。</p>
+<ul>
+<li>当前软件的薄弱点在哪里？</li>
+<li>有没有安全、隐私、性能、可靠性、可用性、兼容性、全球化和其他方面的问题？</li>
+<li>主要用户场景功能是否正常？对于全世界不同国家的用户都是这样吗？</li>
+<li>这款产品能与其他产品（软硬件）互操作吗？</li>
+<li>当发生问题时，是否容易排查问题所在？如打印适量的日志。</li>
+</ul>
+<p>当然以上所列还不全，所有这些加起来可以构成发布待评估软件的风险概要。TE 保证以上这些问题被解决，可以找他人评估还有什么工作需要进行。TE 的根本使命就是保护用户和业务的利益。</p>
+<p>成功的 TE 游走于一些微妙且敏感的地方，通过测试找出bug。TE 通常是团队中最出名的人，因为需要与各种角色沟通。</p>
+<p>下面是关于 TE 职责的一般性描述。</p>
+<ul>
+<li>测试计划和风险分析。</li>
+<li>评审需求、概设、代码和测试。</li>
+<li>探索式测试。（<strong>边学习、边设计、边测试、边思考</strong>）</li>
+<li>用户场景。</li>
+<li>编写测试用例。</li>
+<li>执行测试用例。</li>
+<li>使用统计。</li>
+<li>用户反馈。</li>
+</ul>
+<h5 id="3-2-1-测试计划"><a href="#3-2-1-测试计划" class="headerlink" title="3.2.1 测试计划"></a>3.2.1 测试计划</h5><p>测试计划最早出现，也是最先被遗忘的测试产出。下面是测试计划具体的一些特性。</p>
+<ul>
+<li>及时更新。</li>
+<li>描述了软件的目标和卖点。</li>
+<li>描述了软件的结构、各种组件和功能特性的名称。</li>
+<li>描述了软件的功能和操作简介。<br>从测试的角度看，我们担心的是测试计划的投入和价值产出是否匹配。</li>
+<li>不必花过多的时间去编写，必须随时可以被修改。</li>
+<li>应该描述必测点。</li>
+<li>应能在测试中提取有用的信息，从而帮助确定进展以及覆盖率上的不足。</li>
+</ul>
+<p>知道原则如下。</p>
+<ul>
+<li><p>简明。不需要过多描述词。</p>
+</li>
+<li><p>只写相关人员关心的内容，重要的内容和可执行的内容。</p>
+</li>
+<li><p>渐进式描述。</p>
+</li>
+<li><p>指导计划者的思路。</p>
+</li>
+<li><p>最终结果应该是测试用例。</p>
+</li>
+</ul>
+<p>做出一个不直接知道测试的计划就是在浪费时间。如果测试计划没有吧测试用例应该怎么执行描述得足够详细，它就没有达到帮助测试的本意。</p>
+<h5 id="3-2-2-风险"><a href="#3-2-2-风险" class="headerlink" title="3.2.2 风险"></a>3.2.2 风险</h5><ol>
+<li><p>风险分析</p>
+<p>软件测试中，我们可以按照常识性的过程来理解风险，下面是一些可参考的因素。</p>
+<ul>
+<li>哪些事件需要担心。</li>
+<li>这些事发生的概率。</li>
+<li>一旦发生，有哪些影响。</li>
+<li>产品具备什么缓解措施，这些措施失败的概率，处理这些失败的成本有哪些。</li>
+<li>恢复过程有什么困难。</li>
+<li>事件是一次性问题，还是会再次发生。</li>
+</ul>
+<p>风险分析的目标不是给出一个精确值，而是识别一个能力与另一个相比风险是大是小。</p>
+<p>可以针对风险发生的频率，设置预值。如，罕见、少见、偶尔、常见、较大、最大等。</p>
+<p>风险评估可以邀请相关人员给出一些建议。</p>
+<ul>
+<li>开发人员。</li>
+<li>项目经理和产品经理。</li>
+<li>销售人员。</li>
+<li>总监和 VP 等。</li>
+</ul>
+</li>
+<li><p>风险缓解</p>
+<p>首先要知道，风险不大可能彻底消除。有很多措施可以缓解风险。</p>
+<ul>
+<li>我们可以围绕风险大的功能点写用户故事。</li>
+<li>编写回归测试用例。</li>
+<li>编写和运行引发故障的测试用例。</li>
+<li>添加监控。</li>
+</ul>
+<p>原则上，如果不能全测，就先测风险大的功能。</p>
+</li>
+<li><p>关于风险最后的话</p>
+<p>TE 有责任理解所有风险点，介绍了一些缓解风险的方法。略。</p>
+</li>
+</ol>
+<h5 id="3-2-3-测试用例的生命周期"><a href="#3-2-3-测试用例的生命周期" class="headerlink" title="3.2.3 测试用例的生命周期"></a>3.2.3 测试用例的生命周期</h5><h5 id="3-2-4-bug-的生命周期"><a href="#3-2-4-bug-的生命周期" class="headerlink" title="3.2.4 bug 的生命周期"></a>3.2.4 bug 的生命周期</h5><h5 id="2-3-5-TE-的招聘"><a href="#2-3-5-TE-的招聘" class="headerlink" title="2.3.5 TE 的招聘"></a>2.3.5 TE 的招聘</h5><h5 id="2-3-6-Google-的测试领导和管理工作"><a href="#2-3-6-Google-的测试领导和管理工作" class="headerlink" title="2.3.6 Google 的测试领导和管理工作"></a>2.3.6 Google 的测试领导和管理工作</h5><p>有几种不同类型的主管和经理。</p>
+<ul>
+<li>技术负责人</li>
+<li>技术主管</li>
+<li>测试工程经理</li>
+<li>测试总监</li>
+<li>资深测试总监</li>
+</ul>
+<h4 id="TODO…"><a href="#TODO…" class="headerlink" title="TODO…"></a>TODO…</h4>
                 
             </div>
             <hr/>
@@ -760,48 +849,46 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/object-object/read/google-ce-shi-zhi-dao/">
+                <a href="/object-object/mgt/guan-li-zhe-zen-me-guan-ren/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="《Google软件测试之道》阅读归纳">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="作为一名领导应该怎么管人">
                         
-                        <span class="card-title">《Google软件测试之道》阅读归纳</span>
+                        <span class="card-title">作为一名领导应该怎么管人</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            推荐阅读。介绍开发人员、测开、测试、测试经理的一些工作和关系，但主要是介绍测开和测试两个角色的工作内容。
+                            学会做一名优秀的管理者
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-12
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-02-13
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E4%B9%A6%E7%B1%8D%E9%98%85%E8%AF%BB/" class="post-category">
-                                    书籍阅读
+                            <a href="/categories/%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86/" class="post-category">
+                                    管理知识
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E4%B9%A6%E7%B1%8D%E9%98%85%E8%AF%BB/">
-                        <span class="chip bg-color">书籍阅读</span>
+                    <a href="/tags/%E7%AE%A1%E7%90%86%E7%9F%A5%E8%AF%86/">
+                        <span class="chip bg-color">管理知识</span>
                     </a>
                     
                 </div>
@@ -992,7 +1079,7 @@
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
-                <span id="year">2021</span>
+                <span id="year">2021-2022</span>
             
             <a href="/about" target="_blank">veryAIme</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
