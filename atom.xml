@@ -93,31 +93,6 @@
   </entry>
   
   <entry>
-    <title>冒烟测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:11:46.589Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;冒烟测试基本原理&quot;&gt;&lt;a href=&quot;#冒烟测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;冒烟测试基本原理&quot;&gt;&lt;/a&gt;冒烟测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
     <title>功能测试</title>
     <link href="https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/gong-neng-ce-shi/</id>
@@ -144,18 +119,18 @@
   </entry>
   
   <entry>
-    <title>单元测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/</id>
+    <title>冒烟测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/mou-yan-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:11:08.145Z</updated>
+    <updated>2021-12-22T05:11:46.589Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;单元测试基础&quot;&gt;&lt;a href=&quot;#单元测试基础&quot; class=&quot;headerlink&quot; title=&quot;单元测试基础&quot;&gt;&lt;/a&gt;单元测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;冒烟测试基本原理&quot;&gt;&lt;a href=&quot;#冒烟测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;冒烟测试基本原理&quot;&gt;&lt;/a&gt;冒烟测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -169,18 +144,18 @@
   </entry>
   
   <entry>
-    <title>回归测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
+    <title>单元测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/dan-yuan-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:10:44.191Z</updated>
+    <updated>2021-12-22T05:11:08.145Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;回归测试基本原理&quot;&gt;&lt;a href=&quot;#回归测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;回归测试基本原理&quot;&gt;&lt;/a&gt;回归测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;单元测试基础&quot;&gt;&lt;a href=&quot;#单元测试基础&quot; class=&quot;headerlink&quot; title=&quot;单元测试基础&quot;&gt;&lt;/a&gt;单元测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -220,19 +195,18 @@
   </entry>
   
   <entry>
-    <title>性能测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/</id>
+    <title>回归测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/hui-gui-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:13:01.393Z</updated>
+    <updated>2021-12-22T05:10:44.191Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;性能测试基本原理&quot;&gt;&lt;a href=&quot;#性能测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;性能测试基本原理&quot;&gt;&lt;/a&gt;性能测试基本原理&lt;/h2&gt;&lt;p&gt;性能测试定义、类型和技巧:&lt;/p&gt;
-&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;回归测试基本原理&quot;&gt;&lt;a href=&quot;#回归测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;回归测试基本原理&quot;&gt;&lt;/a&gt;回归测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -246,18 +220,19 @@
   </entry>
   
   <entry>
-    <title>易用性测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/</id>
+    <title>性能测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/xing-neng-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:13:11.356Z</updated>
+    <updated>2021-12-22T05:13:01.393Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;易用性测试基本原理&quot;&gt;&lt;a href=&quot;#易用性测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;易用性测试基本原理&quot;&gt;&lt;/a&gt;易用性测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;性能测试基本原理&quot;&gt;&lt;a href=&quot;#性能测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;性能测试基本原理&quot;&gt;&lt;/a&gt;性能测试基本原理&lt;/h2&gt;&lt;p&gt;性能测试定义、类型和技巧:&lt;/p&gt;
+&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot;</summary>
         
       
     
@@ -296,18 +271,18 @@
   </entry>
   
   <entry>
-    <title>测试用例</title>
-    <link href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/"/>
-    <id>https://veryaime.github.io/object-object/stf/ce-shi-yong-li/</id>
+    <title>易用性测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/yi-yong-xing-ce-shi/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:11:12.576Z</updated>
+    <updated>2021-12-22T05:13:11.356Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;测试用例基本原理&quot;&gt;&lt;a href=&quot;#测试用例基本原理&quot; class=&quot;headerlink&quot; title=&quot;测试用例基本原理&quot;&gt;&lt;/a&gt;测试用例基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;易用性测试基本原理&quot;&gt;&lt;a href=&quot;#易用性测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;易用性测试基本原理&quot;&gt;&lt;/a&gt;易用性测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -321,18 +296,18 @@
   </entry>
   
   <entry>
-    <title>测试脚本</title>
-    <link href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/"/>
-    <id>https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/</id>
+    <title>测试用例</title>
+    <link href="https://veryaime.github.io/object-object/stf/ce-shi-yong-li/"/>
+    <id>https://veryaime.github.io/object-object/stf/ce-shi-yong-li/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:11:18.638Z</updated>
+    <updated>2021-12-22T05:11:12.576Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;测试脚本基本原理&quot;&gt;&lt;a href=&quot;#测试脚本基本原理&quot; class=&quot;headerlink&quot; title=&quot;测试脚本基本原理&quot;&gt;&lt;/a&gt;测试脚本基本原理&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;测试脚本&lt;/strong&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;测试用例基本原理&quot;&gt;&lt;a href=&quot;#测试用例基本原理&quot; class=&quot;headerlink&quot; title=&quot;测试用例基本原理&quot;&gt;&lt;/a&gt;测试用例基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -371,18 +346,18 @@
   </entry>
   
   <entry>
-    <title>灰盒测试</title>
-    <link href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/"/>
-    <id>https://veryaime.github.io/object-object/stf/hui-he-ce-shi/</id>
+    <title>测试脚本</title>
+    <link href="https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/"/>
+    <id>https://veryaime.github.io/object-object/stf/ce-shi-jiao-ben/</id>
     <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:10:48.918Z</updated>
+    <updated>2021-12-22T05:11:18.638Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;灰盒测试基本原理&quot;&gt;&lt;a href=&quot;#灰盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;灰盒测试基本原理&quot;&gt;&lt;/a&gt;灰盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;测试脚本基本原理&quot;&gt;&lt;a href=&quot;#测试脚本基本原理&quot; class=&quot;headerlink&quot; title=&quot;测试脚本基本原理&quot;&gt;&lt;/a&gt;测试脚本基本原理&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;测试脚本&lt;/strong&gt;</summary>
         
       
     
@@ -421,6 +396,31 @@
   </entry>
   
   <entry>
+    <title>灰盒测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/hui-he-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/hui-he-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-22T05:10:48.918Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;灰盒测试基本原理&quot;&gt;&lt;a href=&quot;#灰盒测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;灰盒测试基本原理&quot;&gt;&lt;/a&gt;灰盒测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
     <title>符合性测试</title>
     <link href="https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/"/>
     <id>https://veryaime.github.io/object-object/stf/fu-he-xing-ce-shi/</id>
@@ -433,6 +433,56 @@
         
         
     <summary type="html">&lt;h2 id=&quot;符合性测试基本原理&quot;&gt;&lt;a href=&quot;#符合性测试基本原理&quot; class=&quot;headerlink&quot; title=&quot;符合性测试基本原理&quot;&gt;&lt;/a&gt;符合性测试基本原理&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>系统测试</title>
+    <link href="https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/"/>
+    <id>https://veryaime.github.io/object-object/stf/xi-tong-ce-shi/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-22T05:12:56.891Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;系统测试基础&quot;&gt;&lt;a href=&quot;#系统测试基础&quot; class=&quot;headerlink&quot; title=&quot;系统测试基础&quot;&gt;&lt;/a&gt;系统测试基础&lt;/h2&gt;&lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+    
+    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>缺陷优先级</title>
+    <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
+    <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
+    <published>2021-12-10T16:00:00.000Z</published>
+    <updated>2021-12-22T05:12:25.815Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -459,56 +509,6 @@
         
     <summary type="html">&lt;p&gt;软件缺陷/错误:定义、解释、分类、细节:&lt;/p&gt;
 &lt;h3 id=&quot;定义&quot;&gt;&lt;a href=&quot;#定义&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>缺陷重要程度</title>
-    <link href="https://veryaime.github.io/object-object/stf/que-xian-yan-chong-cheng-du/"/>
-    <id>https://veryaime.github.io/object-object/stf/que-xian-yan-chong-cheng-du/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:12:20.804Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;TODO&quot;&gt;&lt;a href=&quot;#TODO&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-    
-    <category term="软件测试基础" scheme="https://veryaime.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95%E5%9F%BA%E7%A1%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>缺陷优先级</title>
-    <link href="https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/"/>
-    <id>https://veryaime.github.io/object-object/stf/que-xian-you-xian-ji/</id>
-    <published>2021-12-10T16:00:00.000Z</published>
-    <updated>2021-12-22T05:12:25.815Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;缺陷优先级&quot;&gt;&lt;a href=&quot;#缺陷优先级&quot; class=&quot;headerlink&quot;</summary>
         
       
     
